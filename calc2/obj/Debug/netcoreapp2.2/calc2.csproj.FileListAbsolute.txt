@@ -1,0 +1,11 @@
+C:\Users\50090694821\Documents\Exercícios\calc2\obj\Debug\netcoreapp2.2\calc2.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Exercícios\calc2\obj\Debug\netcoreapp2.2\calc2.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Exercícios\calc2\obj\Debug\netcoreapp2.2\calc2.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Exercícios\calc2\obj\Debug\netcoreapp2.2\calc2.AssemblyInfo.cs
+C:\Users\50090694821\Documents\Exercícios\calc2\bin\Debug\netcoreapp2.2\calc2.deps.json
+C:\Users\50090694821\Documents\Exercícios\calc2\bin\Debug\netcoreapp2.2\calc2.runtimeconfig.json
+C:\Users\50090694821\Documents\Exercícios\calc2\bin\Debug\netcoreapp2.2\calc2.runtimeconfig.dev.json
+C:\Users\50090694821\Documents\Exercícios\calc2\bin\Debug\netcoreapp2.2\calc2.dll
+C:\Users\50090694821\Documents\Exercícios\calc2\bin\Debug\netcoreapp2.2\calc2.pdb
+C:\Users\50090694821\Documents\Exercícios\calc2\obj\Debug\netcoreapp2.2\calc2.dll
+C:\Users\50090694821\Documents\Exercícios\calc2\obj\Debug\netcoreapp2.2\calc2.pdb

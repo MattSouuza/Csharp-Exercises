@@ -1,0 +1,11 @@
+C:\Users\50090694821\Documents\Exercícios\mediaAritmetica\bin\Debug\netcoreapp2.2\mediaAritmetica.deps.json
+C:\Users\50090694821\Documents\Exercícios\mediaAritmetica\bin\Debug\netcoreapp2.2\mediaAritmetica.runtimeconfig.json
+C:\Users\50090694821\Documents\Exercícios\mediaAritmetica\bin\Debug\netcoreapp2.2\mediaAritmetica.runtimeconfig.dev.json
+C:\Users\50090694821\Documents\Exercícios\mediaAritmetica\bin\Debug\netcoreapp2.2\mediaAritmetica.dll
+C:\Users\50090694821\Documents\Exercícios\mediaAritmetica\bin\Debug\netcoreapp2.2\mediaAritmetica.pdb
+C:\Users\50090694821\Documents\Exercícios\mediaAritmetica\obj\Debug\netcoreapp2.2\mediaAritmetica.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Exercícios\mediaAritmetica\obj\Debug\netcoreapp2.2\mediaAritmetica.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Exercícios\mediaAritmetica\obj\Debug\netcoreapp2.2\mediaAritmetica.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Exercícios\mediaAritmetica\obj\Debug\netcoreapp2.2\mediaAritmetica.AssemblyInfo.cs
+C:\Users\50090694821\Documents\Exercícios\mediaAritmetica\obj\Debug\netcoreapp2.2\mediaAritmetica.dll
+C:\Users\50090694821\Documents\Exercícios\mediaAritmetica\obj\Debug\netcoreapp2.2\mediaAritmetica.pdb
