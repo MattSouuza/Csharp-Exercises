@@ -1,0 +1,11 @@
+C:\Users\50090694821\Documents\Exercícios\par\bin\Debug\netcoreapp2.2\par.deps.json
+C:\Users\50090694821\Documents\Exercícios\par\bin\Debug\netcoreapp2.2\par.runtimeconfig.json
+C:\Users\50090694821\Documents\Exercícios\par\bin\Debug\netcoreapp2.2\par.runtimeconfig.dev.json
+C:\Users\50090694821\Documents\Exercícios\par\bin\Debug\netcoreapp2.2\par.dll
+C:\Users\50090694821\Documents\Exercícios\par\bin\Debug\netcoreapp2.2\par.pdb
+C:\Users\50090694821\Documents\Exercícios\par\obj\Debug\netcoreapp2.2\par.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Exercícios\par\obj\Debug\netcoreapp2.2\par.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Exercícios\par\obj\Debug\netcoreapp2.2\par.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Exercícios\par\obj\Debug\netcoreapp2.2\par.AssemblyInfo.cs
+C:\Users\50090694821\Documents\Exercícios\par\obj\Debug\netcoreapp2.2\par.dll
+C:\Users\50090694821\Documents\Exercícios\par\obj\Debug\netcoreapp2.2\par.pdb

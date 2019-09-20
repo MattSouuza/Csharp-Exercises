@@ -1,0 +1,11 @@
+C:\Users\50090694821\Documents\Exercícios\listimpar\bin\Debug\netcoreapp2.2\listimpar.deps.json
+C:\Users\50090694821\Documents\Exercícios\listimpar\bin\Debug\netcoreapp2.2\listimpar.runtimeconfig.json
+C:\Users\50090694821\Documents\Exercícios\listimpar\bin\Debug\netcoreapp2.2\listimpar.runtimeconfig.dev.json
+C:\Users\50090694821\Documents\Exercícios\listimpar\bin\Debug\netcoreapp2.2\listimpar.dll
+C:\Users\50090694821\Documents\Exercícios\listimpar\bin\Debug\netcoreapp2.2\listimpar.pdb
+C:\Users\50090694821\Documents\Exercícios\listimpar\obj\Debug\netcoreapp2.2\listimpar.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Exercícios\listimpar\obj\Debug\netcoreapp2.2\listimpar.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Exercícios\listimpar\obj\Debug\netcoreapp2.2\listimpar.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Exercícios\listimpar\obj\Debug\netcoreapp2.2\listimpar.AssemblyInfo.cs
+C:\Users\50090694821\Documents\Exercícios\listimpar\obj\Debug\netcoreapp2.2\listimpar.dll
+C:\Users\50090694821\Documents\Exercícios\listimpar\obj\Debug\netcoreapp2.2\listimpar.pdb
