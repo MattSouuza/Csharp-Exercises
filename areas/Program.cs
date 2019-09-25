@@ -64,8 +64,9 @@ namespace areas
                     double baseRet = double.Parse(Console.ReadLine());
                     Console.Write("Entre com o valor do lado menor: ");
                     double altRet = double.Parse(Console.ReadLine());
-                    double areaRet = baseRet * ladoRet;
+                    double areaRet = baseRet * altRet;
                     Console.WriteLine("O valor da área é: " + areaRet);
+                    break;
             }
         }
     }
