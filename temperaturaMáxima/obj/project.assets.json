@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\50090694821\\Documents\\Exercícios\\testao\\testao.csproj",
-      "projectName": "testao",
-      "projectPath": "C:\\Users\\50090694821\\Documents\\Exercícios\\testao\\testao.csproj",
+      "projectUniqueName": "C:\\Users\\50090694821\\Documents\\Exercícios\\temperaturaMáxima\\temperaturaMáxima.csproj",
+      "projectName": "temperaturaMáxima",
+      "projectPath": "C:\\Users\\50090694821\\Documents\\Exercícios\\temperaturaMáxima\\temperaturaMáxima.csproj",
       "packagesPath": "C:\\Users\\50090694821\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\50090694821\\Documents\\Exercícios\\testao\\obj\\",
+      "outputPath": "C:\\Users\\50090694821\\Documents\\Exercícios\\temperaturaMáxima\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

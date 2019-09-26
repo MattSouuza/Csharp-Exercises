@@ -6,7 +6,26 @@ namespace vetor
     {
         static void Main(string[] args)
         {
-            int[] number = new int[6];
+            int[] vetor = new int[6];
+            int par = 0;
+            int impar = 0;
+
+                for (int contador = 0; contador < 6; contador++){
+                    Console.Write($"Digite o {contador+1}° número: ");
+                    vetor[contador] = int.Parse(Console.ReadLine());
+                }
+
+            foreach (int num in vetor){
+                if (num % 2 == 0){
+                    par++;
+                } else {
+                    impar++;
+                }
+            }
+
+                    Console.WriteLine($"Você tem {par} números pares e {impar} números impares");
+
+            /* int[] number = new int[6];
 
             Console.WriteLine("Digite o 1° número: ");
             number[0] = int.Parse(Console.ReadLine());
@@ -60,7 +79,7 @@ namespace vetor
                 Console.WriteLine("É um número par");
             } else {
                 Console.WriteLine("É um número impar");
-            }
+            }*/
         }
     }
 }

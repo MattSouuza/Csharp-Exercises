@@ -1,4 +1,0 @@
-C:\Users\50090694821\Documents\Exercícios\testao\obj\Debug\netcoreapp2.2\testao.csprojAssemblyReference.cache
-C:\Users\50090694821\Documents\Exercícios\testao\obj\Debug\netcoreapp2.2\testao.csproj.CoreCompileInputs.cache
-C:\Users\50090694821\Documents\Exercícios\testao\obj\Debug\netcoreapp2.2\testao.AssemblyInfoInputs.cache
-C:\Users\50090694821\Documents\Exercícios\testao\obj\Debug\netcoreapp2.2\testao.AssemblyInfo.cs
