@@ -1,0 +1,4 @@
+C:\Users\50090694821\Documents\Exercícios\temperaturaMáxima\obj\Debug\netcoreapp2.2\temperaturaMáxima.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Exercícios\temperaturaMáxima\obj\Debug\netcoreapp2.2\temperaturaMáxima.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Exercícios\temperaturaMáxima\obj\Debug\netcoreapp2.2\temperaturaMáxima.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Exercícios\temperaturaMáxima\obj\Debug\netcoreapp2.2\temperaturaMáxima.AssemblyInfo.cs

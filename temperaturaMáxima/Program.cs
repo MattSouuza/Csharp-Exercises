@@ -6,7 +6,7 @@ namespace temperaturaMáxima
     {
         static void Main(string[] args)
         {
-            double temperaturas = new double [12];
+            double[] temperaturas = new double [12];
             double maior = 0;
             double menor = 0;
 

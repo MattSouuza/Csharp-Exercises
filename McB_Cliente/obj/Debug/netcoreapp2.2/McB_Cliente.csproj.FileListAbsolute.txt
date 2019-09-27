@@ -1,0 +1,11 @@
+C:\Users\50090694821\Documents\Exercícios\McB_Cliente\bin\Debug\netcoreapp2.2\McB_Cliente.deps.json
+C:\Users\50090694821\Documents\Exercícios\McB_Cliente\bin\Debug\netcoreapp2.2\McB_Cliente.runtimeconfig.json
+C:\Users\50090694821\Documents\Exercícios\McB_Cliente\bin\Debug\netcoreapp2.2\McB_Cliente.runtimeconfig.dev.json
+C:\Users\50090694821\Documents\Exercícios\McB_Cliente\bin\Debug\netcoreapp2.2\McB_Cliente.dll
+C:\Users\50090694821\Documents\Exercícios\McB_Cliente\bin\Debug\netcoreapp2.2\McB_Cliente.pdb
+C:\Users\50090694821\Documents\Exercícios\McB_Cliente\obj\Debug\netcoreapp2.2\McB_Cliente.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Exercícios\McB_Cliente\obj\Debug\netcoreapp2.2\McB_Cliente.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Exercícios\McB_Cliente\obj\Debug\netcoreapp2.2\McB_Cliente.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Exercícios\McB_Cliente\obj\Debug\netcoreapp2.2\McB_Cliente.AssemblyInfo.cs
+C:\Users\50090694821\Documents\Exercícios\McB_Cliente\obj\Debug\netcoreapp2.2\McB_Cliente.dll
+C:\Users\50090694821\Documents\Exercícios\McB_Cliente\obj\Debug\netcoreapp2.2\McB_Cliente.pdb
