@@ -1,10 +1,12 @@
 ﻿using System;
+using MateODragao.Models;
 
 namespace MateODragao {
     class Program {
         static void Main (string[] args) {
 
             bool playerDidntGiveUp = true;
+
             do {
 
                 Console.Clear ();
@@ -22,17 +24,7 @@ namespace MateODragao {
 
                         Console.Clear();
 
-                        Warrior warrior = new Warrior();
-                        warrior.Name = "Isabella";
-                        warrior.Surname = "O'Tricks";
-                        warrior.City = "Paris";
-                        warrior.DOB = DateTime.Parse("29/06/1427");
-                        warrior.DefenseWeapon = "Shield";
-                        warrior.AttackWeapon = "Axe";
-                        warrior.Strength = 3;
-                        warrior.Dexterity = 2;
-                        warrior.Intelligence = 3;
-                        warrior.Life = 20;
+                        Warrior warrior = CreateWarrior();
 
                         Dragon dragon = new Dragon();
                         dragon.Name = "Katuaba";
@@ -42,14 +34,11 @@ namespace MateODragao {
                         dragon.Life = 300;
 
                         /* Start - First Dialogue */
-
-                        System.Console.WriteLine($"{warrior.Name.ToUpper()}: {dragon.Name}, you idiot! I'll end you!");
-                        System.Console.WriteLine($"{dragon.Name.ToUpper()}: {warrior.Name}, insolent human, who do you think you are?");
-
-                        System.Console.WriteLine();
-                        System.Console.WriteLine("Press ENTER to proceed");
-                        Console.ReadLine();
+                        CreateDialogue(warrior.Name, $"{dragon.Name}, I'll end your reing of terror, you will no more kill inocent people!");
+                        CreateDialogue(dragon.Name, "insolent human, who do you think you are? You are no more than a bug.");
                         
+                        FinishDialogue();
+
                         /* End - First Dialogue */
 
                         /* Start - Second Dialogue */
@@ -115,7 +104,7 @@ namespace MateODragao {
                                 break;
                             }
                             
-                        }
+                        } 
 
                         System.Console.WriteLine();
                         System.Console.WriteLine("Press ENTER to proceed");
@@ -127,7 +116,6 @@ namespace MateODragao {
                             System.Console.WriteLine("*** Dragon's Turn ***");
                             
                             Random generatorNumberRandom = new Random();
-
                             int numberRandomWarrior = generatorNumberRandom.Next(0, 5);
                             int numberRandomDrangon = generatorNumberRandom.Next(0, 5);
                             int warriorDexterityTotal = warrior.Dexterity + numberRandomWarrior;
@@ -153,6 +141,8 @@ namespace MateODragao {
                             System.Console.WriteLine("Press ENTER to proceed");
                             Console.ReadLine();
 
+                            /* */
+
                             Console.Clear();
 
                             System.Console.WriteLine("*** Player's Turn ***");
@@ -165,13 +155,13 @@ namespace MateODragao {
                             switch (optionBattlePlayer)
                             {
                             case "1":
-                                Random generatorNumberRandom = new Random();
+                                generatorNumberRandom = new Random();
 
-                                int numberRandomWarrior = generatorNumberRandom.Next(0, 5);
-                                int numberRandomDrangon = generatorNumberRandom.Next(0, 5);
-                                int warriorDexterityTotal = warrior.Dexterity + numberRandomWarrior;
-                                int dragonDexterityTotal = dragon.Dexterity + numberRandomDrangon;
-
+                                numberRandomWarrior = generatorNumberRandom.Next(0, 5);
+                                numberRandomDrangon = generatorNumberRandom.Next(0, 5);
+                                warriorDexterityTotal = warrior.Dexterity + numberRandomWarrior;
+                                dragonDexterityTotal = dragon.Dexterity + numberRandomDrangon;
+                                
                                 if (warriorDexterityTotal > dragonDexterityTotal) 
                                 {
                                     System.Console.WriteLine($"{warrior.Name.ToUpper()}: Take this!");
@@ -198,12 +188,22 @@ namespace MateODragao {
                             }
                             
                         }
+                        
+                        if (warrior.Life <= 0)
+                        {
+                            System.Console.WriteLine("You lost!");
+                        }
+
+                        if (dragon.Life <= 0)
+                        {
+                            System.Console.WriteLine("You won!");
+                        }
 
                         break;
 
                     case "0":
                         playerDidntGiveUp = false;
-                        System.Console.WriteLine("|GAME OVER|");
+                        System.Console.WriteLine("|GAMERS RISE UP|");
                         break;
 
                     default:
@@ -214,5 +214,33 @@ namespace MateODragao {
             } while (playerDidntGiveUp);
 
         }
+    
+        public static void CreateDialogue(string name, string phrase) {
+            System.Console.WriteLine($"{name.ToUpper()}:\n{phrase}");
+        }
+
+        public static void FinishDialogue() {
+            System.Console.WriteLine();
+            System.Console.WriteLine("Press ENTER to proceed");
+            Console.ReadLine();
+            Console.Clear();
+        }
+
+        public static Warrior CreateWarrior() {
+            Warrior warrior = new Warrior();
+            warrior.Name = "Isabella";
+            warrior.Surname = "O'Tricks";
+            warrior.City = "Paris";
+            warrior.DOB = DateTime.Parse("29/06/1427");
+            warrior.DefenseWeapon = "Shield";
+            warrior.AttackWeapon = "Axe";
+            warrior.Strength = 3;
+            warrior.Dexterity = 2;
+            warrior.Intelligence = 3;
+            warrior.Life = 20;
+
+            return warrior;
+        }
+    
     }
 }
