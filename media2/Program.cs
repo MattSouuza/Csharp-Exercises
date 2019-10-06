@@ -8,8 +8,6 @@ namespace mediaAritmetica
         {
             double value1, value2, value3, value4, media;
 
-
-            
             Console.Write("Digite o 1º valor: ");
             value1 = double.Parse(Console.ReadLine());
             Console.Write("Digite o 2º valor: ");

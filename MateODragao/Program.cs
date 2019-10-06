@@ -17,7 +17,7 @@ namespace MateODragao {
                 System.Console.WriteLine (" 1 - Start Game");
                 System.Console.WriteLine (" 0 - Exit Game");
 
-                string optionPlayer = Console.ReadLine ();
+                string optionPlayer = Console.ReadLine();
 
                 switch (optionPlayer) {
                     case "1":

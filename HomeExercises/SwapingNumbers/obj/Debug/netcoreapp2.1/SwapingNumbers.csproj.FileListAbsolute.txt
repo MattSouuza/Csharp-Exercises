@@ -1,0 +1,11 @@
+C:\Users\Pichau\Desktop\Csharp-Exercises\HomeExercises\SwapingNumbers\bin\Debug\netcoreapp2.1\SwapingNumbers.deps.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\HomeExercises\SwapingNumbers\bin\Debug\netcoreapp2.1\SwapingNumbers.runtimeconfig.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\HomeExercises\SwapingNumbers\bin\Debug\netcoreapp2.1\SwapingNumbers.runtimeconfig.dev.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\HomeExercises\SwapingNumbers\bin\Debug\netcoreapp2.1\SwapingNumbers.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\HomeExercises\SwapingNumbers\bin\Debug\netcoreapp2.1\SwapingNumbers.pdb
+C:\Users\Pichau\Desktop\Csharp-Exercises\HomeExercises\SwapingNumbers\obj\Debug\netcoreapp2.1\SwapingNumbers.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\HomeExercises\SwapingNumbers\obj\Debug\netcoreapp2.1\SwapingNumbers.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\HomeExercises\SwapingNumbers\obj\Debug\netcoreapp2.1\SwapingNumbers.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\HomeExercises\SwapingNumbers\obj\Debug\netcoreapp2.1\SwapingNumbers.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\Csharp-Exercises\HomeExercises\SwapingNumbers\obj\Debug\netcoreapp2.1\SwapingNumbers.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\HomeExercises\SwapingNumbers\obj\Debug\netcoreapp2.1\SwapingNumbers.pdb

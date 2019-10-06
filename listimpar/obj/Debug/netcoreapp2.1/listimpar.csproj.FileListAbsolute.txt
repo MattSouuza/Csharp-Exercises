@@ -1,0 +1,11 @@
+C:\Users\Pichau\Desktop\Csharp-Exercises\listimpar\bin\Debug\netcoreapp2.1\listimpar.deps.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\listimpar\bin\Debug\netcoreapp2.1\listimpar.runtimeconfig.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\listimpar\bin\Debug\netcoreapp2.1\listimpar.runtimeconfig.dev.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\listimpar\bin\Debug\netcoreapp2.1\listimpar.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\listimpar\bin\Debug\netcoreapp2.1\listimpar.pdb
+C:\Users\Pichau\Desktop\Csharp-Exercises\listimpar\obj\Debug\netcoreapp2.1\listimpar.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\listimpar\obj\Debug\netcoreapp2.1\listimpar.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\listimpar\obj\Debug\netcoreapp2.1\listimpar.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\listimpar\obj\Debug\netcoreapp2.1\listimpar.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\Csharp-Exercises\listimpar\obj\Debug\netcoreapp2.1\listimpar.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\listimpar\obj\Debug\netcoreapp2.1\listimpar.pdb
