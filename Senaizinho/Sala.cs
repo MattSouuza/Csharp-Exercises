@@ -14,8 +14,11 @@ namespace Senaizinho
         }
 
         public string AlocarAlunos(string nomeAluno){
-            Aluno aluno = new Aluno();
+            Console.Clear();
             System.Console.WriteLine("Digite o nome do Aluno: ");
+            System.Console.WriteLine();
+            
+            Aluno aluno = new Aluno();
             aluno.nome = Console.ReadLine();
             
             foreach(int num in Alunos){

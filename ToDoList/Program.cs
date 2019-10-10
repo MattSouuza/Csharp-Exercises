@@ -72,6 +72,7 @@ namespace ToDoList
             } while(opcao != 3);
         }
 
+        
         public static void ListaItens(List<ToDoItem> todoList)
         {
             Console.Clear();
@@ -132,5 +133,34 @@ namespace ToDoList
                 
             } while (true);
         }
+        public static void SaveItem(List<ToDoItem> lista, string filePath)
+            {
+                List<string> linhas = new List<string>();
+                
+
+                foreach(ToDoItem item in lista){
+                    string titulo = "\"" + item.Titulo + "\"";
+                    string nota = "\"" + item.Nota + "\"";
+                    linhas.Add(titulo + "," + nota);
+                }
+
+                string tryAgain = "n";
+                do{
+                    try{
+                        File.WriteAllLines(filePath, linhas);
+                        tryAgain = "n";
+                    } 
+                    catch(IOException e){
+                        System.Console.WriteLine("Erro na gravação do arquivo");
+                        System.Console.WriteLine(e.Message);
+                        do{
+                            System.Console.WriteLine("Deseja tentar novamente (s/n)");
+                            tryAgain = Console.ReadLine().ToLower();
+                            
+                        } while (tryAgain == "s" || tryAgain == "n");
+                    }
+                } while (tryAgain != "n");
+            }
     }
+
 }
