@@ -1,0 +1,11 @@
+C:\Users\50090694821\Documents\Exercícios\EscolaDoRosq\obj\Debug\netcoreapp2.2\EscolaDoRosq.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Exercícios\EscolaDoRosq\obj\Debug\netcoreapp2.2\EscolaDoRosq.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Exercícios\EscolaDoRosq\obj\Debug\netcoreapp2.2\EscolaDoRosq.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Exercícios\EscolaDoRosq\obj\Debug\netcoreapp2.2\EscolaDoRosq.AssemblyInfo.cs
+C:\Users\50090694821\Documents\Exercícios\EscolaDoRosq\bin\Debug\netcoreapp2.2\EscolaDoRosq.deps.json
+C:\Users\50090694821\Documents\Exercícios\EscolaDoRosq\bin\Debug\netcoreapp2.2\EscolaDoRosq.runtimeconfig.json
+C:\Users\50090694821\Documents\Exercícios\EscolaDoRosq\bin\Debug\netcoreapp2.2\EscolaDoRosq.runtimeconfig.dev.json
+C:\Users\50090694821\Documents\Exercícios\EscolaDoRosq\bin\Debug\netcoreapp2.2\EscolaDoRosq.dll
+C:\Users\50090694821\Documents\Exercícios\EscolaDoRosq\bin\Debug\netcoreapp2.2\EscolaDoRosq.pdb
+C:\Users\50090694821\Documents\Exercícios\EscolaDoRosq\obj\Debug\netcoreapp2.2\EscolaDoRosq.dll
+C:\Users\50090694821\Documents\Exercícios\EscolaDoRosq\obj\Debug\netcoreapp2.2\EscolaDoRosq.pdb

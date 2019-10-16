@@ -21,14 +21,6 @@ namespace Senaizinho
             Aluno aluno = new Aluno();
             aluno.nome = Console.ReadLine();
             
-            foreach(int num in Alunos){
-                if (num < 10){
-                    int numeroAluno = Alunos.Add(aluno.nome);
-                    System.Console.WriteLine("Cadastro realizado");
-                } else {
-                    System.Console.WriteLine("Não foi possível cadastrar o aluno");
-                }
-            }
 
             return numeroAluno;
         }

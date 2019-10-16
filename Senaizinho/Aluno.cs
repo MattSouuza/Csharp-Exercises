@@ -7,5 +7,10 @@ namespace Senaizinho
         public DateTime dataNasc;
         public string curso;
         public int numeroSala;
+
+        public Aluno (string nome, DateTime dataNasc){
+            this.nome = nome;
+            this.dataNasc = dataNasc;
+        }
     }
 }

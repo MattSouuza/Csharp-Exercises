@@ -6,13 +6,14 @@ namespace Senaizinho
     {
         static void Main(string[] args)
         {
-            int limiteAlunos;
-            int limiteSalas;
-            Aluno[] alunos= new Aluno[100];
+            int limiteAlunos = 100;
+            int limiteSalas = 10;
+            Aluno[] alunos = new Aluno[100];
             Sala[] salas = new Sala[10];
-            int alunosCadastrados;
-            int salasCadastradas;
+            int alunosCadastrados = 0;
+            int salasCadastradas = 0;
             bool querSair = false;
+            
 
             System.Console.WriteLine("Bem-vindo a Escola SENAIzinho");
             System.Console.WriteLine();
@@ -29,7 +30,7 @@ namespace Senaizinho
             switch (querSair)
             {
                 case "1":
-                    resultado1 = new AlocarAlunos(nomeAluno);
+                    CadastrarAluno(alunos, limiteAlunos, alunosCadastrados);
                 break;
 
                 case "2":
@@ -59,7 +60,21 @@ namespace Senaizinho
                 default:
             }
         }
-        public void CadastrarAluno(){
+        public static void CadastrarAluno(Aluno[] alunos, int limiteAlunos, int alunosCadastrados){
+            if(limiteAlunos > alunosCadastrados){
+                System.Console.WriteLine("Insira o nome do aluno: ");
+                string nome = Console.ReadLine();
+                
+                System.Console.WriteLine("Digite a data de nascimento: ");
+                DateTime dataNasc = DateTime.Parse(Console.ReadLine());
+                
+                //Aluno aluno = new Aluno(nome, dataNasc);
+                alunos[alunosCadastrados].nome = nome;
+                alunos[alunosCadastrados].dataNasc = dataNasc;
+                alunosCadastrados++;
+            } else {
+                System.Console.WriteLine("Nao foi possivel cadastrar o aluno");
+            }
         }
 
         public void CadastrarSala(){

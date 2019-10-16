@@ -1,0 +1,3 @@
+	-enum
+	-for
+	-operador ternario
