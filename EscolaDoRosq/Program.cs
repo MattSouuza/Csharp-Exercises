@@ -45,8 +45,8 @@ namespace EscolaDoRosq
 
             do
             {
-                bool formacaoEscolhida = false;
                 
+                    bool formacaoEscolhida = false;
                 do
                 {
                     
@@ -55,7 +55,7 @@ namespace EscolaDoRosq
                     System.Console.WriteLine(menuBar);
                     Console.BackgroundColor = ConsoleColor.DarkCyan;
                     Console.ForegroundColor = ConsoleColor.Black;
-                    System.Console.WriteLine("      Seja Bem-vind@!     ");
+                    System.Console.WriteLine("         Seja Bem-vind@!          ");
                     System.Console.WriteLine("      Escolha uma formação:       ");
                     Console.ResetColor();
                     System.Console.WriteLine(menuBar);
@@ -66,7 +66,7 @@ namespace EscolaDoRosq
                         if(opcaoFormacaoSelecionada == i)
                         {
                             Console.BackgroundColor = ConsoleColor.DarkRed;
-                            System.Console.WriteLine(opcoesFormacao[opcaoFormacaoSelecionada]);
+                            System.Console.WriteLine (opcoesFormacao[opcaoFormacaoSelecionada].Replace ("-", ">").Replace (i.ToString (), titulo));
                             Console.ResetColor();
                         } else {
                             System.Console.WriteLine(opcoesFormacao[i].Replace(i.ToString(), titulo));
@@ -83,6 +83,10 @@ namespace EscolaDoRosq
 
                         case ConsoleKey.DownArrow:
                             opcaoFormacaoSelecionada = opcaoFormacaoSelecionada == opcoesFormacao.Count - 1 ? opcaoFormacaoSelecionada : ++opcaoFormacaoSelecionada;
+                        break;
+
+                        case ConsoleKey.Enter:
+                            formacaoEscolhida = true;
                         break;
                     }
 
