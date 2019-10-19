@@ -12,10 +12,10 @@ namespace calc2
 
             Console.WriteLine("Digite o 1º número:");
             num1 = double.Parse(Console.ReadLine());
-            Console.WriteLine("Digite o 2º número:");
-            num2 = double.Parse(Console.ReadLine());
             Console.WriteLine("Digite o operador:");
             oper = Console.ReadLine();
+            Console.WriteLine("Digite o 2º número:");
+            num2 = double.Parse(Console.ReadLine());
 
             if (oper == "+") {
                 Console.WriteLine($"{num1} + {num2} = {num1 + num2}");           

@@ -1,0 +1,11 @@
+C:\Users\Pichau\Desktop\Csharp-Exercises\calc2\bin\Debug\netcoreapp2.1\calc2.deps.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\calc2\bin\Debug\netcoreapp2.1\calc2.runtimeconfig.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\calc2\bin\Debug\netcoreapp2.1\calc2.runtimeconfig.dev.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\calc2\bin\Debug\netcoreapp2.1\calc2.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\calc2\bin\Debug\netcoreapp2.1\calc2.pdb
+C:\Users\Pichau\Desktop\Csharp-Exercises\calc2\obj\Debug\netcoreapp2.1\calc2.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\calc2\obj\Debug\netcoreapp2.1\calc2.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\calc2\obj\Debug\netcoreapp2.1\calc2.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\calc2\obj\Debug\netcoreapp2.1\calc2.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\Csharp-Exercises\calc2\obj\Debug\netcoreapp2.1\calc2.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\calc2\obj\Debug\netcoreapp2.1\calc2.pdb

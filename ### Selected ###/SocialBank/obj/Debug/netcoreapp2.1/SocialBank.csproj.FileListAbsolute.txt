@@ -1,0 +1,15 @@
+C:\Users\Pichau\Desktop\Csharp-Exercises\HomeExercises\SocialBank\obj\Debug\netcoreapp2.1\SocialBank.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\HomeExercises\SocialBank\obj\Debug\netcoreapp2.1\SocialBank.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\HomeExercises\SocialBank\obj\Debug\netcoreapp2.1\SocialBank.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\HomeExercises\SocialBank\obj\Debug\netcoreapp2.1\SocialBank.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\Csharp-Exercises\### Selected ###\SocialBank\bin\Debug\netcoreapp2.1\SocialBank.deps.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\### Selected ###\SocialBank\bin\Debug\netcoreapp2.1\SocialBank.runtimeconfig.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\### Selected ###\SocialBank\bin\Debug\netcoreapp2.1\SocialBank.runtimeconfig.dev.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\### Selected ###\SocialBank\bin\Debug\netcoreapp2.1\SocialBank.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\### Selected ###\SocialBank\bin\Debug\netcoreapp2.1\SocialBank.pdb
+C:\Users\Pichau\Desktop\Csharp-Exercises\### Selected ###\SocialBank\obj\Debug\netcoreapp2.1\SocialBank.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\### Selected ###\SocialBank\obj\Debug\netcoreapp2.1\SocialBank.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\### Selected ###\SocialBank\obj\Debug\netcoreapp2.1\SocialBank.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\### Selected ###\SocialBank\obj\Debug\netcoreapp2.1\SocialBank.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\Csharp-Exercises\### Selected ###\SocialBank\obj\Debug\netcoreapp2.1\SocialBank.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\### Selected ###\SocialBank\obj\Debug\netcoreapp2.1\SocialBank.pdb

@@ -1,4 +1,0 @@
-C:\Users\Pichau\Desktop\Csharp-Exercises\HomeExercises\SocialBank\obj\Debug\netcoreapp2.1\SocialBank.csprojAssemblyReference.cache
-C:\Users\Pichau\Desktop\Csharp-Exercises\HomeExercises\SocialBank\obj\Debug\netcoreapp2.1\SocialBank.csproj.CoreCompileInputs.cache
-C:\Users\Pichau\Desktop\Csharp-Exercises\HomeExercises\SocialBank\obj\Debug\netcoreapp2.1\SocialBank.AssemblyInfoInputs.cache
-C:\Users\Pichau\Desktop\Csharp-Exercises\HomeExercises\SocialBank\obj\Debug\netcoreapp2.1\SocialBank.AssemblyInfo.cs
