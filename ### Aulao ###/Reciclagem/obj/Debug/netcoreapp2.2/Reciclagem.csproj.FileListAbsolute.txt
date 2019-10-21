@@ -1,0 +1,11 @@
+C:\Users\50090694821\Documents\Exercícios\### Aulao ###\Reciclagem\bin\Debug\netcoreapp2.2\Reciclagem.deps.json
+C:\Users\50090694821\Documents\Exercícios\### Aulao ###\Reciclagem\bin\Debug\netcoreapp2.2\Reciclagem.runtimeconfig.json
+C:\Users\50090694821\Documents\Exercícios\### Aulao ###\Reciclagem\bin\Debug\netcoreapp2.2\Reciclagem.runtimeconfig.dev.json
+C:\Users\50090694821\Documents\Exercícios\### Aulao ###\Reciclagem\bin\Debug\netcoreapp2.2\Reciclagem.dll
+C:\Users\50090694821\Documents\Exercícios\### Aulao ###\Reciclagem\bin\Debug\netcoreapp2.2\Reciclagem.pdb
+C:\Users\50090694821\Documents\Exercícios\### Aulao ###\Reciclagem\obj\Debug\netcoreapp2.2\Reciclagem.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Exercícios\### Aulao ###\Reciclagem\obj\Debug\netcoreapp2.2\Reciclagem.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Exercícios\### Aulao ###\Reciclagem\obj\Debug\netcoreapp2.2\Reciclagem.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Exercícios\### Aulao ###\Reciclagem\obj\Debug\netcoreapp2.2\Reciclagem.AssemblyInfo.cs
+C:\Users\50090694821\Documents\Exercícios\### Aulao ###\Reciclagem\obj\Debug\netcoreapp2.2\Reciclagem.dll
+C:\Users\50090694821\Documents\Exercícios\### Aulao ###\Reciclagem\obj\Debug\netcoreapp2.2\Reciclagem.pdb
