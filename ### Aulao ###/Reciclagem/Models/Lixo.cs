@@ -1,7 +1,4 @@
 namespace Reciclagem.Models
 {
-    public class Lixo
-    {
-        
-    }
+    public class Lixo {}
 }
