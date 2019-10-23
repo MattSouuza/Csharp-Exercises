@@ -7,6 +7,7 @@ namespace Reciclagem.Models
     {
         public bool LixoIndefinido()
         {
+            System.Console.WriteLine($"{this.GetType().Name} é reciclagem");
             System.Console.WriteLine("Esse lixo é indefinido, pertence à lixeira cinza.");
             return true;
         }

@@ -7,7 +7,8 @@ namespace Reciclagem.Models
     {
         public bool LixoPapel()
         {
-            Console.WriteLine("Esse papelão pertence à lixeira azul.")
+            System.Console.WriteLine($"{this.GetType().Name} é reciclagem");
+            Console.WriteLine("Esse papelão pertence à lixeira azul.");
             return true;
         }
     }

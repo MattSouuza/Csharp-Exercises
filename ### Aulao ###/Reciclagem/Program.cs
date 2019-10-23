@@ -12,7 +12,6 @@ namespace Reciclagem
             #region Início
 
             bool quersair = false;
-            //var itensMenuPrincipal = Deposito.LixoListaVisivel;
 
             string menuBar = "==============================";
 
@@ -30,17 +29,30 @@ namespace Reciclagem
                     Console.ResetColor();
                     System.Console.WriteLine(menuBar);
 
-                    var opcaoEscolhido = Menu.MostrarMenu();
+                    System.Console.WriteLine();
+                    System.Console.WriteLine(menuBar);
+                    System.Console.WriteLine("Escolha um lixo");
+                    System.Console.WriteLine("1 - Garrafa");
+                    System.Console.WriteLine("2 - Garrafa PET");
+                    System.Console.WriteLine("3 - Guarda Chuva");
+                    System.Console.WriteLine("4 - Latinha");
+                    System.Console.WriteLine("5 - Papelão");
+                    System.Console.WriteLine("6 - Pote de Manteiga");
+                    System.Console.WriteLine("0 - Sair");
+                    System.Console.WriteLine(menuBar);
+                    System.Console.WriteLine();
 
-                    Menu.MostrarMenu();
+                    int opcaoEscolhido = int.Parse(Console.ReadLine());
 
-                    switch (opcaoEscolhido)
+                    if(opcaoEscolhido != 0)
                     {
-                        case 1:
-                            Garrafa.LixoPlastico();
-                        break;
+                        var output = Deposito.lixosLista[opcaoEscolhido];
+                        System.Console.WriteLine(output);
+                        
+                    } else {
+                        System.Console.WriteLine("Saindo ...");
+                        quersair = true;
                     }
-                    
 
                 #endregion
             } while(!quersair);

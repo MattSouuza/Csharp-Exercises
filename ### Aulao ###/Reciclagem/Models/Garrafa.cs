@@ -7,6 +7,7 @@ namespace Reciclagem.Models
     {
         public bool LixoPlastico()
         {
+            System.Console.WriteLine($"{this.GetType().Name} é reciclagem");
             System.Console.WriteLine("Esse lixo plástico pertence à lixeira vermelha.");
             return true;
         }
