@@ -5,16 +5,15 @@ using Reciclagem.Models;
 
 namespace Reciclagem
 {
-    enum LixoEnum : int
+    enum LixoListaEnum : int
     {
-        Garrafa = 1,
+        Garrafa,
         GarrafaPET,
         GuardaChuva,
         Latinha,
-        Papelao,
-        PoteDeManteiga
+        Papelão,
+        PoteManteiga
     }
-
     class Program
     {
         static void Main(string[] args)
@@ -22,15 +21,9 @@ namespace Reciclagem
             #region Início
 
             bool quersair = false;
-            string[] itensMenuPrincipal = Dictionary.LixoLista;
 
-            // var opcaoLixo = new List<string>()
-            //{
-                //"   - 0                 ",
-                //"   - 1                 "
-            //};
-
-            int opcaoLixoSelecionado = 0;
+            var lixoLista = Enum.GetNames(typeof(LixoListaEnum));
+            //var itensMenuPrincipal = Deposito.LixoListaVisivel;
 
             string menuBar = "==============================";
 
@@ -46,15 +39,26 @@ namespace Reciclagem
                     System.Console.WriteLine(menuBar);
                     Console.BackgroundColor = ConsoleColor.Red;
                     Console.ForegroundColor = ConsoleColor.Black;
-                    System.Console.WriteLine("      Seja Bem-vindo(a) ao LIXO!");
-                    System.Console.WriteLine("           Escolha um lixo      ");
+                    System.Console.WriteLine("Seja Bem-vindo(a) ao LIXO!");
+                    System.Console.WriteLine("Escolha um lixo      ");
                     Console.ResetColor();
                     System.Console.WriteLine(menuBar);
 
-                    System.Console.WriteLine(itensMenuPrincipal);
+                    //System.Console.WriteLine(itensMenuPrincipal);
+                    System.Console.WriteLine(lixoLista);
+                    System.Console.WriteLine("Ou digite 0 para sair.");
+                    string opcaoSair = Console.ReadLine();
 
-
-
+                    switch (opcaoSair)
+                    {
+                        case "0":
+                            System.Console.WriteLine("Saindo ...");
+                            LixoEscolhido = true;
+                        break;
+                        default:
+                        System.Console.WriteLine("Ação inválida");
+                        break;
+                    }
                 }while(!LixoEscolhido);
 
                 #endregion

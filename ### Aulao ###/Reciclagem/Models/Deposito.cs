@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace Reciclagem.Models
 {
-    public class Deposito
+    public abstract class Deposito
     {
         public static Dictionary<int, Lixo> LixoLista = new Dictionary<int, Lixo>()
         {
@@ -12,6 +12,16 @@ namespace Reciclagem.Models
             { 4, new Latinha()},
             { 5, new Papelao()},
             { 6, new PoteManteiga()},
+        };
+
+        public static List<string> LixoListaVisivel = new List<string>()
+        {
+            {"Garrafa"},
+            {"Garrafa PET"},
+            {"Guarda Chuva"},
+            {"Latinha"},
+            {"Papelão"},
+            {"Pote De Manteiga"}
         };
     }
 }
