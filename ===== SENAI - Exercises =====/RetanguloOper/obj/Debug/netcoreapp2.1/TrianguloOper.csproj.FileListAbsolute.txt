@@ -1,0 +1,4 @@
+C:\Users\Pichau\Desktop\Csharp-Exercises\===== SENAI - Exercises =====\RetanguloOper\obj\Debug\netcoreapp2.1\TrianguloOper.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\===== SENAI - Exercises =====\RetanguloOper\obj\Debug\netcoreapp2.1\TrianguloOper.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\===== SENAI - Exercises =====\RetanguloOper\obj\Debug\netcoreapp2.1\TrianguloOper.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\===== SENAI - Exercises =====\RetanguloOper\obj\Debug\netcoreapp2.1\TrianguloOper.AssemblyInfo.cs

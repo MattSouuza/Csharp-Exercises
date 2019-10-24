@@ -1,0 +1,11 @@
+C:\Users\Pichau\Desktop\Csharp-Exercises\===== SENAI - Exercises =====\RetanguloOper\obj\Debug\netcoreapp2.2\RetanguloOper.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\===== SENAI - Exercises =====\RetanguloOper\obj\Debug\netcoreapp2.2\RetanguloOper.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\===== SENAI - Exercises =====\RetanguloOper\obj\Debug\netcoreapp2.2\RetanguloOper.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\===== SENAI - Exercises =====\RetanguloOper\obj\Debug\netcoreapp2.2\RetanguloOper.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\Csharp-Exercises\===== SENAI - Exercises =====\RetanguloOper\bin\Debug\netcoreapp2.2\RetanguloOper.deps.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\===== SENAI - Exercises =====\RetanguloOper\bin\Debug\netcoreapp2.2\RetanguloOper.runtimeconfig.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\===== SENAI - Exercises =====\RetanguloOper\bin\Debug\netcoreapp2.2\RetanguloOper.runtimeconfig.dev.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\===== SENAI - Exercises =====\RetanguloOper\bin\Debug\netcoreapp2.2\RetanguloOper.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\===== SENAI - Exercises =====\RetanguloOper\bin\Debug\netcoreapp2.2\RetanguloOper.pdb
+C:\Users\Pichau\Desktop\Csharp-Exercises\===== SENAI - Exercises =====\RetanguloOper\obj\Debug\netcoreapp2.2\RetanguloOper.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\===== SENAI - Exercises =====\RetanguloOper\obj\Debug\netcoreapp2.2\RetanguloOper.pdb
