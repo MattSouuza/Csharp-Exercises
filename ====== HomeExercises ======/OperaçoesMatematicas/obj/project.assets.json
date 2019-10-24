@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pichau\\.nuget\\packages\\": {},
+    "C:\\Users\\50090694821\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pichau\\Desktop\\Csharp-Exercises\\HomeExercises\\OperaçoesMatematicas\\OperaçoesMatematicas.csproj",
+      "projectUniqueName": "c:\\Users\\50090694821\\Documents\\Exercícios\\====== HomeExercises ======\\OperaçoesMatematicas\\OperaçoesMatematicas.csproj",
       "projectName": "OperaçoesMatematicas",
-      "projectPath": "C:\\Users\\Pichau\\Desktop\\Csharp-Exercises\\HomeExercises\\OperaçoesMatematicas\\OperaçoesMatematicas.csproj",
-      "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pichau\\Desktop\\Csharp-Exercises\\HomeExercises\\OperaçoesMatematicas\\obj\\",
+      "projectPath": "c:\\Users\\50090694821\\Documents\\Exercícios\\====== HomeExercises ======\\OperaçoesMatematicas\\OperaçoesMatematicas.csproj",
+      "packagesPath": "C:\\Users\\50090694821\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\50090694821\\Documents\\Exercícios\\====== HomeExercises ======\\OperaçoesMatematicas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\50090694821\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -729,6 +729,7 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

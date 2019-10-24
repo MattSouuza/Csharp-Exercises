@@ -1,0 +1,11 @@
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\4OddOrEven\obj\Debug\netcoreapp2.2\4OddOrEven.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\4OddOrEven\obj\Debug\netcoreapp2.2\4OddOrEven.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\4OddOrEven\obj\Debug\netcoreapp2.2\4OddOrEven.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\4OddOrEven\obj\Debug\netcoreapp2.2\4OddOrEven.AssemblyInfo.cs
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\4OddOrEven\bin\Debug\netcoreapp2.2\4OddOrEven.deps.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\4OddOrEven\bin\Debug\netcoreapp2.2\4OddOrEven.runtimeconfig.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\4OddOrEven\bin\Debug\netcoreapp2.2\4OddOrEven.runtimeconfig.dev.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\4OddOrEven\bin\Debug\netcoreapp2.2\4OddOrEven.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\4OddOrEven\bin\Debug\netcoreapp2.2\4OddOrEven.pdb
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\4OddOrEven\obj\Debug\netcoreapp2.2\4OddOrEven.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\4OddOrEven\obj\Debug\netcoreapp2.2\4OddOrEven.pdb

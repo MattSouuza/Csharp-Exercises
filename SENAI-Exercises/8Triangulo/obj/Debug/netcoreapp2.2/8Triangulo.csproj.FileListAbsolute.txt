@@ -1,0 +1,11 @@
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\8Triangulo\obj\Debug\netcoreapp2.2\8Triangulo.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\8Triangulo\obj\Debug\netcoreapp2.2\8Triangulo.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\8Triangulo\obj\Debug\netcoreapp2.2\8Triangulo.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\8Triangulo\obj\Debug\netcoreapp2.2\8Triangulo.AssemblyInfo.cs
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\8Triangulo\bin\Debug\netcoreapp2.2\8Triangulo.deps.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\8Triangulo\bin\Debug\netcoreapp2.2\8Triangulo.runtimeconfig.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\8Triangulo\bin\Debug\netcoreapp2.2\8Triangulo.runtimeconfig.dev.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\8Triangulo\bin\Debug\netcoreapp2.2\8Triangulo.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\8Triangulo\bin\Debug\netcoreapp2.2\8Triangulo.pdb
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\8Triangulo\obj\Debug\netcoreapp2.2\8Triangulo.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\8Triangulo\obj\Debug\netcoreapp2.2\8Triangulo.pdb

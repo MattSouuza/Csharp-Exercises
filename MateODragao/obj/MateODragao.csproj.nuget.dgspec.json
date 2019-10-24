@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\50090694821\\Documents\\Exercícios\\MateODragao\\MateODragao.csproj": {}
+    "c:\\Users\\50090694821\\Documents\\Exercícios\\MateODragao\\MateODragao.csproj": {}
   },
   "projects": {
-    "C:\\Users\\50090694821\\Documents\\Exercícios\\MateODragao\\MateODragao.csproj": {
+    "c:\\Users\\50090694821\\Documents\\Exercícios\\MateODragao\\MateODragao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\50090694821\\Documents\\Exercícios\\MateODragao\\MateODragao.csproj",
+        "projectUniqueName": "c:\\Users\\50090694821\\Documents\\Exercícios\\MateODragao\\MateODragao.csproj",
         "projectName": "MateODragao",
-        "projectPath": "C:\\Users\\50090694821\\Documents\\Exercícios\\MateODragao\\MateODragao.csproj",
+        "projectPath": "c:\\Users\\50090694821\\Documents\\Exercícios\\MateODragao\\MateODragao.csproj",
         "packagesPath": "C:\\Users\\50090694821\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\50090694821\\Documents\\Exercícios\\MateODragao\\obj\\",
+        "outputPath": "c:\\Users\\50090694821\\Documents\\Exercícios\\MateODragao\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

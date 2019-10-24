@@ -1,0 +1,11 @@
+C:\Users\50090694821\Documents\Exercícios\===== SENAI - Exercises =====\2Temperatura\obj\Debug\netcoreapp2.2\2Temperatura.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Exercícios\===== SENAI - Exercises =====\2Temperatura\obj\Debug\netcoreapp2.2\2Temperatura.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Exercícios\===== SENAI - Exercises =====\2Temperatura\obj\Debug\netcoreapp2.2\2Temperatura.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Exercícios\===== SENAI - Exercises =====\2Temperatura\obj\Debug\netcoreapp2.2\2Temperatura.AssemblyInfo.cs
+C:\Users\50090694821\Documents\Exercícios\===== SENAI - Exercises =====\2Temperatura\bin\Debug\netcoreapp2.2\2Temperatura.deps.json
+C:\Users\50090694821\Documents\Exercícios\===== SENAI - Exercises =====\2Temperatura\bin\Debug\netcoreapp2.2\2Temperatura.runtimeconfig.json
+C:\Users\50090694821\Documents\Exercícios\===== SENAI - Exercises =====\2Temperatura\bin\Debug\netcoreapp2.2\2Temperatura.runtimeconfig.dev.json
+C:\Users\50090694821\Documents\Exercícios\===== SENAI - Exercises =====\2Temperatura\bin\Debug\netcoreapp2.2\2Temperatura.dll
+C:\Users\50090694821\Documents\Exercícios\===== SENAI - Exercises =====\2Temperatura\bin\Debug\netcoreapp2.2\2Temperatura.pdb
+C:\Users\50090694821\Documents\Exercícios\===== SENAI - Exercises =====\2Temperatura\obj\Debug\netcoreapp2.2\2Temperatura.dll
+C:\Users\50090694821\Documents\Exercícios\===== SENAI - Exercises =====\2Temperatura\obj\Debug\netcoreapp2.2\2Temperatura.pdb

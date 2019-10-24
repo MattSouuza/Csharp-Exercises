@@ -1,0 +1,4 @@
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\11AlfabeticalOrder\obj\Debug\netcoreapp2.2\11AlfabeticalOrder.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\11AlfabeticalOrder\obj\Debug\netcoreapp2.2\11AlfabeticalOrder.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\11AlfabeticalOrder\obj\Debug\netcoreapp2.2\11AlfabeticalOrder.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\11AlfabeticalOrder\obj\Debug\netcoreapp2.2\11AlfabeticalOrder.AssemblyInfo.cs

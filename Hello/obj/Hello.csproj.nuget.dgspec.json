@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\50090694821\\Documents\\Exercícios\\Hello\\Hello.csproj": {}
+    "c:\\Users\\50090694821\\Documents\\Exercícios\\Hello\\Hello.csproj": {}
   },
   "projects": {
-    "C:\\Users\\50090694821\\Documents\\Exercícios\\Hello\\Hello.csproj": {
+    "c:\\Users\\50090694821\\Documents\\Exercícios\\Hello\\Hello.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\50090694821\\Documents\\Exercícios\\Hello\\Hello.csproj",
+        "projectUniqueName": "c:\\Users\\50090694821\\Documents\\Exercícios\\Hello\\Hello.csproj",
         "projectName": "Hello",
-        "projectPath": "C:\\Users\\50090694821\\Documents\\Exercícios\\Hello\\Hello.csproj",
+        "projectPath": "c:\\Users\\50090694821\\Documents\\Exercícios\\Hello\\Hello.csproj",
         "packagesPath": "C:\\Users\\50090694821\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\50090694821\\Documents\\Exercícios\\Hello\\obj\\",
+        "outputPath": "c:\\Users\\50090694821\\Documents\\Exercícios\\Hello\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

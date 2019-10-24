@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\50090694821\\Documents\\Exercícios\\listimpar\\listimpar.csproj": {}
+    "c:\\Users\\50090694821\\Documents\\Exercícios\\listimpar\\listimpar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\50090694821\\Documents\\Exercícios\\listimpar\\listimpar.csproj": {
+    "c:\\Users\\50090694821\\Documents\\Exercícios\\listimpar\\listimpar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\50090694821\\Documents\\Exercícios\\listimpar\\listimpar.csproj",
+        "projectUniqueName": "c:\\Users\\50090694821\\Documents\\Exercícios\\listimpar\\listimpar.csproj",
         "projectName": "listimpar",
-        "projectPath": "C:\\Users\\50090694821\\Documents\\Exercícios\\listimpar\\listimpar.csproj",
+        "projectPath": "c:\\Users\\50090694821\\Documents\\Exercícios\\listimpar\\listimpar.csproj",
         "packagesPath": "C:\\Users\\50090694821\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\50090694821\\Documents\\Exercícios\\listimpar\\obj\\",
+        "outputPath": "c:\\Users\\50090694821\\Documents\\Exercícios\\listimpar\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

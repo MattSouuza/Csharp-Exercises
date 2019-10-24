@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\50090694821\\Documents\\Exercícios\\Senaizinho\\Senaizinho.csproj": {}
+    "c:\\Users\\50090694821\\Documents\\Exercícios\\Senaizinho\\Senaizinho.csproj": {}
   },
   "projects": {
-    "C:\\Users\\50090694821\\Documents\\Exercícios\\Senaizinho\\Senaizinho.csproj": {
+    "c:\\Users\\50090694821\\Documents\\Exercícios\\Senaizinho\\Senaizinho.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\50090694821\\Documents\\Exercícios\\Senaizinho\\Senaizinho.csproj",
+        "projectUniqueName": "c:\\Users\\50090694821\\Documents\\Exercícios\\Senaizinho\\Senaizinho.csproj",
         "projectName": "Senaizinho",
-        "projectPath": "C:\\Users\\50090694821\\Documents\\Exercícios\\Senaizinho\\Senaizinho.csproj",
+        "projectPath": "c:\\Users\\50090694821\\Documents\\Exercícios\\Senaizinho\\Senaizinho.csproj",
         "packagesPath": "C:\\Users\\50090694821\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\50090694821\\Documents\\Exercícios\\Senaizinho\\obj\\",
+        "outputPath": "c:\\Users\\50090694821\\Documents\\Exercícios\\Senaizinho\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

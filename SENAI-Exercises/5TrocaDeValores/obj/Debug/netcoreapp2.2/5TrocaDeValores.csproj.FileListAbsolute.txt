@@ -1,0 +1,11 @@
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\5TrocaDeValores\obj\Debug\netcoreapp2.2\5TrocaDeValores.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\5TrocaDeValores\obj\Debug\netcoreapp2.2\5TrocaDeValores.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\5TrocaDeValores\obj\Debug\netcoreapp2.2\5TrocaDeValores.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\5TrocaDeValores\obj\Debug\netcoreapp2.2\5TrocaDeValores.AssemblyInfo.cs
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\5TrocaDeValores\bin\Debug\netcoreapp2.2\5TrocaDeValores.deps.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\5TrocaDeValores\bin\Debug\netcoreapp2.2\5TrocaDeValores.runtimeconfig.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\5TrocaDeValores\bin\Debug\netcoreapp2.2\5TrocaDeValores.runtimeconfig.dev.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\5TrocaDeValores\bin\Debug\netcoreapp2.2\5TrocaDeValores.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\5TrocaDeValores\bin\Debug\netcoreapp2.2\5TrocaDeValores.pdb
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\5TrocaDeValores\obj\Debug\netcoreapp2.2\5TrocaDeValores.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\5TrocaDeValores\obj\Debug\netcoreapp2.2\5TrocaDeValores.pdb

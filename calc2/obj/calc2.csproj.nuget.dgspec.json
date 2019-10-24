@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\50090694821\\Documents\\Exercícios\\calc2\\calc2.csproj": {}
+    "c:\\Users\\50090694821\\Documents\\Exercícios\\calc2\\calc2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\50090694821\\Documents\\Exercícios\\calc2\\calc2.csproj": {
+    "c:\\Users\\50090694821\\Documents\\Exercícios\\calc2\\calc2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\50090694821\\Documents\\Exercícios\\calc2\\calc2.csproj",
+        "projectUniqueName": "c:\\Users\\50090694821\\Documents\\Exercícios\\calc2\\calc2.csproj",
         "projectName": "calc2",
-        "projectPath": "C:\\Users\\50090694821\\Documents\\Exercícios\\calc2\\calc2.csproj",
+        "projectPath": "c:\\Users\\50090694821\\Documents\\Exercícios\\calc2\\calc2.csproj",
         "packagesPath": "C:\\Users\\50090694821\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\50090694821\\Documents\\Exercícios\\calc2\\obj\\",
+        "outputPath": "c:\\Users\\50090694821\\Documents\\Exercícios\\calc2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

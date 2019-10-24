@@ -1,0 +1,11 @@
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\3Combustivel\bin\Debug\netcoreapp2.2\3Combustivel.deps.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\3Combustivel\bin\Debug\netcoreapp2.2\3Combustivel.runtimeconfig.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\3Combustivel\bin\Debug\netcoreapp2.2\3Combustivel.runtimeconfig.dev.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\3Combustivel\bin\Debug\netcoreapp2.2\3Combustivel.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\3Combustivel\bin\Debug\netcoreapp2.2\3Combustivel.pdb
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\3Combustivel\obj\Debug\netcoreapp2.2\3Combustivel.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\3Combustivel\obj\Debug\netcoreapp2.2\3Combustivel.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\3Combustivel\obj\Debug\netcoreapp2.2\3Combustivel.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\3Combustivel\obj\Debug\netcoreapp2.2\3Combustivel.AssemblyInfo.cs
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\3Combustivel\obj\Debug\netcoreapp2.2\3Combustivel.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\3Combustivel\obj\Debug\netcoreapp2.2\3Combustivel.pdb

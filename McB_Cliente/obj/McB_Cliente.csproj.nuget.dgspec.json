@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\50090694821\\Documents\\Exercícios\\McB_Cliente\\McB_Cliente.csproj": {}
+    "c:\\Users\\50090694821\\Documents\\Exercícios\\McB_Cliente\\McB_Cliente.csproj": {}
   },
   "projects": {
-    "C:\\Users\\50090694821\\Documents\\Exercícios\\McB_Cliente\\McB_Cliente.csproj": {
+    "c:\\Users\\50090694821\\Documents\\Exercícios\\McB_Cliente\\McB_Cliente.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\50090694821\\Documents\\Exercícios\\McB_Cliente\\McB_Cliente.csproj",
+        "projectUniqueName": "c:\\Users\\50090694821\\Documents\\Exercícios\\McB_Cliente\\McB_Cliente.csproj",
         "projectName": "McB_Cliente",
-        "projectPath": "C:\\Users\\50090694821\\Documents\\Exercícios\\McB_Cliente\\McB_Cliente.csproj",
+        "projectPath": "c:\\Users\\50090694821\\Documents\\Exercícios\\McB_Cliente\\McB_Cliente.csproj",
         "packagesPath": "C:\\Users\\50090694821\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\50090694821\\Documents\\Exercícios\\McB_Cliente\\obj\\",
+        "outputPath": "c:\\Users\\50090694821\\Documents\\Exercícios\\McB_Cliente\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

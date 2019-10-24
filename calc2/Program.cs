@@ -37,7 +37,7 @@ namespace calc2
                 Console.WriteLine("Operação Inválida");
             }
 
-           /* switch (oper){
+        /* switch (oper){
                 case "+":
                     Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
                 break;

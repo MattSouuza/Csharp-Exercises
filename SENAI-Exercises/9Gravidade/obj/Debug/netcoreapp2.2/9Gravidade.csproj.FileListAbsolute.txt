@@ -1,0 +1,11 @@
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\9Gravidade\obj\Debug\netcoreapp2.2\9Gravidade.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\9Gravidade\obj\Debug\netcoreapp2.2\9Gravidade.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\9Gravidade\obj\Debug\netcoreapp2.2\9Gravidade.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\9Gravidade\obj\Debug\netcoreapp2.2\9Gravidade.AssemblyInfo.cs
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\9Gravidade\bin\Debug\netcoreapp2.2\9Gravidade.deps.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\9Gravidade\bin\Debug\netcoreapp2.2\9Gravidade.runtimeconfig.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\9Gravidade\bin\Debug\netcoreapp2.2\9Gravidade.runtimeconfig.dev.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\9Gravidade\bin\Debug\netcoreapp2.2\9Gravidade.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\9Gravidade\bin\Debug\netcoreapp2.2\9Gravidade.pdb
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\9Gravidade\obj\Debug\netcoreapp2.2\9Gravidade.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\9Gravidade\obj\Debug\netcoreapp2.2\9Gravidade.pdb

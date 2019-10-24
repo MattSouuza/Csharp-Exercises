@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\50090694821\\Documents\\Exercícios\\login\\login.csproj": {}
+    "c:\\Users\\50090694821\\Documents\\Exercícios\\login\\login.csproj": {}
   },
   "projects": {
-    "C:\\Users\\50090694821\\Documents\\Exercícios\\login\\login.csproj": {
+    "c:\\Users\\50090694821\\Documents\\Exercícios\\login\\login.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\50090694821\\Documents\\Exercícios\\login\\login.csproj",
+        "projectUniqueName": "c:\\Users\\50090694821\\Documents\\Exercícios\\login\\login.csproj",
         "projectName": "login",
-        "projectPath": "C:\\Users\\50090694821\\Documents\\Exercícios\\login\\login.csproj",
+        "projectPath": "c:\\Users\\50090694821\\Documents\\Exercícios\\login\\login.csproj",
         "packagesPath": "C:\\Users\\50090694821\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\50090694821\\Documents\\Exercícios\\login\\obj\\",
+        "outputPath": "c:\\Users\\50090694821\\Documents\\Exercícios\\login\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

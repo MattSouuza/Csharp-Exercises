@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\50090694821\\Documents\\Exercícios\\mediaAritmetica\\mediaAritmetica.csproj": {}
+    "c:\\Users\\50090694821\\Documents\\Exercícios\\mediaAritmetica\\mediaAritmetica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\50090694821\\Documents\\Exercícios\\mediaAritmetica\\mediaAritmetica.csproj": {
+    "c:\\Users\\50090694821\\Documents\\Exercícios\\mediaAritmetica\\mediaAritmetica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\50090694821\\Documents\\Exercícios\\mediaAritmetica\\mediaAritmetica.csproj",
+        "projectUniqueName": "c:\\Users\\50090694821\\Documents\\Exercícios\\mediaAritmetica\\mediaAritmetica.csproj",
         "projectName": "mediaAritmetica",
-        "projectPath": "C:\\Users\\50090694821\\Documents\\Exercícios\\mediaAritmetica\\mediaAritmetica.csproj",
+        "projectPath": "c:\\Users\\50090694821\\Documents\\Exercícios\\mediaAritmetica\\mediaAritmetica.csproj",
         "packagesPath": "C:\\Users\\50090694821\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\50090694821\\Documents\\Exercícios\\mediaAritmetica\\obj\\",
+        "outputPath": "c:\\Users\\50090694821\\Documents\\Exercícios\\mediaAritmetica\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
