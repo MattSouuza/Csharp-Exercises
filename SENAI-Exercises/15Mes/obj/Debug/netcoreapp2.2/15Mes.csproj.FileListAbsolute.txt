@@ -1,0 +1,11 @@
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\15Mes\bin\Debug\netcoreapp2.2\15Mes.deps.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\15Mes\bin\Debug\netcoreapp2.2\15Mes.runtimeconfig.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\15Mes\bin\Debug\netcoreapp2.2\15Mes.runtimeconfig.dev.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\15Mes\bin\Debug\netcoreapp2.2\15Mes.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\15Mes\bin\Debug\netcoreapp2.2\15Mes.pdb
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\15Mes\obj\Debug\netcoreapp2.2\15Mes.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\15Mes\obj\Debug\netcoreapp2.2\15Mes.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\15Mes\obj\Debug\netcoreapp2.2\15Mes.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\15Mes\obj\Debug\netcoreapp2.2\15Mes.AssemblyInfo.cs
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\15Mes\obj\Debug\netcoreapp2.2\15Mes.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\15Mes\obj\Debug\netcoreapp2.2\15Mes.pdb

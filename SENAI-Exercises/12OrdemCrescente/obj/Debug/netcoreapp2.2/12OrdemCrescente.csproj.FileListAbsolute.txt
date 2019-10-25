@@ -1,0 +1,11 @@
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\12OrdemCrescente\obj\Debug\netcoreapp2.2\12OrdemCrescente.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\12OrdemCrescente\obj\Debug\netcoreapp2.2\12OrdemCrescente.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\12OrdemCrescente\obj\Debug\netcoreapp2.2\12OrdemCrescente.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\12OrdemCrescente\obj\Debug\netcoreapp2.2\12OrdemCrescente.AssemblyInfo.cs
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\12OrdemCrescente\bin\Debug\netcoreapp2.2\12OrdemCrescente.deps.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\12OrdemCrescente\bin\Debug\netcoreapp2.2\12OrdemCrescente.runtimeconfig.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\12OrdemCrescente\bin\Debug\netcoreapp2.2\12OrdemCrescente.runtimeconfig.dev.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\12OrdemCrescente\bin\Debug\netcoreapp2.2\12OrdemCrescente.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\12OrdemCrescente\bin\Debug\netcoreapp2.2\12OrdemCrescente.pdb
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\12OrdemCrescente\obj\Debug\netcoreapp2.2\12OrdemCrescente.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\12OrdemCrescente\obj\Debug\netcoreapp2.2\12OrdemCrescente.pdb

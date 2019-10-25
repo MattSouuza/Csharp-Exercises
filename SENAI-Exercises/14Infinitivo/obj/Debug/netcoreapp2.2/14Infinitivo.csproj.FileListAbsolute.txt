@@ -1,0 +1,11 @@
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\14Infinitivo\obj\Debug\netcoreapp2.2\14Infinitivo.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\14Infinitivo\obj\Debug\netcoreapp2.2\14Infinitivo.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\14Infinitivo\obj\Debug\netcoreapp2.2\14Infinitivo.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\14Infinitivo\obj\Debug\netcoreapp2.2\14Infinitivo.AssemblyInfo.cs
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\14Infinitivo\bin\Debug\netcoreapp2.2\14Infinitivo.deps.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\14Infinitivo\bin\Debug\netcoreapp2.2\14Infinitivo.runtimeconfig.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\14Infinitivo\bin\Debug\netcoreapp2.2\14Infinitivo.runtimeconfig.dev.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\14Infinitivo\bin\Debug\netcoreapp2.2\14Infinitivo.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\14Infinitivo\bin\Debug\netcoreapp2.2\14Infinitivo.pdb
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\14Infinitivo\obj\Debug\netcoreapp2.2\14Infinitivo.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\14Infinitivo\obj\Debug\netcoreapp2.2\14Infinitivo.pdb

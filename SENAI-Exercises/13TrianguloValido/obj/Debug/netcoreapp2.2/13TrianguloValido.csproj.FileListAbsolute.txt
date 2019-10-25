@@ -1,0 +1,11 @@
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\13TrianguloValido\bin\Debug\netcoreapp2.2\13TrianguloValido.deps.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\13TrianguloValido\bin\Debug\netcoreapp2.2\13TrianguloValido.runtimeconfig.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\13TrianguloValido\bin\Debug\netcoreapp2.2\13TrianguloValido.runtimeconfig.dev.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\13TrianguloValido\bin\Debug\netcoreapp2.2\13TrianguloValido.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\13TrianguloValido\bin\Debug\netcoreapp2.2\13TrianguloValido.pdb
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\13TrianguloValido\obj\Debug\netcoreapp2.2\13TrianguloValido.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\13TrianguloValido\obj\Debug\netcoreapp2.2\13TrianguloValido.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\13TrianguloValido\obj\Debug\netcoreapp2.2\13TrianguloValido.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\13TrianguloValido\obj\Debug\netcoreapp2.2\13TrianguloValido.AssemblyInfo.cs
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\13TrianguloValido\obj\Debug\netcoreapp2.2\13TrianguloValido.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\13TrianguloValido\obj\Debug\netcoreapp2.2\13TrianguloValido.pdb
