@@ -10,14 +10,14 @@ namespace _8Triangulo
             int altura = int.Parse(Console.ReadLine());
             System.Console.WriteLine();
 
-        for (int row = 0; row <= altura; ++row)
-        {
-            for (int col = altura; col > row; --col)
+            for (int row = 0; row <= altura; ++row)
             {
-                Console.Write("*");
+                for (int col = altura; col > row; --col)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
             }
-            Console.WriteLine();
-        }
         }
     }
 }

@@ -6,17 +6,21 @@ namespace _19ArrayLista
     {
         static void Main(string[] args)
         {
-            int [] numerosArray;
+            int [] numerosArray = new int[100];
 
-            System.Console.WriteLine("Digite N números: ");
-            int num = int.Parse(Console.ReadLine());
+            System.Console.Write("Digite o tamanho do array : ");
+            int n = int.Parse(Console.ReadLine());
 
-            for(int i = 0; i < num; i++)
+            for(int i = 1; i <= n; i++)
             {
-                System.Console.WriteLine(numerosArray[i]);
+                System.Console.WriteLine("Digite um número qualquer: ");
+                numerosArray[i] = int.Parse(Console.ReadLine());
             }
 
-            Array.Sort(numerosArray);
+            for(int i = 1; i <= n; i++)
+            {
+                System.Console.WriteLine("Os elementos na array são: {0}", numerosArray[i]);
+            }
         }
     }
 }

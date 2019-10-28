@@ -1,0 +1,11 @@
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\20RandomArray\obj\Debug\netcoreapp2.2\20RandomArray.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\20RandomArray\obj\Debug\netcoreapp2.2\20RandomArray.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\20RandomArray\obj\Debug\netcoreapp2.2\20RandomArray.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\20RandomArray\obj\Debug\netcoreapp2.2\20RandomArray.AssemblyInfo.cs
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\20RandomArray\bin\Debug\netcoreapp2.2\20RandomArray.deps.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\20RandomArray\bin\Debug\netcoreapp2.2\20RandomArray.runtimeconfig.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\20RandomArray\bin\Debug\netcoreapp2.2\20RandomArray.runtimeconfig.dev.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\20RandomArray\bin\Debug\netcoreapp2.2\20RandomArray.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\20RandomArray\bin\Debug\netcoreapp2.2\20RandomArray.pdb
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\20RandomArray\obj\Debug\netcoreapp2.2\20RandomArray.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\20RandomArray\obj\Debug\netcoreapp2.2\20RandomArray.pdb

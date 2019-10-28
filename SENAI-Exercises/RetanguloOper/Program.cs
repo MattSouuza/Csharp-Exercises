@@ -20,7 +20,7 @@ namespace RetanguloOper
             System.Console.WriteLine();
             System.Console.WriteLine($"O resultado da área é {area}");
 
-            double resultadoDiagonal = (baseR * baseR) + (baseR * baseR);
+            double resultadoDiagonal = (baseR * baseR) + (alturaR * alturaR);
             double diagonal = Math.Sqrt(resultadoDiagonal);
             System.Console.WriteLine();
             System.Console.WriteLine($"O resultado da diagonal é {diagonal}");
