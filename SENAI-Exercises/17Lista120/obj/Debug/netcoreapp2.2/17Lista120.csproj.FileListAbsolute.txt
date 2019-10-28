@@ -1,0 +1,11 @@
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\17Lista120\bin\Debug\netcoreapp2.2\17Lista120.deps.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\17Lista120\bin\Debug\netcoreapp2.2\17Lista120.runtimeconfig.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\17Lista120\bin\Debug\netcoreapp2.2\17Lista120.runtimeconfig.dev.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\17Lista120\bin\Debug\netcoreapp2.2\17Lista120.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\17Lista120\bin\Debug\netcoreapp2.2\17Lista120.pdb
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\17Lista120\obj\Debug\netcoreapp2.2\17Lista120.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\17Lista120\obj\Debug\netcoreapp2.2\17Lista120.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\17Lista120\obj\Debug\netcoreapp2.2\17Lista120.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\17Lista120\obj\Debug\netcoreapp2.2\17Lista120.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\17Lista120\obj\Debug\netcoreapp2.2\17Lista120.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\17Lista120\obj\Debug\netcoreapp2.2\17Lista120.pdb

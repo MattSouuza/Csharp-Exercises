@@ -14,30 +14,37 @@ namespace _13TrianguloValido
             int lado3 = int.Parse(Console.ReadLine());
 
             bool trianguloValido = false;
-            if (lado1 < (lado2 + lado3))
+            if(lado1 < (lado2 + lado3) || lado2 < (lado1 + lado3) || lado3 < (lado2 + lado1))
             {
-                if (lado2 < (lado1 + lado3))
-                {
-                    if (lado3 < (lado1 + lado2))
-                    {
-                        System.Console.WriteLine();
-                        System.Console.WriteLine("Os lados fazem parte de um triângulo");
-                        trianguloValido = true;
-                    }
-                }
+                System.Console.WriteLine();
+                System.Console.WriteLine("É um triângulo válido");
+                trianguloValido = true;
             } else {
                 System.Console.WriteLine();
-                System.Console.WriteLine("Os números não fazem parte de um triângulo");
+                System.Console.WriteLine("Não é um triângulo válido");
+                trianguloValido = false;
             }
 
-            if (trianguloValido = true)
+            if(trianguloValido == true)
             {
-                if(lado1 = lado2 && lado1 = lado3 && lado2 = lado3 && lado)
+                if(lado1 == lado2 && lado1 == lado3 && lado2 == lado3)
                 {
-                    
+                    System.Console.WriteLine();
+                    System.Console.WriteLine("Este triângulo é Equilátero");
+                }
+
+                if(lado1 == lado2 && lado1 != lado3 || lado1 == lado3 && lado1 !=lado2 || lado2 == lado3 && lado2 !=lado1)
+                {
+                    System.Console.WriteLine();
+                    System.Console.WriteLine("Este triângulo é Isósceles");
+                }
+
+                if(lado1 != lado2 && lado1 !=lado3 && lado2 != lado3 || lado1 != lado3 && lado1 !=lado2 && lado3 != lado2 || lado2 != lado3 && lado2 !=lado1 && lado1 !=lado3)
+                {
+                    System.Console.WriteLine();
+                    System.Console.WriteLine("Este triângulo é Escaleno");
                 }
             }
-
         }
     }
 }

@@ -1,0 +1,11 @@
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\16IMC\obj\Debug\netcoreapp2.2\16IMC.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\16IMC\obj\Debug\netcoreapp2.2\16IMC.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\16IMC\obj\Debug\netcoreapp2.2\16IMC.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\16IMC\obj\Debug\netcoreapp2.2\16IMC.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\16IMC\bin\Debug\netcoreapp2.2\16IMC.deps.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\16IMC\bin\Debug\netcoreapp2.2\16IMC.runtimeconfig.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\16IMC\bin\Debug\netcoreapp2.2\16IMC.runtimeconfig.dev.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\16IMC\bin\Debug\netcoreapp2.2\16IMC.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\16IMC\bin\Debug\netcoreapp2.2\16IMC.pdb
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\16IMC\obj\Debug\netcoreapp2.2\16IMC.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\16IMC\obj\Debug\netcoreapp2.2\16IMC.pdb

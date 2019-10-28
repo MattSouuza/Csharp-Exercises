@@ -1,0 +1,11 @@
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\18ImparesMenores\obj\Debug\netcoreapp2.2\18ImparesMenores.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\18ImparesMenores\obj\Debug\netcoreapp2.2\18ImparesMenores.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\18ImparesMenores\obj\Debug\netcoreapp2.2\18ImparesMenores.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\18ImparesMenores\obj\Debug\netcoreapp2.2\18ImparesMenores.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\18ImparesMenores\bin\Debug\netcoreapp2.2\18ImparesMenores.deps.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\18ImparesMenores\bin\Debug\netcoreapp2.2\18ImparesMenores.runtimeconfig.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\18ImparesMenores\bin\Debug\netcoreapp2.2\18ImparesMenores.runtimeconfig.dev.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\18ImparesMenores\bin\Debug\netcoreapp2.2\18ImparesMenores.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\18ImparesMenores\bin\Debug\netcoreapp2.2\18ImparesMenores.pdb
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\18ImparesMenores\obj\Debug\netcoreapp2.2\18ImparesMenores.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\18ImparesMenores\obj\Debug\netcoreapp2.2\18ImparesMenores.pdb

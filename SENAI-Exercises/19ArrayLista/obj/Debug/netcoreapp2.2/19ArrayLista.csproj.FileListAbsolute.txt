@@ -1,0 +1,4 @@
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\19ArrayLista\obj\Debug\netcoreapp2.2\19ArrayLista.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\19ArrayLista\obj\Debug\netcoreapp2.2\19ArrayLista.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\19ArrayLista\obj\Debug\netcoreapp2.2\19ArrayLista.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\19ArrayLista\obj\Debug\netcoreapp2.2\19ArrayLista.AssemblyInfo.cs

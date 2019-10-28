@@ -9,3 +9,14 @@ C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\13TrianguloValido\obj
 C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\13TrianguloValido\obj\Debug\netcoreapp2.2\13TrianguloValido.AssemblyInfo.cs
 C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\13TrianguloValido\obj\Debug\netcoreapp2.2\13TrianguloValido.dll
 C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\13TrianguloValido\obj\Debug\netcoreapp2.2\13TrianguloValido.pdb
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\13TrianguloValido\obj\Debug\netcoreapp2.2\13TrianguloValido.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\13TrianguloValido\obj\Debug\netcoreapp2.2\13TrianguloValido.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\13TrianguloValido\obj\Debug\netcoreapp2.2\13TrianguloValido.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\13TrianguloValido\obj\Debug\netcoreapp2.2\13TrianguloValido.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\13TrianguloValido\obj\Debug\netcoreapp2.2\13TrianguloValido.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\13TrianguloValido\obj\Debug\netcoreapp2.2\13TrianguloValido.pdb
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\13TrianguloValido\bin\Debug\netcoreapp2.2\13TrianguloValido.deps.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\13TrianguloValido\bin\Debug\netcoreapp2.2\13TrianguloValido.runtimeconfig.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\13TrianguloValido\bin\Debug\netcoreapp2.2\13TrianguloValido.runtimeconfig.dev.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\13TrianguloValido\bin\Debug\netcoreapp2.2\13TrianguloValido.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\13TrianguloValido\bin\Debug\netcoreapp2.2\13TrianguloValido.pdb
