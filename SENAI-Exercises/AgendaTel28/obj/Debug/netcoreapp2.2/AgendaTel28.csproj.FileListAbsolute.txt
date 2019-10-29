@@ -1,0 +1,11 @@
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\AgendaTel28\obj\Debug\netcoreapp2.2\AgendaTel28.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\AgendaTel28\obj\Debug\netcoreapp2.2\AgendaTel28.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\AgendaTel28\obj\Debug\netcoreapp2.2\AgendaTel28.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\AgendaTel28\obj\Debug\netcoreapp2.2\AgendaTel28.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\AgendaTel28\bin\Debug\netcoreapp2.2\AgendaTel28.deps.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\AgendaTel28\bin\Debug\netcoreapp2.2\AgendaTel28.runtimeconfig.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\AgendaTel28\bin\Debug\netcoreapp2.2\AgendaTel28.runtimeconfig.dev.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\AgendaTel28\bin\Debug\netcoreapp2.2\AgendaTel28.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\AgendaTel28\bin\Debug\netcoreapp2.2\AgendaTel28.pdb
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\AgendaTel28\obj\Debug\netcoreapp2.2\AgendaTel28.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\AgendaTel28\obj\Debug\netcoreapp2.2\AgendaTel28.pdb
