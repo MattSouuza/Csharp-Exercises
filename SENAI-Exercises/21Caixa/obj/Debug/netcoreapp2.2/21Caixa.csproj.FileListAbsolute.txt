@@ -1,0 +1,11 @@
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\21Caixa\bin\Debug\netcoreapp2.2\21Caixa.deps.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\21Caixa\bin\Debug\netcoreapp2.2\21Caixa.runtimeconfig.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\21Caixa\bin\Debug\netcoreapp2.2\21Caixa.runtimeconfig.dev.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\21Caixa\bin\Debug\netcoreapp2.2\21Caixa.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\21Caixa\bin\Debug\netcoreapp2.2\21Caixa.pdb
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\21Caixa\obj\Debug\netcoreapp2.2\21Caixa.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\21Caixa\obj\Debug\netcoreapp2.2\21Caixa.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\21Caixa\obj\Debug\netcoreapp2.2\21Caixa.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\21Caixa\obj\Debug\netcoreapp2.2\21Caixa.AssemblyInfo.cs
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\21Caixa\obj\Debug\netcoreapp2.2\21Caixa.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\21Caixa\obj\Debug\netcoreapp2.2\21Caixa.pdb
