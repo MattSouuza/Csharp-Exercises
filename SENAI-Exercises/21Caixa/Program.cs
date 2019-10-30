@@ -13,7 +13,10 @@ namespace _21Caixa
 
             if(value > 0)
             {
-                int nota100 = value / 100;
+                int notas100 = value / money[0];
+                int resultado =  (value * money[0]); 
+
+                resultado = resultado / money[1];
                 
             }
             System.Console.WriteLine(value);
