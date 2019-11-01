@@ -13,7 +13,7 @@ namespace _18ImparesMenores
             {
                 do
                 {
-                    num -=2;
+                    num -= 2;
                     System.Console.Write(num + " ");
                 } while(num > 1);
             } 

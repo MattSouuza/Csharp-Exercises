@@ -6,30 +6,28 @@ namespace _21Caixa
     {
         static void Main(string[] args)
         {
-            int[] money = new int[] {100, 50, 20, 10, 5, 2};
-            
             System.Console.WriteLine("Digite o valor a ser sacado: ");
-            int value = int.Parse(Console.ReadLine());
+            int value;
 
-            if(value > 0)
+            if(int.TryParse(Console.ReadLine(), out value))
             {
-                int notas100 = value / money[0];
-                int resto =  value - (value * money[0]); 
+                int notas100 = value /100;
+                int resto =  value - (value * 100); 
 
-                int notas50 = resto / money[1];
-                resto = resto - (notas50 * money[1]);
+                int notas50 = resto / 50;
+                resto = resto - (notas50 * 50);
 
-                int notas20 = resto / money[2];
-                resto = resto - (notas20 * money[2]);
+                int notas20 = resto / 20;
+                resto = resto - (notas20 * 20);
 
-                int notas10 = resto / money[3];
-                resto = resto - (notas50 * money[3]);
+                int notas10 = resto / 10;
+                resto = resto - (notas10 * 10);
 
-                int notas5 = resto / money[4];
-                resto = resto - (notas20 * money[4]);
+                int notas5 = resto / 5;
+                resto = resto - (notas5 * 5);
 
-                int notas2 = resto / money[5];
-                resto = resto - (notas20 * money[5]);
+                int notas2 = resto / 2;
+                resto = resto - (notas2 * 2);
 
                 System.Console.WriteLine($"Quantidade notas de 100 {notas100}.");
                 System.Console.WriteLine($"Quantidade notas de 50 {notas50}.");

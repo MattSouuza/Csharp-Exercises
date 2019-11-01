@@ -11,15 +11,20 @@ namespace _19ArrayLista
             System.Console.Write("Digite o tamanho do array : ");
             int n = int.Parse(Console.ReadLine());
 
-            for(int i = 1; i <= n; i++)
+            if(n >= 100)
             {
-                System.Console.WriteLine("Digite um número qualquer: ");
-                numerosArray[i] = int.Parse(Console.ReadLine());
-            }
+                System.Console.WriteLine($"Você não quer digitar {n} vezes, confie em mim....");
+            } else {
+                for(int i = 1; i <= n; i++)
+                {
+                    System.Console.WriteLine("Digite um número qualquer: ");
+                    numerosArray[i] = int.Parse(Console.ReadLine());
+                }
 
-            for(int i = 1; i <= n; i++)
-            {
-                System.Console.WriteLine("Os elementos na array são: {0}", numerosArray[i]);
+                for(int i = 1; i <= n; i++)
+                {
+                    System.Console.WriteLine("Os elementos na array são: {0}", numerosArray[i]);
+                }
             }
         }
     }

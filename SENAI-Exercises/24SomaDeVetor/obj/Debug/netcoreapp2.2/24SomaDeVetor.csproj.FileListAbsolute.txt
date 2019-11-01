@@ -1,0 +1,11 @@
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\24SomaDeVetor\obj\Debug\netcoreapp2.2\24SomaDeVetor.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\24SomaDeVetor\obj\Debug\netcoreapp2.2\24SomaDeVetor.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\24SomaDeVetor\obj\Debug\netcoreapp2.2\24SomaDeVetor.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\24SomaDeVetor\obj\Debug\netcoreapp2.2\24SomaDeVetor.AssemblyInfo.cs
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\24SomaDeVetor\bin\Debug\netcoreapp2.2\24SomaDeVetor.deps.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\24SomaDeVetor\bin\Debug\netcoreapp2.2\24SomaDeVetor.runtimeconfig.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\24SomaDeVetor\bin\Debug\netcoreapp2.2\24SomaDeVetor.runtimeconfig.dev.json
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\24SomaDeVetor\bin\Debug\netcoreapp2.2\24SomaDeVetor.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\24SomaDeVetor\bin\Debug\netcoreapp2.2\24SomaDeVetor.pdb
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\24SomaDeVetor\obj\Debug\netcoreapp2.2\24SomaDeVetor.dll
+C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\24SomaDeVetor\obj\Debug\netcoreapp2.2\24SomaDeVetor.pdb
