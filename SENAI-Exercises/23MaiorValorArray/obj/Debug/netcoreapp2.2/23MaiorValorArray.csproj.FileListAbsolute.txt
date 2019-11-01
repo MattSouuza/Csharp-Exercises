@@ -1,0 +1,11 @@
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\23MaiorValorArray\bin\Debug\netcoreapp2.2\23MaiorValorArray.deps.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\23MaiorValorArray\bin\Debug\netcoreapp2.2\23MaiorValorArray.runtimeconfig.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\23MaiorValorArray\bin\Debug\netcoreapp2.2\23MaiorValorArray.runtimeconfig.dev.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\23MaiorValorArray\bin\Debug\netcoreapp2.2\23MaiorValorArray.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\23MaiorValorArray\bin\Debug\netcoreapp2.2\23MaiorValorArray.pdb
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\23MaiorValorArray\obj\Debug\netcoreapp2.2\23MaiorValorArray.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\23MaiorValorArray\obj\Debug\netcoreapp2.2\23MaiorValorArray.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\23MaiorValorArray\obj\Debug\netcoreapp2.2\23MaiorValorArray.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\23MaiorValorArray\obj\Debug\netcoreapp2.2\23MaiorValorArray.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\23MaiorValorArray\obj\Debug\netcoreapp2.2\23MaiorValorArray.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\23MaiorValorArray\obj\Debug\netcoreapp2.2\23MaiorValorArray.pdb

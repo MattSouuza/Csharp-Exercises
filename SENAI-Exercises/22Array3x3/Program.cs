@@ -11,6 +11,7 @@ namespace _22Array3x3
             Random random = new Random();
             int[,] randomArray = new int[3,3];
 
+
             for(int i = 0; i < 3; i++)
             {
                 for(int j = 0; j < 3; j++)
@@ -20,7 +21,12 @@ namespace _22Array3x3
                 }
             }
 
-            int sum = randomArray.Length.Sum(x => Convert.ToInt32(x));
+            int sum = 0;
+            foreach(int num in randomArray)
+            {
+                sum += num;
+            }
+
             System.Console.WriteLine("O total é {0}", sum);
         }
     }

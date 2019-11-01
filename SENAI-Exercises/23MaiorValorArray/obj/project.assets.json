@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\AgendaTel28\\AgendaTel28.csproj",
-      "projectName": "AgendaTel28",
-      "projectPath": "C:\\AgendaTel28\\AgendaTel28.csproj",
+      "projectUniqueName": "C:\\Users\\Pichau\\Desktop\\Csharp-Exercises\\SENAI-Exercises\\23MaiorValorArray\\23MaiorValorArray.csproj",
+      "projectName": "23MaiorValorArray",
+      "projectPath": "C:\\Users\\Pichau\\Desktop\\Csharp-Exercises\\SENAI-Exercises\\23MaiorValorArray\\23MaiorValorArray.csproj",
       "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-      "outputPath": "C:\\AgendaTel28\\obj\\",
+      "outputPath": "C:\\Users\\Pichau\\Desktop\\Csharp-Exercises\\SENAI-Exercises\\23MaiorValorArray\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
