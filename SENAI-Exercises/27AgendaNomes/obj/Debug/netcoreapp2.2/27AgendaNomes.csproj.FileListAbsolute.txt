@@ -1,0 +1,11 @@
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\27AgendaNomes\bin\Debug\netcoreapp2.2\27AgendaNomes.deps.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\27AgendaNomes\bin\Debug\netcoreapp2.2\27AgendaNomes.runtimeconfig.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\27AgendaNomes\bin\Debug\netcoreapp2.2\27AgendaNomes.runtimeconfig.dev.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\27AgendaNomes\bin\Debug\netcoreapp2.2\27AgendaNomes.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\27AgendaNomes\bin\Debug\netcoreapp2.2\27AgendaNomes.pdb
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\27AgendaNomes\obj\Debug\netcoreapp2.2\27AgendaNomes.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\27AgendaNomes\obj\Debug\netcoreapp2.2\27AgendaNomes.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\27AgendaNomes\obj\Debug\netcoreapp2.2\27AgendaNomes.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\27AgendaNomes\obj\Debug\netcoreapp2.2\27AgendaNomes.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\27AgendaNomes\obj\Debug\netcoreapp2.2\27AgendaNomes.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\27AgendaNomes\obj\Debug\netcoreapp2.2\27AgendaNomes.pdb

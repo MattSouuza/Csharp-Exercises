@@ -1,0 +1,11 @@
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\26VetorNomes\obj\Debug\netcoreapp2.2\26VetorNomes.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\26VetorNomes\obj\Debug\netcoreapp2.2\26VetorNomes.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\26VetorNomes\obj\Debug\netcoreapp2.2\26VetorNomes.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\26VetorNomes\obj\Debug\netcoreapp2.2\26VetorNomes.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\26VetorNomes\bin\Debug\netcoreapp2.2\26VetorNomes.deps.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\26VetorNomes\bin\Debug\netcoreapp2.2\26VetorNomes.runtimeconfig.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\26VetorNomes\bin\Debug\netcoreapp2.2\26VetorNomes.runtimeconfig.dev.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\26VetorNomes\bin\Debug\netcoreapp2.2\26VetorNomes.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\26VetorNomes\bin\Debug\netcoreapp2.2\26VetorNomes.pdb
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\26VetorNomes\obj\Debug\netcoreapp2.2\26VetorNomes.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\26VetorNomes\obj\Debug\netcoreapp2.2\26VetorNomes.pdb

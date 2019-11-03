@@ -1,0 +1,11 @@
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\25SomaVetores\bin\Debug\netcoreapp2.2\25SomaVetores.deps.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\25SomaVetores\bin\Debug\netcoreapp2.2\25SomaVetores.runtimeconfig.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\25SomaVetores\bin\Debug\netcoreapp2.2\25SomaVetores.runtimeconfig.dev.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\25SomaVetores\bin\Debug\netcoreapp2.2\25SomaVetores.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\25SomaVetores\bin\Debug\netcoreapp2.2\25SomaVetores.pdb
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\25SomaVetores\obj\Debug\netcoreapp2.2\25SomaVetores.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\25SomaVetores\obj\Debug\netcoreapp2.2\25SomaVetores.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\25SomaVetores\obj\Debug\netcoreapp2.2\25SomaVetores.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\25SomaVetores\obj\Debug\netcoreapp2.2\25SomaVetores.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\25SomaVetores\obj\Debug\netcoreapp2.2\25SomaVetores.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\25SomaVetores\obj\Debug\netcoreapp2.2\25SomaVetores.pdb
