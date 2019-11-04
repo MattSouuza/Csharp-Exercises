@@ -1,0 +1,11 @@
+C:\Users\50090694821\Documents\Csharp-Exercises\kahoot\bin\Debug\netcoreapp2.2\kahoot.deps.json
+C:\Users\50090694821\Documents\Csharp-Exercises\kahoot\bin\Debug\netcoreapp2.2\kahoot.runtimeconfig.json
+C:\Users\50090694821\Documents\Csharp-Exercises\kahoot\bin\Debug\netcoreapp2.2\kahoot.runtimeconfig.dev.json
+C:\Users\50090694821\Documents\Csharp-Exercises\kahoot\bin\Debug\netcoreapp2.2\kahoot.dll
+C:\Users\50090694821\Documents\Csharp-Exercises\kahoot\bin\Debug\netcoreapp2.2\kahoot.pdb
+C:\Users\50090694821\Documents\Csharp-Exercises\kahoot\obj\Debug\netcoreapp2.2\kahoot.csprojAssemblyReference.cache
+C:\Users\50090694821\Documents\Csharp-Exercises\kahoot\obj\Debug\netcoreapp2.2\kahoot.csproj.CoreCompileInputs.cache
+C:\Users\50090694821\Documents\Csharp-Exercises\kahoot\obj\Debug\netcoreapp2.2\kahoot.AssemblyInfoInputs.cache
+C:\Users\50090694821\Documents\Csharp-Exercises\kahoot\obj\Debug\netcoreapp2.2\kahoot.AssemblyInfo.cs
+C:\Users\50090694821\Documents\Csharp-Exercises\kahoot\obj\Debug\netcoreapp2.2\kahoot.dll
+C:\Users\50090694821\Documents\Csharp-Exercises\kahoot\obj\Debug\netcoreapp2.2\kahoot.pdb

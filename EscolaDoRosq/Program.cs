@@ -46,7 +46,7 @@ namespace EscolaDoRosq
             do
             {
                 
-                    bool formacaoEscolhida = false;
+                bool formacaoEscolhida = false;
                 do
                 {
                     

@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Linq;
+using Zoologico.Models;
+using System.Collections.Generic;
 
 namespace Zoologico
 {
@@ -6,13 +9,16 @@ namespace Zoologico
     {
         static void Main(string[] args)
         {
+            int opcaoNumber = 0;
             string menuBar = "===========================";
             System.Console.WriteLine(menuBar);
             System.Console.WriteLine(" Zoológico de Bacanolândia");
             System.Console.WriteLine(menuBar);
 
-            System.Console.WriteLine("Assine os animais nas jaulas");
-            System.Console.WriteLine("1 - Tubarão Martelo");
+            foreach(var item in Menu.menuAnimal.Values)
+            {
+                System.Console.WriteLine($"{opcaoNumber++} - {item.Value}");
+            }
         }
     }
 }
