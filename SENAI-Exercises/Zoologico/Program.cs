@@ -17,7 +17,7 @@ namespace Zoologico
 
             foreach(var item in Menu.menuAnimal.Values)
             {
-                System.Console.WriteLine($"{opcaoNumber++} - {item.Value}");
+                System.Console.WriteLine($"{opcaoNumber++} - {Values(item)}");
             }
         }
     }
