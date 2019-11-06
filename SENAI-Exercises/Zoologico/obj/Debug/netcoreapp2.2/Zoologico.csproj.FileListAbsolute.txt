@@ -9,3 +9,14 @@ C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\Zoologico\obj\Debug\n
 C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\Zoologico\obj\Debug\netcoreapp2.2\Zoologico.AssemblyInfo.cs
 C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\Zoologico\obj\Debug\netcoreapp2.2\Zoologico.dll
 C:\Users\50090694821\Documents\Exercícios\SENAI-Exercises\Zoologico\obj\Debug\netcoreapp2.2\Zoologico.pdb
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\Zoologico\bin\Debug\netcoreapp2.2\Zoologico.deps.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\Zoologico\bin\Debug\netcoreapp2.2\Zoologico.runtimeconfig.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\Zoologico\bin\Debug\netcoreapp2.2\Zoologico.runtimeconfig.dev.json
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\Zoologico\bin\Debug\netcoreapp2.2\Zoologico.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\Zoologico\bin\Debug\netcoreapp2.2\Zoologico.pdb
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\Zoologico\obj\Debug\netcoreapp2.2\Zoologico.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\Zoologico\obj\Debug\netcoreapp2.2\Zoologico.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\Zoologico\obj\Debug\netcoreapp2.2\Zoologico.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\Zoologico\obj\Debug\netcoreapp2.2\Zoologico.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\Zoologico\obj\Debug\netcoreapp2.2\Zoologico.dll
+C:\Users\Pichau\Desktop\Csharp-Exercises\SENAI-Exercises\Zoologico\obj\Debug\netcoreapp2.2\Zoologico.pdb
