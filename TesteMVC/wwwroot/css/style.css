@@ -1,7 +1,6 @@
-#begin {
+.begin {
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
 
 img {
