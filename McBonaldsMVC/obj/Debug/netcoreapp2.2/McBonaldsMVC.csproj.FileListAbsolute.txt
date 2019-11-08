@@ -28,3 +28,5 @@ C:\Users\50090694821\Documents\Csharp-Exercises\McBonaldsMVC\obj\Debug\netcoreap
 C:\Users\50090694821\Documents\Csharp-Exercises\McBonaldsMVC\obj\Debug\netcoreapp2.2\McBonaldsMVC.dll
 C:\Users\50090694821\Documents\Csharp-Exercises\McBonaldsMVC\obj\Debug\netcoreapp2.2\McBonaldsMVC.pdb
 C:\Users\50090694821\Documents\Csharp-Exercises\McBonaldsMVC\obj\Debug\netcoreapp2.2\McBonaldsMVC.csproj.CopyComplete
+C:\Users\50090694821\Documents\Csharp-Exercises\McBonaldsMVC\obj\Debug\netcoreapp2.2\Razor\Views\Cliente\Login.g.cshtml.cs
+C:\Users\50090694821\Documents\Csharp-Exercises\McBonaldsMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_HeaderHomePage.g.cshtml.cs
