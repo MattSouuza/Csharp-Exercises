@@ -1,6 +1,6 @@
 <main>
     <h2>Login</h2>
-    <form method="GET" action="dashboard.html">
+    <form method="POST" action='@Url.Action("Login", "Cliente")'>
 
         <div>
             <label for="email">E-mail</label>
@@ -15,5 +15,10 @@
         </div>
 
         <input type="submit" value="Entrar!" />
+
+        <div id="link-cadastro">
+            <a href='@Url.Action("Index", "Cadastro")'>Quero me Cadastrar!</a>
+        </div>
+        
     </form>
 </main>
