@@ -1,10 +1,20 @@
 .begin {
     display: flex;
-    align-items: center;
+    align-items: center ;
+    justify-content: space-between;
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 190px;
     border-radius: 50% ;
+}
+#options {
+    background-color: rgb(46, 42, 42);
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;    
 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\50090694821\\Documents\\Csharp-Exercises\\TesteMVC\\TesteMVC.csproj": {}
+    "C:\\Users\\Pichau\\Desktop\\Csharp-Exercises\\TesteMVC\\TesteMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\50090694821\\Documents\\Csharp-Exercises\\TesteMVC\\TesteMVC.csproj": {
+    "C:\\Users\\Pichau\\Desktop\\Csharp-Exercises\\TesteMVC\\TesteMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\50090694821\\Documents\\Csharp-Exercises\\TesteMVC\\TesteMVC.csproj",
+        "projectUniqueName": "C:\\Users\\Pichau\\Desktop\\Csharp-Exercises\\TesteMVC\\TesteMVC.csproj",
         "projectName": "TesteMVC",
-        "projectPath": "C:\\Users\\50090694821\\Documents\\Csharp-Exercises\\TesteMVC\\TesteMVC.csproj",
-        "packagesPath": "C:\\Users\\50090694821\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\50090694821\\Documents\\Csharp-Exercises\\TesteMVC\\obj\\",
+        "projectPath": "C:\\Users\\Pichau\\Desktop\\Csharp-Exercises\\TesteMVC\\TesteMVC.csproj",
+        "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pichau\\Desktop\\Csharp-Exercises\\TesteMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\50090694821\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

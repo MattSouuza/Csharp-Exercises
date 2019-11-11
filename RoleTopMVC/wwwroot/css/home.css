@@ -97,7 +97,7 @@ Banner - Start
 .banner {
     display: flex;
     justify-content: center;
-    background-image: url(Assets/festas-populares-pelo-mundo.jpg);
+    background-image: url(../Assets/festas-populares-pelo-mundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -107,7 +107,7 @@ Banner - Start
 
 .banner h1 {
     font-size: 75px;
-    background-image: url(Assets/logomaneiraroxaooo.png);
+    background-image: url(../Assets/logomaneiraroxaooo.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -131,7 +131,7 @@ Sobre - Start
 .sobre {
     display: flex;
     flex-direction: column;
-    background-image: url(Assets/DSA.png);
+    background-image: url(../Assets/DSA.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -206,7 +206,7 @@ button:active {
     background-color: #7d0093;
     box-shadow: 0 4px #520061;
     transform: translateY(4px);
-  }
+}
 
 /*=======================================================
 
