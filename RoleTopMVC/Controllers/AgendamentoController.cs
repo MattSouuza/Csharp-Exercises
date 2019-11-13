@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace RoleTopMVC.Controllers
 {
-    public class Agendamento : Controller
+    public class AgendamentoController : Controller
     {
         public IActionResult Index()
         {
