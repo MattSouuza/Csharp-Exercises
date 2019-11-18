@@ -31,9 +31,9 @@
                 <label for="hamburguer">Hamburguer</label>
                 <select id="hamburguer" name="hamburguer" required>
                     <option value="" disabled selected>Selecione</option>
-                    @foreach (var hamburgueres in Model.Hamburgueres)
+                    @foreach (var hamburguer in Model.Hamburgueres)
                     {
-                        <option value="@hamburgueres.Nome">@hamburgueres.Nome por @hamburgueres.Preco</option>   
+                        <option value=@hamburguer.Nome>@hamburguer.Nome por @hamburguer.Preco </option>
                     }
                 </select>
             </div>
@@ -41,8 +41,10 @@
                 <label for="shake">Shake</label>
                 <select id="shake" name="shake" required>
                     <option value="" disabled selected>Selecione</option>
-                    <option value="chocolate">Chocolate</option>
-                    <option value="biscoito">Biscoito</option>
+                    @foreach (var shake in Model.Shakes)
+                    {
+                        <option value="@shake.Nome">@shake.Nome por @shake.Preco</option>   
+                    }
                 </select>
             </div>
         </div>

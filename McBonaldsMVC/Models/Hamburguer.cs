@@ -4,9 +4,12 @@ namespace McBonaldsMVC.Models
     {
         public Hamburguer()
         {
-
+            
         }
-
-        //public Hamburguer(string nome, double preco)
+        public Hamburguer(string nome, double preco)
+        {
+            this.Nome = nome;
+            this.Preco = preco;
+        }
     }
 }
