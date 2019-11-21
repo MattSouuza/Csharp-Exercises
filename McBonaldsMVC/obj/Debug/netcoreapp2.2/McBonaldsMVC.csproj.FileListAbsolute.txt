@@ -33,3 +33,4 @@ C:\Users\50090694821\Documents\Csharp-Exercises\McBonaldsMVC\obj\Debug\netcoreap
 C:\Users\50090694821\Documents\Csharp-Exercises\McBonaldsMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Erro.g.cshtml.cs
 C:\Users\50090694821\Documents\Csharp-Exercises\McBonaldsMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Sucesso.g.cshtml.cs
 C:\Users\50090694821\Documents\Csharp-Exercises\McBonaldsMVC\obj\Debug\netcoreapp2.2\Razor\Views\Pedido\Index.g.cshtml.cs
+C:\Users\50090694821\Documents\Csharp-Exercises\McBonaldsMVC\obj\Debug\netcoreapp2.2\Razor\Views\Cliente\Historico.g.cshtml.cs
