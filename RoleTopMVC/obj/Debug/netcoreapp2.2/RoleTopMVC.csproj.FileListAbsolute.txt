@@ -59,3 +59,4 @@ C:\Users\Pichau\Desktop\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Role
 C:\Users\Pichau\Desktop\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\RoleTopMVC.pdb
 C:\Users\Pichau\Desktop\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\RoleTopMVC.csproj.CopyComplete
 C:\Users\Pichau\Desktop\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Agendamento\Agendar.g.cshtml.cs
+C:\Users\50090694821\Documents\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Agendamento\Agendar.g.cshtml.cs
