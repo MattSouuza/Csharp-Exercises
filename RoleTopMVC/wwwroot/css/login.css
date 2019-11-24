@@ -9,7 +9,7 @@ a, li ,p, h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-    background-image: url(Assets/organiser-soiree.jpg);
+    background-image: url(../Assets/organiser-soiree.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -172,7 +172,7 @@ input {
     box-shadow: 0 8px #520061;
 }
 
-#links #cadastro a {
+#links #cadastro p {
     text-decoration: none;
     color: #ffc600;
 }
@@ -205,9 +205,9 @@ input {
 
 
 #conf button:active {
-  background-color: #15b300;
-  box-shadow: 0 4px #0b5f00;
-  transform: translateY(4px);
+    background-color: #15b300;
+    box-shadow: 0 4px #0b5f00;
+    transform: translateY(4px);
 }
 
 #cancel button {
@@ -231,9 +231,9 @@ input {
 }
 
 #cancel button:active {
-  background-color: #b30000;
-  box-shadow: 0 4px #5f0000;
-  transform: translateY(4px);
+    background-color: #b30000;
+    box-shadow: 0 4px #5f0000;
+    transform: translateY(4px);
 }
 
 #alinha {

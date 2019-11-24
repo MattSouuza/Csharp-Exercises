@@ -17,9 +17,18 @@
         @if("Home".Equals(cssView))
         {
             <link rel="stylesheet" type="text/css" href="~/css/home.css">
-        } else if ("Agendamento".Equals(cssView))
+        } 
+        else if ("Agendamento".Equals(cssView))
         {
             <link rel="stylesheet" type="text/css" href="~/css/agendamento.css">
+        } 
+        else if ("Login".Equals(cssView))
+        {
+            <link rel="stylesheet" type="text/css" href="~/css/login.css">
+        }
+        else if ("Cadastro".Equals(cssView))
+        {
+            <link rel="stylesheet" type="text/css" href="~/css/cadastro.css">
         }
 
     </head>
@@ -39,7 +48,7 @@
                 <li><a href="galeria.html">Galeria</a></li>
                 <li><a href="perguntas.html">Perguntas</a></li>
                 <li><a href="quem-somos.html">Quem Somos</a></li>
-                <li id="login"><a href="login.html"> <img src="~/Assets/login_useraa.png" alt="login" width="20em" height="20em"> </a>Login</li>
+                <li id="login"><a asp-controller="Login" asp-action="Index"> <img src="~/Assets/login_useraa.png" alt="login" width="20em" height="20em">Login</a></li>
             </ul>
             
         </nav>

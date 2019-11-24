@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RoleTopMVC.Models;
 
@@ -15,5 +16,10 @@ namespace RoleTopMVC.Controllers
             ViewData["NomeView"] = "Agendamento";
             return View();
         }
+
+        // public IActionResult AgendamentoProcesso(IFormCollection form)
+        // {
+
+        // }
     }
 }

@@ -20,7 +20,7 @@ namespace McBonaldsMVC.Controllers
             pvm.Hamburgueres = hamburguerRepository.ObterTodos();
             pvm.Shakes = shakeRepository.ObterTodos();
 
-            var emailCliente = ObterUsuarioNomeSession();
+            var emailCliente = ObterUsuarioSession();
             if(!string.IsNullOrEmpty(emailCliente))
             {
                 pvm.Cliente = clienteRepository.ObterPor(emailCliente);

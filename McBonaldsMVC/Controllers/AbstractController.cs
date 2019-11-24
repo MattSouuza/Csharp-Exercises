@@ -8,9 +8,22 @@ namespace McBonaldsMVC.Controllers
         protected const string SESSION_CLIENTE_EMAIL = "email_cliente";
         protected const string SESSION_CLIENTE_NOME = "nome_cliente"; 
 
-        protected string ObterUsuarioNomeSession()
+        protected string ObterUsuarioSession()
         {
             var nomeUsuario = HttpContext.Session.GetString(SESSION_CLIENTE_EMAIL);
+            if(!string.IsNullOrEmpty(nomeUsuario))
+            {
+                return nomeUsuario;
+            }
+            else
+            {
+                return "";
+            }
+        }
+
+        protected string ObterUsuarioNomeSession()
+        {
+            var nomeUsuario = HttpContext.Session.GetString(SESSION_CLIENTE_NOME);
             if(!string.IsNullOrEmpty(nomeUsuario))
             {
                 return nomeUsuario;
