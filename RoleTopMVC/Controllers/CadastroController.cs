@@ -23,14 +23,14 @@ namespace RoleTopMVC.Controllers
                 Cliente cliente = new Cliente(form["nName"],form["nCpf"],form["nEmail"],form["nPassword"],form["nPhone"]);
                 clienteRepository.Inserir(cliente);
 
-                @ViewData["NomeView"] = "Home";
+                @ViewData["NomeView"] = "SucessoErro";
                 return View("Sucesso");
             }
             catch (Exception e)
             {
                 System.Console.WriteLine(e.StackTrace);
                 
-                @ViewData["NomeView"] = "Home";
+                @ViewData["NomeView"] = "SucessoErro";
                 return View("Erro");
             }
         }
