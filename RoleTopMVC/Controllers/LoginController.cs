@@ -21,8 +21,12 @@ namespace RoleTopMVC.Controllers
         // {
         //     try
         //     {
-        //         var usuario = form[email];
-        //         var senha = form[senha];
+        //         System.Console.WriteLine("===================");
+        //         System.Console.WriteLine(form["nEmail"]);
+        //         System.Console.WriteLine(form["nPassword"]);
+        //         System.Console.WriteLine("===================");
+        //         var usuario = form["nEmail"];
+        //         var senha = form["nPassword"];
         //     }
         //     catch (Exception e)
         //     {

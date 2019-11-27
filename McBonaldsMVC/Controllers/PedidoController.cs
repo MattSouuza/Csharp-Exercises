@@ -24,19 +24,31 @@ namespace McBonaldsMVC.Controllers
             var nomeUsuarioLogado = ObterUsuarioNomeSession();
             if(!string.IsNullOrEmpty(nomeUsuarioLogado))
             {
-                pvm.Cliente = clienteRepository.ObterPor(usuarioLogado);
+                pvm.NomeCliente = nomeUsuarioLogado;
             }
 
-            var nomeUsuario = ObterUsuarioNomeSession();
             if(!string.IsNullOrEmpty(nomeUsuarioLogado))
             {
-                pvm.NomeCliente = nomeUsuarioLogado;
+                pvm.Cliente = clienteRepository.ObterPor(usuarioLogado);
             }
 
             var clienteLogado = clienteRepository.ObterPor(usuarioLogado);
             if(clienteLogado != null)
             {
                 pvm.Cliente = clienteLogado;
+            }
+
+            Pedido pedido = new Pedido();
+            var emailCliente = ObterUsuarioSession();
+            if(!string.IsNullOrEmpty(emailCliente))
+            {
+                pvm.Cliente = clienteRepository.ObterPor(emailCliente);
+            }
+
+            var nomeUsuario = ObterUsuarioNomeSession();
+            if(!string.IsNullOrEmpty(nomeUsuario))
+            {
+                pvm.NomeCliente = nomeUsuario;
             }
 
             pvm.NomeView = "Pedido";
@@ -75,9 +87,14 @@ namespace McBonaldsMVC.Controllers
 
             if(pedidoRepository.Inserir(pedido))
             {
-                return View ("Sucesso");
+                return View ("Sucesso", new RespostaViewModel("Mensagem")
+                {
+                    NomeView = "Pedido",
+                    UsuarioEmail = ObterUsuarioSession(),
+                    UsuarioNome = ObterUsuarioNomeSession() 
+                });
             } else {
-                return View ("Erro");
+                return View ("Erro", new RespostaViewModel("Mensagem"));
             }
         }
     }

@@ -2966,13 +2966,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\50090694821\\Documents\\Csharp-Exercises\\RoleTopMVC\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\50090694821\\Documents\\Csharp-Exercises\\RoleTopMVC\\Views\\QuemSomos\\quemSomos.cshtml",
+      "TargetPath": "Views\\QuemSomos\\quemSomos.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\50090694821\\Documents\\Csharp-Exercises\\RoleTopMVC\\Views\\Cadastro\\Cadastro.cshtml",
-      "TargetPath": "Views\\Cadastro\\Cadastro.cshtml",
+      "FilePath": "c:\\Users\\50090694821\\Documents\\Csharp-Exercises\\RoleTopMVC\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -3008,6 +3008,11 @@
     {
       "FilePath": "c:\\Users\\50090694821\\Documents\\Csharp-Exercises\\RoleTopMVC\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\50090694821\\Documents\\Csharp-Exercises\\RoleTopMVC\\Views\\Cadastro\\Index.cshtml",
+      "TargetPath": "Views\\Cadastro\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

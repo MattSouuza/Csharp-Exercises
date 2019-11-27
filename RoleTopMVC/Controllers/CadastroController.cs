@@ -9,7 +9,7 @@ namespace RoleTopMVC.Controllers
     public class CadastroController : Controller
     {
         ClienteRepository clienteRepository = new ClienteRepository();
-        public IActionResult Cadastro()
+        public IActionResult Index()
         {
             ViewData["NomeView"] = "Cadastro";
             return View();

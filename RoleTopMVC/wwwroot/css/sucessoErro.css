@@ -93,14 +93,16 @@ nav {
                     Content - Start
 
 =======================================================*/
-h2{
+main{
     display: flex;
     justify-content: center;
     align-content: center;
+    margin:22em 0 22em 0;
 }
 
-
-
+h2{
+    font-size: 20px;
+}
 /*=======================================================
 
                     Content - Start
@@ -115,7 +117,8 @@ h2{
 
 footer {
     background-color: #7d0093;
-    margin-top:1em;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer address {
@@ -126,11 +129,6 @@ footer address {
 footer img {
     width: 5em;
     height: 5em;
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
 }
 
 address {
