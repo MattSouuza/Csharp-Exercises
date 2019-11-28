@@ -72,3 +72,4 @@ C:\Users\Pichau\Desktop\Csharp-Exercises\McBonaldsMVC\obj\Debug\netcoreapp2.2\Mc
 C:\Users\Pichau\Desktop\Csharp-Exercises\McBonaldsMVC\obj\Debug\netcoreapp2.2\McBonaldsMVC.dll
 C:\Users\Pichau\Desktop\Csharp-Exercises\McBonaldsMVC\obj\Debug\netcoreapp2.2\McBonaldsMVC.pdb
 C:\Users\Pichau\Desktop\Csharp-Exercises\McBonaldsMVC\obj\Debug\netcoreapp2.2\McBonaldsMVC.csproj.CopyComplete
+C:\Users\50090694821\Documents\Csharp-Exercises\McBonaldsMVC\obj\Debug\netcoreapp2.2\Razor\Views\Administrador\Dashboard.g.cshtml.cs

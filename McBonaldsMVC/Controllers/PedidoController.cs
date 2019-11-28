@@ -9,6 +9,7 @@ namespace McBonaldsMVC.Controllers
 {
     public class PedidoController : AbstractController
     {
+        PedidoViewModel pedidoViewModel = new PedidoViewModel();
         ClienteRepository clienteRepository = new ClienteRepository();
         PedidoRepository pedidoRepository = new PedidoRepository();
         HamburguerRepository hamburguerRepository = new HamburguerRepository();

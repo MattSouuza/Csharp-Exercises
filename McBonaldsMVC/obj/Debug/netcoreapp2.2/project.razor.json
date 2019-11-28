@@ -3016,6 +3016,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\50090694821\\Documents\\Csharp-Exercises\\McBonaldsMVC\\Views\\Administrador\\Dashboard.cshtml",
+      "TargetPath": "Views\\Administrador\\Dashboard.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\50090694821\\Documents\\Csharp-Exercises\\McBonaldsMVC\\Views\\Pedido\\Index.cshtml",
       "TargetPath": "Views\\Pedido\\Index.cshtml",
       "FileKind": "mvc"

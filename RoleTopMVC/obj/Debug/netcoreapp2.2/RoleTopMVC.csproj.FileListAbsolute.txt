@@ -68,3 +68,4 @@ C:\Users\50090694821\Documents\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2
 C:\Users\50090694821\Documents\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Erro.g.cshtml.cs
 C:\Users\50090694821\Documents\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Sucesso.g.cshtml.cs
 C:\Users\50090694821\Documents\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Cadastro\Index.g.cshtml.cs
+C:\Users\50090694821\Documents\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\QuemSomos\quemSomos.g.cshtml.cs

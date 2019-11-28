@@ -30,6 +30,10 @@
         {
             <link rel="stylesheet" type="text/css" href="~/css/cadastro.css">
         }
+        else if ("QuemSomos".Equals(cssView))
+        {
+            <link rel="stylesheet" type="text/css" href="~/css/quem-somos.css">
+        }
         else if("SucessoErro".Equals(cssView))
         {
             <link rel="stylesheet" type="text/css" href="~/css/sucessoErro.css">
@@ -51,7 +55,7 @@
                 <li><a >Calendário De Eventos</a></li>
                 <li><a href="galeria.html">Galeria</a></li>
                 <li><a href="perguntas.html">Perguntas</a></li>
-                <li><a href="quem-somos.html">Quem Somos</a></li>
+                <li><a asp-controller="QuemSomos" asp-action="quemSomos">Quem Somos</a></li>
                 <li id="login"><a asp-controller="Login" asp-action="Index"> <img src="~/Assets/login_useraa.png" alt="login" width="20em" height="20em">Login</a></li>
             </ul>
             
