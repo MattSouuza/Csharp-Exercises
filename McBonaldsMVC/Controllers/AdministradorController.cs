@@ -10,31 +10,42 @@ namespace McBonaldsMVC.Controllers
         PedidoRepository pedidoRepository = new PedidoRepository();
         public IActionResult Dashboard()
         {
-            var pedidos = pedidoRepository.ObterTodos();
-            DashboardViewModel dashboardViewModel = new DashboardViewModel();
+            var ninguemLogado = string.IsNullOrEmpty(ObterUsuarioTipoSession());
 
-            foreach (var pedido in pedidos)
+            if (!ninguemLogado && (uint) TiposUsuario.ADMINISTRADOR == uint.Parse(ObterUsuarioTipoSession()))
             {
-                switch (pedido.Status)
+                var pedidos = pedidoRepository.ObterTodos();
+                DashboardViewModel dashboardViewModel = new DashboardViewModel();
+
+                foreach (var pedido in pedidos)
                 {
-                    case (uint) StatusPedido.APROVADO:
-                        dashboardViewModel.PedidosAprovados++;
-                    break;
+                    switch (pedido.Status)
+                    {
+                        case (uint) StatusPedido.APROVADO:
+                            dashboardViewModel.PedidosAprovados++;
+                        break;
 
-                    case (uint) StatusPedido.REPROVADO:
-                        dashboardViewModel.PedidosReprovados++;
-                    break;
+                        case (uint) StatusPedido.REPROVADO:
+                            dashboardViewModel.PedidosReprovados++;
+                        break;
 
-                    default:
-                        dashboardViewModel.PedidosPendentes++;
-                        dashboardViewModel.Pedidos.Add(pedido);
-                    break;
+                        default:
+                            dashboardViewModel.PedidosPendentes++;
+                            dashboardViewModel.Pedidos.Add(pedido);
+                        break;
+                    }
                 }
-            }
-            dashboardViewModel.NomeView = "Dashboard";
-            dashboardViewModel.UsuarioEmail = ObterUsuarioSession();
+                dashboardViewModel.NomeView = "Dashboard";
+                dashboardViewModel.UsuarioEmail = ObterUsuarioSession();
 
-            return View(dashboardViewModel);
+                return View(dashboardViewModel);
+            } else {
+                return View ("Erro", new RespostaViewModel()
+                {
+                    NomeView = "Dashboard",
+                    Mensagem = "Você não tem permissão para acessar a Dashboard"
+                });
+            }
         }
     }
 }

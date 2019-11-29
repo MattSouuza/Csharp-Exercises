@@ -104,16 +104,12 @@ main {
     text-shadow: 0 0 8px #7d0093, 0 0 6px #ffc600;
 }
 
-.sobre h2 {
-    font-size: 50px;
+.sobre h2 p {
+    font-size: 20px;
     display: flex;
     justify-content: center;
     margin: .7em 0 .7em 0;
-}
-
-.sobre p {
-    max-width: 75em;
-    align-items: flex-start;
+    min-width: 75px;
 }
 
 #texto-sobre {
@@ -139,7 +135,7 @@ main {
     padding: .5em;
 }
 
-.sobre .fundadores p {
+.fundadores p {
     display: flex;
     justify-content: space-evenly;
     font-size: 2em;

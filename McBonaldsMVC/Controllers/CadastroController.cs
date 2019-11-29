@@ -4,6 +4,7 @@ using McBonaldsMVC.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using McBonaldsMVC.ViewModels;
+using McBonaldsMVC.Enums;
 
 namespace McBonaldsMVC.Controllers
 {
@@ -27,6 +28,9 @@ namespace McBonaldsMVC.Controllers
             try
             {
                 Cliente cliente = new Cliente(form["nome"],form["endereco"],form["telefone"],form["senha"],form["email"],DateTime.Parse(form["data-nascimento"]));
+                
+                cliente.TipoUsuario = (uint) TiposUsuario.CLIENTE;
+
                 clienteRepository.Inserir(cliente);
 
                 return View("Sucesso", new RespostaViewModel("Mensagem")
