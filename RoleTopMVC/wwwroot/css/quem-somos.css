@@ -97,50 +97,102 @@ main {
     background-position: center;
 }
 
-.sobre {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    text-shadow: 0 0 8px #7d0093, 0 0 6px #ffc600;
-}
-
-.sobre h2 p {
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    margin: .7em 0 .7em 0;
-    min-width: 75px;
-}
-
-#texto-sobre {
-    display: flex;
-    justify-content: center;
-    margin: 0 0 2em 0;
-}
-
-.fundadores {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#ale, #cesar {
-    color: #ffffff;
+.sobre{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3em;
 }
 
-.fundadores #ale img, #cesar img {
-    border-radius: 10em;
-    padding: .5em;
-}
-
-.fundadores p {
+.sobreFinal{
     display: flex;
-    justify-content: space-evenly;
-    font-size: 2em;
-    margin: .5em 0;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
 }
+
+.sobreFinal img{
+    margin: 2em 0;
+    border-radius: .5em;
+    width: 700px;
+    height: 400px;
+}
+
+.sobreFinal p{
+    max-width: 1550px;
+    height: 400px;
+    font-size: 31px;
+    
+    color: #ffc600;
+    background-color: #7d0093;
+    box-shadow: 0 10px #520061;
+    border-radius: 3em 0 3em 0;
+    margin: 0 0 .5em 2em;
+    padding: 1em 2em;
+}
+
+.sobre h2{
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.sobre p{
+    max-width: 1550px;
+    font-size: 20px;
+    
+    color: #ffc600;
+    background-color: #7d0093;
+    box-shadow: 0 10px #520061;
+    border-radius: 3em 0 3em 0;
+    margin: 2em 3em 1em;
+    padding: 1em 2em;
+}
+
+.fundadores{
+    display: flex;
+    flex-direction: column;
+}
+
+#ale, #cesar{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+#content-ale, #content-cesar{
+    display: flex;
+    flex-direction: column;
+}
+
+#content-ale img, #content-cesar img{
+    border-radius: 10em;
+    margin: 2em;
+    width: 250px;
+    height: 250px;
+}
+
+.sobre-ale, .sobre-cesar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sobre-ale p:nth-child(even), .sobre-cesar p:nth-child(even){
+    font-size: 20px;
+    color: #ffffff;
+    max-width: 1200px;
+}
+.nome{
+    color: #725900;
+    font-size: 25px;
+    background-color: #ffc600;
+    box-shadow: 0 10px #725900;
+    border-radius: 1.5em 0 1.5em 0;
+    padding: 1em 1em;
+    margin: 2em 0;
+}
+
 /*=======================================================
 
 Sobre - End

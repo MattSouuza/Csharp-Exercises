@@ -24,7 +24,7 @@
         
         </div>
             
-        <form id="botao-sobre" action="quem-somos" method="GET">
+        <form id="botao-sobre" asp-controller="QuemSomos" asp-action="quemSomos" method="GET">
 
             <button type ="submit"><p>Saiba Mais Sobre Nós</p></button>
 
@@ -48,7 +48,6 @@
 
         </div>
 
-
     </section>
 
     <section class="agende-home">
@@ -70,13 +69,9 @@
                 
             <form id="agenda-botao" action='@Url.Action("Agendar","Agendamento")' method="GET">
                 
-            <button type ="submit"><p>Faça Seu Agendamento</p></button>
+                <button type ="submit"><p>Faça Seu Agendamento</p></button>
 
             </form>
-
-                <!--<form action="agendamento.html">
-                    <input id="botao-agende-home" type="button" name="botao" value="Faça Seu Agendamento">
-                </form>-->
 
             </div>
 

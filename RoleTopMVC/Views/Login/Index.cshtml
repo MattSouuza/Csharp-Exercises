@@ -14,7 +14,6 @@
 
         <form id="information" action='@Url.Action("Logar", "Login")'>
 
-            
             <fieldset id="mail">
 
                 <input type="email" placeholder="Seu Email" maxlength="40" name="email" required>
@@ -37,7 +36,7 @@
         
         </form>
 
-                <form id="cancel" action='@Url.Action("Index", "Home")' method="POST">
+                <form id="cancel" asp-controller="Home" asp-action="Index" method="POST">
                     
                     <button type="submit">Voltar</button>
                     
@@ -52,7 +51,6 @@
             <form action='@Url.Action("Index", "Cadastro")'>
                 <button id="cadastro"><p>Não Possui Cadastro?</p></a></button>
             </form>
-            <a id="adm" href="adm.html"><p>Entrar Como Administrador</p></a>
 
         </div>
 

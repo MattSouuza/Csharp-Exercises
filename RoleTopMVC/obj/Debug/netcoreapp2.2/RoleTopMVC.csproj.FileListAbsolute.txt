@@ -61,7 +61,6 @@ C:\Users\Pichau\Desktop\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razo
 C:\Users\Pichau\Desktop\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\Pichau\Desktop\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\Pichau\Desktop\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Login\Index.cshtml.g.cs
-C:\Users\Pichau\Desktop\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Cadastro\Cadastro.cshtml.g.cs
 C:\Users\Pichau\Desktop\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Erro.cshtml.g.cs
 C:\Users\Pichau\Desktop\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Sucesso.cshtml.g.cs
 C:\Users\50090694821\Documents\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Login\Index.g.cshtml.cs
@@ -69,3 +68,7 @@ C:\Users\50090694821\Documents\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2
 C:\Users\50090694821\Documents\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Sucesso.g.cshtml.cs
 C:\Users\50090694821\Documents\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Cadastro\Index.g.cshtml.cs
 C:\Users\50090694821\Documents\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\QuemSomos\quemSomos.g.cshtml.cs
+C:\Users\Pichau\Desktop\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Cadastro\Index.cshtml.g.cs
+C:\Users\Pichau\Desktop\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\QuemSomos\quemSomos.cshtml.g.cs
+C:\Users\Pichau\Desktop\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Agendamento2\Agendar2.cshtml.g.cs
+C:\Users\Pichau\Desktop\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Agendamento3\Agendar3.cshtml.g.cs

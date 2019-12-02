@@ -17,7 +17,6 @@ namespace RoleTopMVC.Controllers
 
         public IActionResult CadastrarCliente(IFormCollection form)
         {
-            ViewData["Action"] = "Cadastro";
             try
             {
                 Cliente cliente = new Cliente(form["nName"],form["nCpf"],form["nEmail"],form["nPassword"],form["nPhone"]);

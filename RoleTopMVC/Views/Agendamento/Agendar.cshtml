@@ -14,7 +14,7 @@
 
 <section id="abraco">
 
-    <form class="information" method="POST" action='@Url.Action("Agendar", "Agendamento")'>
+    <form class="information" method="POST" action='@Url.Action("Agendar", "Agendamento")'> <!-- Mudar o Action para o correto -->
 
         <fieldset id="name-section">
 
@@ -48,7 +48,7 @@
 
         <div id="button">
 
-            <button type="submit">Confirmar</button>
+            <button type="submit" asp-controller="Agendamento2" asp-action="Agendar2">Confirmar</button>
             
         </div>
         

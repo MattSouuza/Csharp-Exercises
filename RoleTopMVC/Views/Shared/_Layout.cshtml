@@ -22,6 +22,14 @@
         {
             <link rel="stylesheet" type="text/css" href="~/css/agendamento.css">
         } 
+        else if ("Agendamento2".Equals(cssView))
+        {
+            <link rel="stylesheet" type="text/css" href="~/css/agendamento2.css">
+        }
+        else if ("Agendamento3".Equals(cssView))
+        {
+            <link rel="stylesheet" type="text/css" href="~/css/agendamento3.css">
+        } 
         else if ("Login".Equals(cssView))
         {
             <link rel="stylesheet" type="text/css" href="~/css/login.css">
@@ -48,7 +56,7 @@
         <nav>
             
             <ul class="menu-nav">
-                <img id="logo-area" src="~/Assets/logomaneira.png" alt="Logo Da Rolê Top" width="90em" height="90em">
+                <a asp-controller="Home" asp-action="Index"><img id="logo-area" src="~/Assets/logomaneira.png" alt="Logo Da Rolê Top" width="90em" height="90em"></a>
                 
                 <li><a asp-controller="Home" asp-action="Index">Home</a></li>
                 <li><a asp-controller="Agendamento" asp-action="Agendar">Agendamento</a></li>

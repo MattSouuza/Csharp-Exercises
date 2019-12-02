@@ -94,8 +94,8 @@ nav {
     flex-direction: column;
 
     background-color: #202020ea;
-    padding: 5em;
-    margin: 5em;
+    padding: 5em 0;
+    margin: 3em 30em 3em;
     border-radius: 5em 0 5em 0;
 }
 
@@ -181,11 +181,6 @@ input {
     background-color: #7d0093;
     box-shadow: 0 5px #520061;
     transform: translateY(4px);
-}
-
-#links #adm {
-    color: white;
-    margin-top: 1em;
 }
 
 #conf button {

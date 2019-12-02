@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\50090694821\\Documents\\Csharp-Exercises\\RoleTopMVC\\RoleTopMVC.csproj": {}
+    "C:\\Users\\Pichau\\Desktop\\Csharp-Exercises\\RoleTopMVC\\RoleTopMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\50090694821\\Documents\\Csharp-Exercises\\RoleTopMVC\\RoleTopMVC.csproj": {
+    "C:\\Users\\Pichau\\Desktop\\Csharp-Exercises\\RoleTopMVC\\RoleTopMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\50090694821\\Documents\\Csharp-Exercises\\RoleTopMVC\\RoleTopMVC.csproj",
+        "projectUniqueName": "C:\\Users\\Pichau\\Desktop\\Csharp-Exercises\\RoleTopMVC\\RoleTopMVC.csproj",
         "projectName": "RoleTopMVC",
-        "projectPath": "C:\\Users\\50090694821\\Documents\\Csharp-Exercises\\RoleTopMVC\\RoleTopMVC.csproj",
-        "packagesPath": "C:\\Users\\50090694821\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\50090694821\\Documents\\Csharp-Exercises\\RoleTopMVC\\obj\\",
+        "projectPath": "C:\\Users\\Pichau\\Desktop\\Csharp-Exercises\\RoleTopMVC\\RoleTopMVC.csproj",
+        "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pichau\\Desktop\\Csharp-Exercises\\RoleTopMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\50090694821\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,10 +60,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
