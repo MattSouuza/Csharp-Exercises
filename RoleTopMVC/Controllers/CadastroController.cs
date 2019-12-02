@@ -17,19 +17,20 @@ namespace RoleTopMVC.Controllers
 
         public IActionResult CadastrarCliente(IFormCollection form)
         {
+            ViewData["NomeView"] = "Cadastro";
             try
             {
                 Cliente cliente = new Cliente(form["nName"],form["nCpf"],form["nEmail"],form["nPassword"],form["nPhone"]);
                 clienteRepository.Inserir(cliente);
 
-                @ViewData["NomeView"] = "SucessoErro";
+                @ViewData["NomeView"] = "Cadastro";
                 return View("Sucesso");
             }
             catch (Exception e)
             {
                 System.Console.WriteLine(e.StackTrace);
                 
-                @ViewData["NomeView"] = "SucessoErro";
+                @ViewData["NomeView"] = "Cadastro";
                 return View("Erro");
             }
         }
