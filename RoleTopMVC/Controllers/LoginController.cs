@@ -28,11 +28,11 @@ namespace RoleTopMVC.Controllers
             try
             {
                 System.Console.WriteLine("===================");
-                System.Console.WriteLine(form["nEmail"]);
-                System.Console.WriteLine(form["nPassword"]);
+                System.Console.WriteLine(form["email"]);
+                System.Console.WriteLine(form["senha"]);
                 System.Console.WriteLine("===================");
-                var usuario = form["nEmail"];
-                var senha = form["nPassword"];
+                var usuario = form["email"];
+                var senha = form["senha"];
                 
                 var cliente = clienteRepository.ObterPor(usuario);
 
