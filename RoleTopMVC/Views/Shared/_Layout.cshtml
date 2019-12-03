@@ -1,5 +1,8 @@
-﻿@{
+﻿@model RoleTopMVC.ViewModels.BaseViewModel
+
+@{
     var cssView = (string) ViewData["NomeView"];
+    var textoView = (string) ViewData["TextoView"];
 }
 
 <!DOCTYPE html>
@@ -64,7 +67,15 @@
                 <li><a href="galeria.html">Galeria</a></li>
                 <li><a href="perguntas.html">Perguntas</a></li>
                 <li><a asp-controller="QuemSomos" asp-action="quemSomos">Quem Somos</a></li>
-                <li id="login"><a asp-controller="Login" asp-action="Index"> <img src="~/Assets/login_useraa.png" alt="login" width="20em" height="20em">Login</a></li>
+                @if(string.IsNullOrEmpty(@Model.UsuarioEmail))
+                {
+                    <li id="login"><a asp-controller="Login" asp-action="Index"> <img src="~/Assets/login_useraa.png" alt="login" width="20em" height="20em">Login/ Cadastro</a></li>
+                }
+                else
+                {
+                    <li id="login"><a asp-controller="Login" asp-action="Logoff"> <img src="~/Assets/login_useraa.png" alt="logoff" width="20em" height="20em">Logoff</a></li>
+                    <!-- <li id="login"><a asp-controller="Login" asp-action="Index"> <img src="~/Assets/login_useraa.png" alt="login" width="20em" height="20em">Login</a></li> -->
+                }
             </ul>
             
         </nav>

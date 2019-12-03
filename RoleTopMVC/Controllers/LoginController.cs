@@ -13,18 +13,24 @@ using RoleTopMVC.ViewModels;
 
 namespace RoleTopMVC.Controllers
 {
-    public class LoginController : Controller
+    public class LoginController : AbstractController
     {
         private ClienteRepository clienteRepository = new ClienteRepository();
+        public RespostaViewModel respostaViewModel = new RespostaViewModel();
         public IActionResult Index()        //** TODO: Mudar Index para Login*/
         {
             ViewData["NomeView"] = "Login";
-            return View();
+            return View(new BaseViewModel()
+            {
+                UsuarioEmail = ObterUsuarioEmailSession(),
+                UsuarioNome = ObterUsuarioNomeSession()
+            });
         }
 
         public IActionResult Login(IFormCollection form)
         {
-            ViewData["NomeView"] = "Cadastro";
+            ViewData["NomeView"] = "SucessoErro";
+            ViewData["TextoView"] = "Cadastro";
             try
             {
                 System.Console.WriteLine("===================");
@@ -40,7 +46,9 @@ namespace RoleTopMVC.Controllers
                 {
                     if(cliente.Senha.Equals(senha))
                     {
-                        return View("Sucesso", new RespostaViewModel("Login Efetuado"));
+                        HttpContext.Session.SetString(SESSION_CLIENTE_NOME,cliente.Nome);
+                        HttpContext.Session.SetString(SESSION_CLIENTE_EMAIL,usuario);
+                        return RedirectToAction("Index","Home");
                     }
                     else
                     {
@@ -49,7 +57,7 @@ namespace RoleTopMVC.Controllers
                 }
                 else
                 {
-                    return View("Erro", new RespostaViewModel($"{usuario} incorreto"));
+                    return View("Erro", new RespostaViewModel("Email incorreto"));
                 }
             }
             catch (Exception e)
@@ -57,6 +65,15 @@ namespace RoleTopMVC.Controllers
                 System.Console.WriteLine(e.StackTrace);
                 return View("Erro", new RespostaViewModel("Usuário não existe"));
             }
+        }
+
+        public IActionResult Logoff()
+        {
+            HttpContext.Session.Remove(SESSION_CLIENTE_EMAIL);
+            HttpContext.Session.Remove(SESSION_CLIENTE_NOME);
+            HttpContext.Session.Clear();
+                
+            return RedirectToAction("Index", "Home");
         }
     }
 }
