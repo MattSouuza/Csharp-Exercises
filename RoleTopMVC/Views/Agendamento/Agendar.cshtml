@@ -14,33 +14,33 @@
 
 <section id="abraco">
 
-    <form class="information" method="POST" action='@Url.Action("Agendar", "Agendamento")'> <!-- Mudar o Action para o correto -->
+    <form class="information" method="POST" action='@Url.Action("AgendamentoProcesso1", "Agendamento")'> <!-- Mudar o Action para o correto -->
 
         <fieldset id="name-section">
 
             <label for="name-text">Nome:</label>
-            <input type="text" name="nName" id="name-text" maxlength="100" placeholder="Nome Completo Ou Nome Da Empresa" required>
+            <input type="text" name="nName" id="name-text" maxlength="100" value="@Model.Cliente.Nome" placeholder="Nome Completo Ou Nome Da Empresa" required>
         
         </fieldset>
 
         <fieldset id="cpf-section">
 
                 <label for="cpf-text">CPF ou CNPJ:</label>
-                <input type="text" name="nCpf" id="cpf-text" maxlength="14" placeholder="XXX.XXX.XXX-YY (CPF) Ou XX.XXX.XXX/YYYY-ZZ (CNPJ)" required>
+                <input type="text" name="nCpf" id="cpf-text" maxlength="14" value="@Model.Cliente.Cpf" placeholder="XXX.XXX.XXX-YY (CPF) Ou XX.XXX.XXX/YYYY-ZZ (CNPJ)" required>
             
         </fieldset>
 
         <fieldset id="email-section">
 
             <label for="email-text">Email Para Contato:</label>
-            <input type="email" name="nEmail" id="email-text" required>
+            <input type="email" name="nEmail" id="email-text"  value="@Model.Cliente.Email" required>
             
         </fieldset>
 
         <fieldset id="phone-section">
 
                 <label for="phone-text">Telefone Para Contato:</label>
-                <input type="text" name="nPhone" id="phone-text" placeholder="(XX)-9xxxx-xxxx" maxlength="15">
+                <input type="text" name="nPhone" id="phone-text" placeholder="(XX)-9xxxx-xxxx" value="@Model.Cliente.Telefone" maxlength="15">
             
         </fieldset>
         
@@ -48,7 +48,7 @@
 
         <div id="button">
 
-            <button type="submit" asp-controller="Agendamento2" asp-action="Agendar2">Confirmar</button>
+            <button type="submit"action='@Url.Action("Agendar2", "Agendamento2")'>Confirmar</button>
             
         </div>
         
