@@ -15,14 +15,14 @@ namespace RoleTopMVC.Controllers
 {
     public class AgendamentoController : AbstractController
     {
+        Evento agendamento = new Evento();
         ClienteRepository clienteRepository = new ClienteRepository();
         Agendamento1Repository agendamento1Repository = new Agendamento1Repository();
         Agendamento2Repository agendamento2Repository = new Agendamento2Repository();
+        AgendamentoViewModel avm = new AgendamentoViewModel();
 
         public IActionResult Agendar()
         {
-            AgendamentoViewModel avm = new AgendamentoViewModel();
-
             var usuarioLogado = ObterUsuarioEmailSession(); //*esta variavel é o email do usuario*/
             var nomeUsuarioLogado = ObterUsuarioNomeSession(); //*esta variavel é o nome do usuario*/
 
@@ -58,11 +58,10 @@ namespace RoleTopMVC.Controllers
         public IActionResult AgendamentoProcesso1(IFormCollection form)
         {
             ViewData["TextoView"] = "Agendamento";
-            Evento evento = new Evento();
             try
             {
-                Evento agendamento1 = new Evento(form["nName"],form["nCpf"],form["nEmail"],form["nPhone"]);
-                agendamento1Repository.Inserir(agendamento1);
+                (form["nName"],form["nCpf"],form["nEmail"],form["nPhone"]);
+                agendamento1Repository.Inserir(agendamento);
 
                 return RedirectToAction("Agendar2", "Agendamento2");
             }
@@ -102,6 +101,16 @@ namespace RoleTopMVC.Controllers
 
                 return View("Erro", new RespostaViewModel());
             }
+        }
+
+        public IActionResult Agendar3()
+        {
+            ViewData["NomeView"] = "Agendamento3";
+            return View(new BaseViewModel()
+            {
+                UsuarioEmail = ObterUsuarioEmailSession(),
+                UsuarioNome = ObterUsuarioNomeSession()
+            });
         }
     }
 }
