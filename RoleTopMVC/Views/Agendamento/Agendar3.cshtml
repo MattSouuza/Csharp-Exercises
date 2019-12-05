@@ -12,7 +12,7 @@
             
             </form>
 
-            <form id="Finfo-event" asp-controller="Agendamento2" asp-action="Agendar2" method="GET">
+            <form id="Finfo-event" asp-controller="Agendamento" asp-action="Agendar2" method="GET">
 
                 <button type="submit" id="Binfo-event"><h2>Informações Do Evento</h2></button>
 
@@ -62,7 +62,7 @@
 
             <h1>Cartão De Crédito</h1>
 
-            <form action='@Url.Action("Agendar3","Agendamento3")' method="POST"> <!-- Mudar o Action para o que faz o registro do agendamento em si -->
+            <form action='@Url.Action("Agendar3","Agendamento")' method="POST"> <!-- Mudar o Action para o que faz o registro do agendamento em si -->
                 
                 <div id="alinhament">
                     
@@ -110,7 +110,7 @@
                     <fieldset>
 
                         <label for="value">Valor Total:</label>
-                        <input id="value" name="value" value="R$10.000,00" readonly>
+                        <input id="value" name="value" value="R$10.000,00" readonly> <!-- Criar uma variável ValorTotal -->
                         
                     </fieldset>
 
@@ -118,13 +118,13 @@
 
                     <div id="button">
     
-                        <button type="submit" asp-controller="Home" asp-action="Index">Confirmar</button> <!-- TO DO: Fazer esse botão retornar a View de sucesso ou erro no Controller -->
+                        <button type="submit" asp-controller="Home" asp-action="Index">Confirmar</button>
                         
                     </div>
                         
             </form>
                     
-            <form id="cancel" asp-controller="Agendamento2" asp-action="Agendar2" method="GET">
+            <form id="cancel" asp-controller="Agendamento" asp-action="Agendar2" method="GET">
 
                     <button type="submit">Voltar</button>
                 
