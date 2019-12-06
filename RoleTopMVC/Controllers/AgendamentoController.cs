@@ -17,7 +17,7 @@ namespace RoleTopMVC.Controllers
     {
         Evento agendamentoGeral = new Evento();
         AgendamentoViewModel avm = new AgendamentoViewModel();
-        AgendamentoRepository agendamento1Repository = new AgendamentoRepository();
+        AgendamentoRepository agendamentoRepository = new AgendamentoRepository();
         ClienteRepository clienteRepository = new ClienteRepository();
 
         public IActionResult Agendar()
@@ -53,11 +53,11 @@ namespace RoleTopMVC.Controllers
             return View(avm);
         }
 
-        [HttpPost]
         public IActionResult AgendamentoProcesso1(IFormCollection form)
         {
             ViewData["TextoView"] = "Agendamento";
             avm.Cliente = agendamentoGeral.Cliente;
+            Cliente cliente = new Cliente();
 
             // var nomeUsuarioLogado = ObterUsuarioNomeSession();
             // if(!string.IsNullOrEmpty(nomeUsuarioLogado))
@@ -66,15 +66,19 @@ namespace RoleTopMVC.Controllers
 
             try
             {
-                agendamentoGeral.Cliente.Nome = form["nName"];
-                agendamentoGeral.Cliente.Cpf = form["nCpf"];
-                agendamentoGeral.Cliente.Email = form["nEmail"];
-                agendamentoGeral.Cliente.Telefone = form["nPhone"];
+                cliente.Nome = form["nName"];
+                cliente.Cpf = form["nCpf"];
+                cliente.Email = form["nEmail"];
+                cliente.Telefone = form["nPhone"];
 
+                var linha = clienteRepository.FazerRegistroCSV(cliente);
+
+                HttpContext.Session.SetString("cliente", linha);
+                
                 // agendamento1Repository.Inserir(agendamento)
                 avm.UsuarioEmail = ObterUsuarioEmailSession();
                 avm.UsuarioNome = ObterUsuarioNomeSession();
-                return RedirectToAction("Agendar2");
+                return RedirectToAction("Agendar2",cliente);
             }
             catch (Exception e)
             {
@@ -99,11 +103,32 @@ namespace RoleTopMVC.Controllers
             ViewData["TextoView"] = "Agendamento";
             try
             {
-                Evento agendamento2 = new Evento(form["nName"],form["nType"],form["nStatus"],form["nPlan"],form["nNumber"],DateTime.Parse(form["nDate"]),form["nTimeS"],form["nTimeE"],form["nMessage"]); // Adicionar o form para o valor total
-                // agendamento2Repository.Inserir(agendamento2);
+                //Evento agendamento2 = new Evento(form["nName"],form["nType"],form["nStatus"],form["nPlan"],form["nNumber"],DateTime.Parse(form["nDate"]),form["nTimeS"],form["nTimeE"],form["nMessage"]); // Adicionar o form para o valor total
+                Evento evento = new Evento();
+                Cliente cliente = new Cliente();
 
-                avm.UsuarioEmail = ObterUsuarioEmailSession();
-                avm.UsuarioNome = ObterUsuarioNomeSession();
+                var linha = HttpContext.Session.GetString("cliente");
+                cliente.Nome = clienteRepository.ExtrairValorDoCampo("nome", linha);
+                cliente.Cpf = clienteRepository.ExtrairValorDoCampo("cpf", linha);
+                cliente.Email = clienteRepository.ExtrairValorDoCampo("email", linha);
+                cliente.Telefone = clienteRepository.ExtrairValorDoCampo("telefone", linha);
+
+                evento.Cliente = cliente;
+
+                evento.NomeEvento = form["nName"];
+                evento.TipoEvento = form ["nType"];
+                evento.StatusEvento = form["nStatus"];
+                evento.Planos = form["nPlan"];
+                evento.NumeroPessoas = form["nNumber"];
+                evento.DataEvento = DateTime.Parse(form["nDate"]);
+                evento.HoraInicio = form["nTimeS"];
+                evento.HoraTermino = form["nTimeE"];
+                evento.Descricao = form["nMessage"];
+
+                linha = agendamentoRepository.FazerRegistroCSV(evento);
+                
+                HttpContext.Session.SetString("evento", linha);
+                // agendamento2Repository.Inserir(agendamento2)
                 return RedirectToAction("Agendar3");
             }
             catch (Exception e)
@@ -128,9 +153,32 @@ namespace RoleTopMVC.Controllers
         public IActionResult AgendamentoProcesso3(IFormCollection form)
         {
             ViewData["TextoView"] = "Agendamento";
-            Evento agendamento3 = new Evento(form["name"],form["number"],form["code"],DateTime.Parse(form["date"])); //** form["cpf"] foi retirado*/
-            agendamento3 = agendamentoGeral;
-            if(agendamento1Repository.Inserir(agendamentoGeral))
+            ViewData["NomeView"] = "SucessoErro";
+            Evento eventoPagamento = new Evento();
+            eventoPagamento.Cliente = new Cliente(); 
+
+            var linha = HttpContext.Session.GetString("evento");
+            System.Console.WriteLine(linha);
+            eventoPagamento.Cliente.Nome = clienteRepository.ExtrairValorDoCampo("nome", linha);
+            eventoPagamento.Cliente.Cpf = clienteRepository.ExtrairValorDoCampo("cpf", linha);
+            eventoPagamento.Cliente.Email = clienteRepository.ExtrairValorDoCampo("email", linha);
+            eventoPagamento.Cliente.Telefone = clienteRepository.ExtrairValorDoCampo("telefone", linha);
+            eventoPagamento.NomeEvento = agendamentoRepository.ExtrairValorDoCampo("evento_nome", linha);
+            eventoPagamento.TipoEvento = agendamentoRepository.ExtrairValorDoCampo("evento_tipo", linha);
+            eventoPagamento.StatusEvento = agendamentoRepository.ExtrairValorDoCampo("evento_status", linha);
+            eventoPagamento.Planos = agendamentoRepository.ExtrairValorDoCampo("planos", linha);
+            eventoPagamento.NumeroPessoas = agendamentoRepository.ExtrairValorDoCampo("numero_pessoas", linha);
+            eventoPagamento.DataEvento = DateTime.Parse(agendamentoRepository.ExtrairValorDoCampo("data_evento", linha));
+            eventoPagamento.HoraInicio = agendamentoRepository.ExtrairValorDoCampo("hora_inicio", linha);
+            eventoPagamento.HoraTermino = agendamentoRepository.ExtrairValorDoCampo("hora_termino", linha);
+            eventoPagamento.Descricao = agendamentoRepository.ExtrairValorDoCampo("descricao", linha);
+
+            eventoPagamento.NomePropietario = form["name"];
+            eventoPagamento.NumeroCartao = form ["number"];
+            eventoPagamento.Cvv = form["code"];
+            eventoPagamento.DataValidade = DateTime.Parse(form["date"]);
+
+            if(agendamentoRepository.Inserir(eventoPagamento))
             {
                 avm.UsuarioEmail = ObterUsuarioEmailSession();
                 avm.UsuarioNome = ObterUsuarioNomeSession();

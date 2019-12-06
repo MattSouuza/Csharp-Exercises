@@ -2,7 +2,7 @@ using System;
 
 namespace RoleTopMVC.Models
 {
-    public class Evento 
+    public class Evento
     {
         public Cliente Cliente {get;set;}
         public string NomeEvento {get;set;}
@@ -23,6 +23,7 @@ namespace RoleTopMVC.Models
         {
 
         }
+
 
         public Evento(string Nome, string Cpf, string Email, string Telefone)
         {

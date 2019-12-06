@@ -47,7 +47,7 @@ namespace RoleTopMVC.Repositories
             return null;
         }   
 
-        private string FazerRegistroCSV(Cliente cliente)
+        public string FazerRegistroCSV(Cliente cliente)
         {
             return $"nome={cliente.Nome};cpf={cliente.Cpf};email={cliente.Email};senha={cliente.Senha};telefone={cliente.Telefone}";
         }
