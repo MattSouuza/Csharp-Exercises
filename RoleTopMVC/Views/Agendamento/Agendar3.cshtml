@@ -62,7 +62,7 @@
 
             <h1>Cartão De Crédito</h1>
 
-            <form action='@Url.Action("Agendar3","Agendamento")' method="POST"> <!-- Mudar o Action para o que faz o registro do agendamento em si -->
+            <form action='@Url.Action("AgendamentoProcesso3","Agendamento")' method="POST">
                 
                 <div id="alinhament">
                     
@@ -118,13 +118,13 @@
 
                     <div id="button">
     
-                        <button type="submit" asp-controller="Home" asp-action="Index">Confirmar</button>
+                        <button type="submit">Confirmar</button>
                         
                     </div>
                         
             </form>
                     
-            <form id="cancel" asp-controller="Agendamento" asp-action="Agendar2" method="GET">
+            <form id="cancel" action='@Url.Action("Agendar2", "Agendamento")' method="GET">
 
                     <button type="submit">Voltar</button>
                 

@@ -17,9 +17,8 @@ namespace RoleTopMVC.Controllers
     {
         Evento agendamentoGeral = new Evento();
         AgendamentoViewModel avm = new AgendamentoViewModel();
+        AgendamentoRepository agendamento1Repository = new AgendamentoRepository();
         ClienteRepository clienteRepository = new ClienteRepository();
-        Agendamento1Repository agendamento1Repository = new Agendamento1Repository();
-        Agendamento2Repository agendamento2Repository = new Agendamento2Repository();
 
         public IActionResult Agendar()
         {
@@ -28,7 +27,7 @@ namespace RoleTopMVC.Controllers
 
             if(!string.IsNullOrEmpty(nomeUsuarioLogado))
             {
-                avm.Cliente = clienteRepository.ObterPor(usuarioLogado); //*Insere as informações (por meio do ObterPor) que o usuário expecificou, no avm.Cliente*/
+                avm.Cliente = clienteRepository.ObterPor(usuarioLogado); //*Insere as informações (por meio do ObterPor) no avm.Cliente que foram expecificadas pelo usuário*/
             }
             else
             {
@@ -67,8 +66,11 @@ namespace RoleTopMVC.Controllers
 
             try
             {
-                Evento agendamento1 = new Evento(form["nName"],form["nCpf"],form["nEmail"],form["nPhone"]);
-                agendamento1 = agendamentoGeral;
+                agendamentoGeral.Cliente.Nome = form["nName"];
+                agendamentoGeral.Cliente.Cpf = form["nCpf"];
+                agendamentoGeral.Cliente.Email = form["nEmail"];
+                agendamentoGeral.Cliente.Telefone = form["nPhone"];
+
                 // agendamento1Repository.Inserir(agendamento)
                 avm.UsuarioEmail = ObterUsuarioEmailSession();
                 avm.UsuarioNome = ObterUsuarioNomeSession();
@@ -126,18 +128,16 @@ namespace RoleTopMVC.Controllers
         public IActionResult AgendamentoProcesso3(IFormCollection form)
         {
             ViewData["TextoView"] = "Agendamento";
-            try
+            Evento agendamento3 = new Evento(form["name"],form["number"],form["code"],DateTime.Parse(form["date"])); //** form["cpf"] foi retirado*/
+            agendamento3 = agendamentoGeral;
+            if(agendamento1Repository.Inserir(agendamentoGeral))
             {
-                Evento agendamento3 = new Evento(form["name"],form["number"],form["code"],form["cpf"],DateTime.Parse(form["date"]));
-                agendamento3 = agendamentoGeral;
-
                 avm.UsuarioEmail = ObterUsuarioEmailSession();
                 avm.UsuarioNome = ObterUsuarioNomeSession();
                 return View("Sucesso", new RespostaViewModel());
             }
-            catch (Exception e)
+            else
             {
-                System.Console.WriteLine(e.StackTrace);
                 return View("Erro", new RespostaViewModel("Não foi possível realizar o agendamento corretamente"));
             }
         }

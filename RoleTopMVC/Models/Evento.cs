@@ -45,12 +45,11 @@ namespace RoleTopMVC.Models
             this.Descricao = descricao;
         }
 
-        public Evento(string nomeProprietario, string numeroCartao, string cvv, string cpf, DateTime dataValidade)
+        public Evento(string nomeProprietario, string numeroCartao, string cvv, DateTime dataValidade)
         {
             this.NomePropietario = nomeProprietario;
             this.NumeroCartao = numeroCartao;
             this.Cvv = cvv;
-            Cliente.Cpf = cpf;
             this.DataValidade = dataValidade;
         }
     }

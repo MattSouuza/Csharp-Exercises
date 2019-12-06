@@ -148,14 +148,14 @@
 
                 <div id="button">
 
-                    <button type="submit" asp-controller="Agendamento" asp-action="Agendar3">Confirmar</button>
+                    <button type="submit" action='@Url.Action("Agendar3", "Agendamento")'>Confirmar</button>
                     
                 </div>
                 
                 
             </form>
             
-            <form id="cancel" asp-controller="Agendamento" asp-action="Agendar" method="GET">
+            <form id="cancel" action='@Url.Action("Agendar", "Agendamento")' method="GET">
 
                     <button type="submit">Voltar</button>
                 
