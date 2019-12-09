@@ -16,6 +16,7 @@ namespace RoleTopMVC.Controllers
         Evento agendamentoGeral = new Evento();
         AgendamentoViewModel avm = new AgendamentoViewModel();
         AgendamentoRepository agendamentoRepository = new AgendamentoRepository();
+        PlanosRepository planosRepository = new PlanosRepository();
         ClienteRepository clienteRepository = new ClienteRepository();
 
         public IActionResult Agendar()
@@ -85,10 +86,12 @@ namespace RoleTopMVC.Controllers
         public IActionResult Agendar2()
         {
             ViewData["NomeView"] = "Agendamento2";
-            return View(new BaseViewModel()
+            var Planos = planosRepository.ObterTodos();
+            return View(new AgendamentoViewModel()
             {
                 UsuarioEmail = ObterUsuarioEmailSession(),
-                UsuarioNome = ObterUsuarioNomeSession()
+                UsuarioNome = ObterUsuarioNomeSession(),
+                Planos = Planos
             });
         }
 
@@ -113,7 +116,11 @@ namespace RoleTopMVC.Controllers
                 evento.NomeEvento = form["nName"]; //* As informações inseridas pelo usuário (no form), vão ser inseridas na classe
                 evento.TipoEvento = form ["nType"];
                 evento.StatusEvento = form["nStatus"];
-                evento.Planos = form["nPlan"];
+
+                var nomePlano = form["nPlan"];
+                Planos plano = new Planos(nomePlano, planosRepository.ObterPrecoDe(nomePlano));
+                
+                evento.Planos.Nome = nomePlano;
                 evento.NumeroPessoas = form["nNumber"];
                 evento.DataEvento = DateTime.Parse(form["nDate"]);
                 evento.HoraInicio = form["nTimeS"];
@@ -164,7 +171,7 @@ namespace RoleTopMVC.Controllers
             eventoPagamento.NomeEvento = agendamentoRepository.ExtrairValorDoCampo("evento_nome", linha);
             eventoPagamento.TipoEvento = agendamentoRepository.ExtrairValorDoCampo("evento_tipo", linha);
             eventoPagamento.StatusEvento = agendamentoRepository.ExtrairValorDoCampo("evento_status", linha);
-            eventoPagamento.Planos = agendamentoRepository.ExtrairValorDoCampo("planos", linha);
+            eventoPagamento.Planos.Nome = agendamentoRepository.ExtrairValorDoCampo("planos", linha);
             eventoPagamento.NumeroPessoas = agendamentoRepository.ExtrairValorDoCampo("numero_pessoas", linha);
             eventoPagamento.DataEvento = DateTime.Parse(agendamentoRepository.ExtrairValorDoCampo("data_evento", linha));
             eventoPagamento.HoraInicio = agendamentoRepository.ExtrairValorDoCampo("hora_inicio", linha);

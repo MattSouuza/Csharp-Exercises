@@ -1,3 +1,5 @@
+@model RoleTopMVC.ViewModels.AgendamentoViewModel
+
 <main>
 
     <section id="titles">
@@ -82,10 +84,14 @@
 
                             <label for="plan-select">Planos:</label>
                             <select name="nPlan" id="plan-select" required> 
-                                <option>Nenhum</option>
-                                <option>Plano De Iluminação</option>
+                                <option value="" disabled selected>Selecione</option>
+                                @foreach (var plano in Model.Planos)
+                                {
+                                    <option value="@plano.Nome">@plano.Nome por @plano.Preco </option>
+                                }
+                                <!-- <option>Plano De Iluminação</option>
                                 <option>Plano De Som</option>
-                                <option>Plano De Iluminação E De Som</option>
+                                <option>Plano De Iluminação E De Som</option> -->
                             </select>
 
                     </fieldset>

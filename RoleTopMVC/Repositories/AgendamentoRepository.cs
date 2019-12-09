@@ -47,6 +47,7 @@ namespace RoleTopMVC.Repositories
             foreach (var linha in linhas)
             {
                 Evento agendamento = new Evento();
+                agendamento.Planos = new Planos();
                 agendamento.Cliente = new Cliente();
 
                 agendamento.Cliente.Nome = ExtrairValorDoCampo("nome", linha);
@@ -56,7 +57,8 @@ namespace RoleTopMVC.Repositories
                 agendamento.NomeEvento = ExtrairValorDoCampo("evento_nome", linha);
                 agendamento.TipoEvento = ExtrairValorDoCampo("evento_tipo", linha);
                 agendamento.StatusEvento = ExtrairValorDoCampo("evento_status", linha);
-                agendamento.Planos = ExtrairValorDoCampo("planos", linha);
+                agendamento.Planos.Nome = ExtrairValorDoCampo("planos", linha);
+                agendamento.Planos.Preco = double.Parse(ExtrairValorDoCampo("preco_plano", linha));
                 agendamento.NumeroPessoas = ExtrairValorDoCampo("numero_pessoas", linha);
                 agendamento.DataEvento = DateTime.Parse(ExtrairValorDoCampo("data_evento", linha));
                 agendamento.HoraInicio = ExtrairValorDoCampo("hora_inicio", linha);
@@ -74,10 +76,11 @@ namespace RoleTopMVC.Repositories
 
         public string FazerRegistroCSV(Evento agendamento)
         {
-            Cliente c = agendamento.Cliente;
             Evento a = agendamento;
+            Cliente c = agendamento.Cliente;
+            Planos p = agendamento.Planos;
 
-            return $"nome={c.Nome};cpf={c.Cpf};email={c.Email};telefone={c.Telefone};evento_nome={a.NomeEvento};evento_tipo={a.TipoEvento};evento_status={a.StatusEvento};planos={a.Planos};numero_pessoas={a.NumeroPessoas};data_evento={a.DataEvento};hora_inicio={a.HoraInicio};hora_termino={a.HoraTermino};descricao={a.Descricao};nome_proprietario={a.NomePropietario};numero_cartao={a.NumeroCartao};cvv={a.Cvv};data_validade={a.DataValidade}";
+            return $"nome={c.Nome};cpf={c.Cpf};email={c.Email};telefone={c.Telefone};evento_nome={a.NomeEvento};evento_tipo={a.TipoEvento};evento_status={a.StatusEvento};planos={p.Nome};preco_plano{p.Preco};numero_pessoas={a.NumeroPessoas};data_evento={a.DataEvento};hora_inicio={a.HoraInicio};hora_termino={a.HoraTermino};descricao={a.Descricao};nome_proprietario={a.NomePropietario};numero_cartao={a.NumeroCartao};cvv={a.Cvv};data_validade={a.DataValidade}";
         }
     }
 }
