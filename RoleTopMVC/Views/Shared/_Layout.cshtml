@@ -37,6 +37,10 @@
         {
             <link rel="stylesheet" type="text/css" href="~/css/login.css">
         }
+        else if ("PagUsuario".Equals(cssView))
+        {
+            <link rel="stylesheet" type="text/css" href="~/css/pagUsuario.css">
+        }
         else if ("Cadastro".Equals(cssView))
         {
             <link rel="stylesheet" type="text/css" href="~/css/cadastro.css">
@@ -73,6 +77,7 @@
                 }
                 else
                 {
+                    <li id="userPage"><a asp-controller="Login" asp-action="PagUsuario">Página Do Usuário</a></li>
                     <li id="login"><a asp-controller="Login" asp-action="Logoff"> <img src="~/Assets/login_useraa.png" alt="logoff" width="20em" height="20em">Logoff</a></li>
                     <!-- <li id="login"><a asp-controller="Login" asp-action="Index"> <img src="~/Assets/login_useraa.png" alt="login" width="20em" height="20em">Login</a></li> -->
                 }

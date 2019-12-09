@@ -73,6 +73,7 @@ namespace RoleTopMVC.Controllers
             var emailCliente = HttpContext.Session.GetString(SESSION_CLIENTE_EMAIL);
             var agendamentosCliente = agendamentoRepository.ObterTodosPorCliente(emailCliente);
 
+            ViewData["NomeView"] = "PagUsuario";
             return View(new PagUsuarioViewModel()
             {
                 Eventos = agendamentosCliente,
