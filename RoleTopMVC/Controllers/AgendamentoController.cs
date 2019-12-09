@@ -1,5 +1,3 @@
-//*Fazer um AgendamentoController ÚNICO*/
-
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -22,19 +20,19 @@ namespace RoleTopMVC.Controllers
 
         public IActionResult Agendar()
         {
-            var usuarioLogado = ObterUsuarioEmailSession(); //*esta variavel é o email do usuario*/
-            var nomeUsuarioLogado = ObterUsuarioNomeSession(); //*esta variavel é o nome do usuario*/
+            var usuarioLogado = ObterUsuarioEmailSession(); //* esta variavel é o email do usuario
+            var nomeUsuarioLogado = ObterUsuarioNomeSession(); //* esta variavel é o nome do usuario
 
             if(!string.IsNullOrEmpty(nomeUsuarioLogado))
             {
-                avm.Cliente = clienteRepository.ObterPor(usuarioLogado); //*Insere as informações (por meio do ObterPor) no avm.Cliente que foram expecificadas pelo usuário*/
+                avm.Cliente = clienteRepository.ObterPor(usuarioLogado); //* Insere as informações (por meio do ObterPor) no avm.Cliente que foram expecificadas pelo usuário
             }
             else
             {
                 avm.Cliente = new Cliente();
             }
 
-            var clienteLogado = clienteRepository.ObterPor(usuarioLogado); //*clienteLogado contem as informações do usuario*/
+            var clienteLogado = clienteRepository.ObterPor(usuarioLogado); //* clienteLogado contem as informações do usuario
             if(clienteLogado != null)
             {
                 avm.Cliente = clienteLogado;
@@ -57,27 +55,23 @@ namespace RoleTopMVC.Controllers
         {
             ViewData["TextoView"] = "Agendamento";
             avm.Cliente = agendamentoGeral.Cliente;
-            Cliente cliente = new Cliente();
-
-            // var nomeUsuarioLogado = ObterUsuarioNomeSession();
-            // if(!string.IsNullOrEmpty(nomeUsuarioLogado))
-            // {
-            // }
+            Cliente cliente = new Cliente(); //* Classe Cliente, onde as informações vão ser inseridas, nesse método
 
             try
             {
-                cliente.Nome = form["nName"];
+                cliente.Nome = form["nName"]; //* As informações inseridas pelo usuário (no form), vão ser inseridas na classe
                 cliente.Cpf = form["nCpf"];
                 cliente.Email = form["nEmail"];
                 cliente.Telefone = form["nPhone"];
 
-                var linha = clienteRepository.FazerRegistroCSV(cliente);
+                var linha = clienteRepository.FazerRegistroCSV(cliente); //* As informações expecificadas pelo usuario, irão ser escritas em uma string só
+                /**
+                * ! A string sera criada, porém não sera inserida no CSV ainda
+                */
 
-                HttpContext.Session.SetString("cliente", linha);
-                
-                // agendamento1Repository.Inserir(agendamento)
-                avm.UsuarioEmail = ObterUsuarioEmailSession();
-                avm.UsuarioNome = ObterUsuarioNomeSession();
+                HttpContext.Session.SetString("cliente", linha); //* "cliente" é a chave, ela poderia ser qualquer outro nome, porém, quando for obter o valor (que é linha), é necessário chamar o nome da chave correto 
+                //* linha contem as informações do usuario em uma string. Essa string é armazenada no Estado de sessão, assim, preservando a informação  
+
                 return RedirectToAction("Agendar2",cliente);
             }
             catch (Exception e)
@@ -103,19 +97,20 @@ namespace RoleTopMVC.Controllers
             ViewData["TextoView"] = "Agendamento";
             try
             {
-                //Evento agendamento2 = new Evento(form["nName"],form["nType"],form["nStatus"],form["nPlan"],form["nNumber"],DateTime.Parse(form["nDate"]),form["nTimeS"],form["nTimeE"],form["nMessage"]); // Adicionar o form para o valor total
-                Evento evento = new Evento();
-                Cliente cliente = new Cliente();
+                // Adicionar o valor total
+                Evento evento = new Evento(); //* Classe Evento, onde as informações vão ser inseridas, nesse método
+                Cliente cliente = new Cliente(); //* Classe Cliente, onde as informações vão ser inseridas, nesse método
 
-                var linha = HttpContext.Session.GetString("cliente");
-                cliente.Nome = clienteRepository.ExtrairValorDoCampo("nome", linha);
+                var linha = HttpContext.Session.GetString("cliente"); //* As informações da primeira tela do agendamento são armazenadas (pelo GetString) na var linha, ou seja, a aquela string inteira (ver no Repository) é inserida nessa nova variavel
+                
+                cliente.Nome = clienteRepository.ExtrairValorDoCampo("nome", linha); //* "nome" se refere ao campo, onde o método ExtrairValorDoCampo irar retirar o valor da linha e ira inserir na classe
                 cliente.Cpf = clienteRepository.ExtrairValorDoCampo("cpf", linha);
                 cliente.Email = clienteRepository.ExtrairValorDoCampo("email", linha);
                 cliente.Telefone = clienteRepository.ExtrairValorDoCampo("telefone", linha);
 
-                evento.Cliente = cliente;
+                evento.Cliente = cliente; //* Evento contem Cliente (por meio de composição), cliente (que é a classe que contem as informações, e que foi instanciada no começo do método), passa suas informações para Cliente que está contida em Evento 
 
-                evento.NomeEvento = form["nName"];
+                evento.NomeEvento = form["nName"]; //* As informações inseridas pelo usuário (no form), vão ser inseridas na classe
                 evento.TipoEvento = form ["nType"];
                 evento.StatusEvento = form["nStatus"];
                 evento.Planos = form["nPlan"];
@@ -125,10 +120,10 @@ namespace RoleTopMVC.Controllers
                 evento.HoraTermino = form["nTimeE"];
                 evento.Descricao = form["nMessage"];
 
-                linha = agendamentoRepository.FazerRegistroCSV(evento);
+                linha = agendamentoRepository.FazerRegistroCSV(evento); //* As informações expecificadas pelo usuario, irão ser escritas em uma string só
                 
-                HttpContext.Session.SetString("evento", linha);
-                // agendamento2Repository.Inserir(agendamento2)
+                HttpContext.Session.SetString("evento", linha); //* linha contem as informações do usuario em uma string. Essa string é armazenada no Estado de sessão, assim, preservando a informação
+
                 return RedirectToAction("Agendar3");
             }
             catch (Exception e)
@@ -156,10 +151,13 @@ namespace RoleTopMVC.Controllers
             ViewData["NomeView"] = "SucessoErro";
             Evento eventoPagamento = new Evento();
             eventoPagamento.Cliente = new Cliente(); 
+            /**
+            * ! Mesmo que Cliente seja uma composição de Evento, Cliente ainda precisa ser instânciado!
+            */
 
-            var linha = HttpContext.Session.GetString("evento");
+            var linha = HttpContext.Session.GetString("evento"); //* Obtem as informações
             System.Console.WriteLine(linha);
-            eventoPagamento.Cliente.Nome = clienteRepository.ExtrairValorDoCampo("nome", linha);
+            eventoPagamento.Cliente.Nome = clienteRepository.ExtrairValorDoCampo("nome", linha); //* Aloca as informações da linha e insere-as na classe
             eventoPagamento.Cliente.Cpf = clienteRepository.ExtrairValorDoCampo("cpf", linha);
             eventoPagamento.Cliente.Email = clienteRepository.ExtrairValorDoCampo("email", linha);
             eventoPagamento.Cliente.Telefone = clienteRepository.ExtrairValorDoCampo("telefone", linha);
@@ -173,15 +171,13 @@ namespace RoleTopMVC.Controllers
             eventoPagamento.HoraTermino = agendamentoRepository.ExtrairValorDoCampo("hora_termino", linha);
             eventoPagamento.Descricao = agendamentoRepository.ExtrairValorDoCampo("descricao", linha);
 
-            eventoPagamento.NomePropietario = form["name"];
+            eventoPagamento.NomePropietario = form["name"]; //* Aloca as informações fornecidas pelo usuario e as insere na classe
             eventoPagamento.NumeroCartao = form ["number"];
             eventoPagamento.Cvv = form["code"];
             eventoPagamento.DataValidade = DateTime.Parse(form["date"]);
 
-            if(agendamentoRepository.Inserir(eventoPagamento))
+            if(agendamentoRepository.Inserir(eventoPagamento)) //* Aqui é onde as informações do usuario são escritas no CSV
             {
-                avm.UsuarioEmail = ObterUsuarioEmailSession();
-                avm.UsuarioNome = ObterUsuarioNomeSession();
                 return View("Sucesso", new RespostaViewModel());
             }
             else

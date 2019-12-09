@@ -16,6 +16,7 @@ namespace RoleTopMVC.Controllers
     public class LoginController : AbstractController
     {
         private ClienteRepository clienteRepository = new ClienteRepository();
+        private AgendamentoRepository agendamentoRepository = new AgendamentoRepository();
         public RespostaViewModel respostaViewModel = new RespostaViewModel();
         public IActionResult Index()        //** TODO: Mudar Index para Login*/
         {
@@ -48,7 +49,7 @@ namespace RoleTopMVC.Controllers
                     {
                         HttpContext.Session.SetString(SESSION_CLIENTE_NOME,cliente.Nome);
                         HttpContext.Session.SetString(SESSION_CLIENTE_EMAIL,usuario);
-                        return RedirectToAction("Index","Home");
+                        return RedirectToAction("PagUsuario","Login");
                     }
                     else
                     {
@@ -65,6 +66,19 @@ namespace RoleTopMVC.Controllers
                 System.Console.WriteLine(e.StackTrace);
                 return View("Erro", new RespostaViewModel("Usuário não existe"));
             }
+        }
+
+        public IActionResult PagUsuario()
+        {
+            var emailCliente = HttpContext.Session.GetString(SESSION_CLIENTE_EMAIL);
+            var agendamentosCliente = agendamentoRepository.ObterTodosPorCliente(emailCliente);
+
+            return View(new PagUsuarioViewModel()
+            {
+                Eventos = agendamentosCliente,
+                UsuarioEmail = ObterUsuarioEmailSession(),
+                UsuarioNome = ObterUsuarioNomeSession()
+            });
         }
 
         public IActionResult Logoff()

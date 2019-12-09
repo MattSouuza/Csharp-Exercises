@@ -1,0 +1,41 @@
+@model RoleTopMVC.ViewModels.PagUsuarioViewModel
+@{
+    ViewData["Title"] = "Agendamento - RolêTop";
+    ViewData["H2"] = "Histórico de Agendamentos";
+}
+<header>
+    <hgroup>
+        <h1>RolêTop</h1>
+    </hgroup>
+</header>
+
+<main>
+    <h2>@ViewData["H2"]</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome Do Evento</th>
+                <th>Data</th>
+                <th>Tipo De Evento</th>
+                <th>Status Do Evento</th>
+                <th>Planos Extras</th>
+                <th>Número De Pessoas</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach( var agendamento in Model.Eventos ) {
+                <tr>
+                    <td>@agendamento.NomeEvento</td>
+                    <td>@agendamento.DataEvento</td>
+                    <td>@agendamento.TipoEvento</td>
+                    <td>@agendamento.StatusEvento</td>
+                    <td>@agendamento.Planos</td>
+                    <td>@agendamento.NumeroPessoas</td>
+                    <!-- Fazer uma variavel PrecoTotal -->
+                    <!-- <td>@agendamento.</td> Colocar Horario Total -->
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</main>

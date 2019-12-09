@@ -72,3 +72,4 @@ C:\Users\50090694821\Documents\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2
 C:\Users\50090694821\Documents\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Agendamento\Agendar3.g.cshtml.cs
 C:\Users\Pichau\Desktop\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Agendamento\Agendar2.cshtml.g.cs
 C:\Users\Pichau\Desktop\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Agendamento\Agendar3.cshtml.g.cs
+C:\Users\Pichau\Desktop\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Login\PagUsuario.cshtml.g.cs
