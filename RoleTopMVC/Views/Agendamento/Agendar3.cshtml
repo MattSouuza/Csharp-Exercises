@@ -1,3 +1,5 @@
+@model RoleTopMVC.ViewModels.AgendamentoViewModel
+
 <main>
 
     <section id="titles">
@@ -110,7 +112,7 @@
                     <fieldset>
 
                         <label for="value">Valor Total:</label>
-                        <input id="value" name="value" value="R$10.000,00" readonly> <!-- Criar uma variável ValorTotal -->
+                        <input id="value" name="value" value="R$@Model.Evento.PrecoTotal" readonly>
                         
                     </fieldset>
 

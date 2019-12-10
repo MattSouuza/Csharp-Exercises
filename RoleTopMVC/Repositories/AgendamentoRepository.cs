@@ -68,6 +68,7 @@ namespace RoleTopMVC.Repositories
                 agendamento.NumeroCartao = ExtrairValorDoCampo("numero_cartao", linha);
                 agendamento.Cvv = ExtrairValorDoCampo("cvv", linha);
                 agendamento.DataValidade = DateTime.Parse(ExtrairValorDoCampo("data_validade", linha));
+                agendamento.Planos.Preco = double.Parse(ExtrairValorDoCampo("preco_total", linha));
 
                 agendamentos.Add(agendamento);
             }
@@ -80,7 +81,9 @@ namespace RoleTopMVC.Repositories
             Cliente c = agendamento.Cliente;
             Planos p = agendamento.Planos;
 
-            return $"nome={c.Nome};cpf={c.Cpf};email={c.Email};telefone={c.Telefone};evento_nome={a.NomeEvento};evento_tipo={a.TipoEvento};evento_status={a.StatusEvento};planos={p.Nome};preco_plano{p.Preco};numero_pessoas={a.NumeroPessoas};data_evento={a.DataEvento};hora_inicio={a.HoraInicio};hora_termino={a.HoraTermino};descricao={a.Descricao};nome_proprietario={a.NomePropietario};numero_cartao={a.NumeroCartao};cvv={a.Cvv};data_validade={a.DataValidade}";
+            a.PrecoTotal = 9999.99;
+
+            return $"nome={c.Nome};cpf={c.Cpf};email={c.Email};telefone={c.Telefone};evento_nome={a.NomeEvento};evento_tipo={a.TipoEvento};evento_status={a.StatusEvento};planos={p.Nome};preco_plano={p.Preco};numero_pessoas={a.NumeroPessoas};data_evento={a.DataEvento};hora_inicio={a.HoraInicio};hora_termino={a.HoraTermino};descricao={a.Descricao};nome_proprietario={a.NomePropietario};numero_cartao={a.NumeroCartao};cvv={a.Cvv};data_validade={a.DataValidade};preco_total={a.PrecoTotal}";
         }
     }
 }

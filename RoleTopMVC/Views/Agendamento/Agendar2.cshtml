@@ -135,13 +135,6 @@
                     
                 </fieldset>
 
-                <fieldset id="value">
-
-                    <label for="value-text">Valor Total:</label>
-                    <input type="text" name="nValue" id="value-text" value="R$10.000,00" readonly>
-                    
-                </fieldset>
-
                 <fieldset id="check-section">
 
                         <Label for="check">Li E Concordo Com Os <a href="termos.html">Termos De Contrato</a></Label>
@@ -154,14 +147,14 @@
 
                 <div id="button">
 
-                    <button type="submit" action='@Url.Action("Agendar3", "Agendamento")'>Confirmar</button>
+                    <button type="submit">Confirmar</button>
                     
                 </div>
                 
                 
             </form>
             
-            <form id="cancel" action='@Url.Action("Agendar", "Agendamento")' method="GET">
+            <form id="cancel" method="GET">
 
                     <button type="submit">Voltar</button>
                 

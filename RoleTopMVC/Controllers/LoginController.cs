@@ -16,6 +16,7 @@ namespace RoleTopMVC.Controllers
     public class LoginController : AbstractController
     {
         private ClienteRepository clienteRepository = new ClienteRepository();
+        private PlanosRepository planosRepository = new PlanosRepository();
         private AgendamentoRepository agendamentoRepository = new AgendamentoRepository();
         public RespostaViewModel respostaViewModel = new RespostaViewModel();
         public IActionResult Index()        //** TODO: Mudar Index para Login*/
@@ -74,8 +75,10 @@ namespace RoleTopMVC.Controllers
             var agendamentosCliente = agendamentoRepository.ObterTodosPorCliente(emailCliente);
 
             ViewData["NomeView"] = "PagUsuario";
+            var Planos = planosRepository.ObterTodos();
             return View(new PagUsuarioViewModel()
             {
+                Planos = Planos,
                 Eventos = agendamentosCliente,
                 UsuarioEmail = ObterUsuarioEmailSession(),
                 UsuarioNome = ObterUsuarioNomeSession()

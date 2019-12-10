@@ -18,6 +18,7 @@ namespace RoleTopMVC.Models
         public string NumeroCartao {get;set;}
         public string Cvv {get;set;}
         public DateTime DataValidade {get;set;}
+        public double PrecoTotal {get;set;}
 
         public Evento()
         {

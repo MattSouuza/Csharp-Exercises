@@ -73,7 +73,7 @@ namespace RoleTopMVC.Controllers
                 HttpContext.Session.SetString("cliente", linha); //* "cliente" é a chave, ela poderia ser qualquer outro nome, porém, quando for obter o valor (que é linha), é necessário chamar o nome da chave correto 
                 //* linha contem as informações do usuario em uma string. Essa string é armazenada no Estado de sessão, assim, preservando a informação  
 
-                return RedirectToAction("Agendar2",cliente);
+                return RedirectToAction("Agendar2");
             }
             catch (Exception e)
             {
@@ -120,12 +120,14 @@ namespace RoleTopMVC.Controllers
                 var nomePlano = form["nPlan"];
                 Planos plano = new Planos(nomePlano, planosRepository.ObterPrecoDe(nomePlano));
                 
-                evento.Planos.Nome = nomePlano;
+                evento.Planos = plano;
                 evento.NumeroPessoas = form["nNumber"];
                 evento.DataEvento = DateTime.Parse(form["nDate"]);
                 evento.HoraInicio = form["nTimeS"];
                 evento.HoraTermino = form["nTimeE"];
                 evento.Descricao = form["nMessage"];
+
+                evento.PrecoTotal = evento.PrecoTotal + evento.Planos.Preco;
 
                 linha = agendamentoRepository.FazerRegistroCSV(evento); //* As informações expecificadas pelo usuario, irão ser escritas em uma string só
                 
@@ -145,7 +147,7 @@ namespace RoleTopMVC.Controllers
         public IActionResult Agendar3()
         {
             ViewData["NomeView"] = "Agendamento3";
-            return View(new BaseViewModel()
+            return View(new AgendamentoViewModel()
             {
                 UsuarioEmail = ObterUsuarioEmailSession(),
                 UsuarioNome = ObterUsuarioNomeSession()
@@ -172,11 +174,13 @@ namespace RoleTopMVC.Controllers
             eventoPagamento.TipoEvento = agendamentoRepository.ExtrairValorDoCampo("evento_tipo", linha);
             eventoPagamento.StatusEvento = agendamentoRepository.ExtrairValorDoCampo("evento_status", linha);
             eventoPagamento.Planos.Nome = agendamentoRepository.ExtrairValorDoCampo("planos", linha);
+            //eventoPagamento.Planos.Preco = double.Parse(agendamentoRepository.ExtrairValorDoCampo("preco_plano", linha));
             eventoPagamento.NumeroPessoas = agendamentoRepository.ExtrairValorDoCampo("numero_pessoas", linha);
             eventoPagamento.DataEvento = DateTime.Parse(agendamentoRepository.ExtrairValorDoCampo("data_evento", linha));
             eventoPagamento.HoraInicio = agendamentoRepository.ExtrairValorDoCampo("hora_inicio", linha);
             eventoPagamento.HoraTermino = agendamentoRepository.ExtrairValorDoCampo("hora_termino", linha);
             eventoPagamento.Descricao = agendamentoRepository.ExtrairValorDoCampo("descricao", linha);
+            eventoPagamento.PrecoTotal = double.Parse(agendamentoRepository.ExtrairValorDoCampo("preco_total", linha));
 
             eventoPagamento.NomePropietario = form["name"]; //* Aloca as informações fornecidas pelo usuario e as insere na classe
             eventoPagamento.NumeroCartao = form ["number"];
@@ -185,11 +189,19 @@ namespace RoleTopMVC.Controllers
 
             if(agendamentoRepository.Inserir(eventoPagamento)) //* Aqui é onde as informações do usuario são escritas no CSV
             {
-                return View("Sucesso", new RespostaViewModel());
+                return View("Sucesso", new RespostaViewModel()
+                {
+                    UsuarioEmail = ObterUsuarioEmailSession(),
+                    UsuarioNome = ObterUsuarioNomeSession()
+                });
             }
             else
             {
-                return View("Erro", new RespostaViewModel("Não foi possível realizar o agendamento corretamente"));
+                return View("Erro", new RespostaViewModel("Não foi possível realizar o agendamento corretamente")
+                {
+                    UsuarioEmail = ObterUsuarioEmailSession(),
+                    UsuarioNome = ObterUsuarioNomeSession()
+                });
             }
         }
     }
