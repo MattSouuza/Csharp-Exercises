@@ -127,8 +127,6 @@ namespace RoleTopMVC.Controllers
                 evento.HoraTermino = form["nTimeE"];
                 evento.Descricao = form["nMessage"];
 
-                evento.PrecoTotal = evento.PrecoTotal + evento.Planos.Preco;
-
                 linha = agendamentoRepository.FazerRegistroCSV(evento); //* As informações expecificadas pelo usuario, irão ser escritas em uma string só
                 
                 HttpContext.Session.SetString("evento", linha); //* linha contem as informações do usuario em uma string. Essa string é armazenada no Estado de sessão, assim, preservando a informação
@@ -147,8 +145,36 @@ namespace RoleTopMVC.Controllers
         public IActionResult Agendar3()
         {
             ViewData["NomeView"] = "Agendamento3";
+            var linha = HttpContext.Session.GetString("evento"); //* Obtem as informações
+            Evento eventoPagamento = new Evento();
+
+            eventoPagamento.Cliente.Nome = clienteRepository.ExtrairValorDoCampo("nome", linha); //* Aloca as informações da linha e insere-as na classe
+            eventoPagamento.Cliente.Cpf = clienteRepository.ExtrairValorDoCampo("cpf", linha);
+            eventoPagamento.Cliente.Email = clienteRepository.ExtrairValorDoCampo("email", linha);
+            eventoPagamento.Cliente.Telefone = clienteRepository.ExtrairValorDoCampo("telefone", linha);
+            eventoPagamento.NomeEvento = agendamentoRepository.ExtrairValorDoCampo("evento_nome", linha);
+            eventoPagamento.TipoEvento = agendamentoRepository.ExtrairValorDoCampo("evento_tipo", linha);
+            eventoPagamento.StatusEvento = agendamentoRepository.ExtrairValorDoCampo("evento_status", linha);
+            eventoPagamento.Planos.Nome = agendamentoRepository.ExtrairValorDoCampo("planos", linha);
+            eventoPagamento.Planos.Preco = double.Parse(agendamentoRepository.ExtrairValorDoCampo("preco_plano", linha));
+            eventoPagamento.NumeroPessoas = agendamentoRepository.ExtrairValorDoCampo("numero_pessoas", linha);
+            eventoPagamento.DataEvento = DateTime.Parse(agendamentoRepository.ExtrairValorDoCampo("data_evento", linha));
+            eventoPagamento.HoraInicio = agendamentoRepository.ExtrairValorDoCampo("hora_inicio", linha);
+            eventoPagamento.HoraTermino = agendamentoRepository.ExtrairValorDoCampo("hora_termino", linha);
+            eventoPagamento.Descricao = agendamentoRepository.ExtrairValorDoCampo("descricao", linha);
+            eventoPagamento.PrecoTotal = double.Parse(agendamentoRepository.ExtrairValorDoCampo("preco_total", linha));
+
+            eventoPagamento.PrecoTotal = 9999.99 + eventoPagamento.Planos.Preco;
+            List<Evento> eventos = new List<Evento>();
+            eventos.Add(eventoPagamento);
+
+            linha = agendamentoRepository.FazerRegistroCSV(eventoPagamento);
+
+            HttpContext.Session.SetString("evento", linha);
+
             return View(new AgendamentoViewModel()
             {
+                Eventos = eventos,
                 UsuarioEmail = ObterUsuarioEmailSession(),
                 UsuarioNome = ObterUsuarioNomeSession()
             });
@@ -174,7 +200,7 @@ namespace RoleTopMVC.Controllers
             eventoPagamento.TipoEvento = agendamentoRepository.ExtrairValorDoCampo("evento_tipo", linha);
             eventoPagamento.StatusEvento = agendamentoRepository.ExtrairValorDoCampo("evento_status", linha);
             eventoPagamento.Planos.Nome = agendamentoRepository.ExtrairValorDoCampo("planos", linha);
-            //eventoPagamento.Planos.Preco = double.Parse(agendamentoRepository.ExtrairValorDoCampo("preco_plano", linha));
+            eventoPagamento.Planos.Preco = double.Parse(agendamentoRepository.ExtrairValorDoCampo("preco_plano", linha));
             eventoPagamento.NumeroPessoas = agendamentoRepository.ExtrairValorDoCampo("numero_pessoas", linha);
             eventoPagamento.DataEvento = DateTime.Parse(agendamentoRepository.ExtrairValorDoCampo("data_evento", linha));
             eventoPagamento.HoraInicio = agendamentoRepository.ExtrairValorDoCampo("hora_inicio", linha);

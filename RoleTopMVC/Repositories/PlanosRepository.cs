@@ -8,13 +8,13 @@ namespace RoleTopMVC.Repositories
     {
         private const string PATH = "Database/Planos.csv";
 
-        public double ObterPrecoDe(string Plano)
+        public double ObterPrecoDe(string nomePlano)
         {
             var lista = ObterTodos();
             var preco = 0.0;
             foreach (var item in lista)
             {
-                if(item.Nome.Equals(Plano))
+                if(item.Nome.Equals(nomePlano))
                 {
                     preco = item.Preco;
                     break;

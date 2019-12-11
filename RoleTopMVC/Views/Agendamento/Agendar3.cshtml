@@ -112,7 +112,10 @@
                     <fieldset>
 
                         <label for="value">Valor Total:</label>
-                        <input id="value" name="value" value="R$@Model.Evento.PrecoTotal" readonly>
+                        @foreach( var agendamento in Model.Eventos )
+                        {
+                            <input id="value" name="value" value="R$@agendamento.PrecoTotal" readonly>
+                        }
                         
                     </fieldset>
 
