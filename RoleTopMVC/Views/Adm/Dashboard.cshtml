@@ -1,0 +1,59 @@
+@model RoleTopMVC.ViewModels.DashboardViewModel
+    <main>
+        <h2>Dashboard</h2>
+        <section id="status-pedidos">
+            <h3>Status dos pedidos</h3>
+            <div id="painel">
+                <div class="box-status-pedidos aprovados">
+                    <h4>Aprovados</h4>
+                    <p>@Model.AgendamentoAprovados</p>
+                </div>
+                <div class="box-status-pedidos pendentes">
+                    <h4>Pendentes</h4>
+                    <p>@Model.AgendamentoPendentes</p>
+                </div>
+                <div class="box-status-pedidos reprovados">
+                    <h4>Reprovados</h4>
+                    <p>@Model.AgendamentoReprovados</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="lista-pedidos">
+            <h3>Lista de pedidos</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th rowspan="2">Nome Do Evento</th>
+                        <th colspan="2">Planos</th>
+                        <th colspan="2" rowspan="2">Aprovar</th>
+                    </tr>
+                    <tr>
+                        <th><i class="fas fa-hamburger"></i></th>
+                        <th><i class="fas fa-mug-hot"></i></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td colspan="6">
+                            <p>Pedidos atualizados em @DateTime.Now</p>
+                        </td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    @foreach(var pedido in Model.Eventos )
+                    {
+                        <tr>
+                            <td>@pedido.Cliente.Nome</td>
+                            <td>@pedido.Planos.Nome</td>
+                            <td><a href='@Url.Action("Aprovar", "Agendamento", new {id = @pedido.Id})'><i class="fas fa-check">Aprovar</i></a></td>
+                            <td><a href='@Url.Action("Reprovar", "Agendamento", new {id = @pedido.Id})'><i class="fas fa-times">Reprovar</i></a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </section>
+
+    </main>

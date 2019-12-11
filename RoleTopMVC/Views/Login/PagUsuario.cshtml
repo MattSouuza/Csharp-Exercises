@@ -21,6 +21,7 @@
                 <th>Planos Extras</th>
                 <th>Número De Pessoas</th>
                 <th>Preço Total</th>
+                <th>Status Do Agendamento</th>
             </tr>
         </thead>
         <tbody>
@@ -33,6 +34,18 @@
                     <td>@agendamento.Planos.Nome</td>
                     <td>@agendamento.NumeroPessoas</td>
                     <td>@agendamento.PrecoTotal</td>
+                    @if(agendamento.Status.Equals(0))
+                    {
+                        <td>Pendente</td>
+                    } 
+                    else if (agendamento.Status.Equals(1))
+                    {
+                        <td>Aprovado!</td>
+                    } 
+                    else if (agendamento.Status.Equals(2))
+                    {
+                        <td>Reprovado</td>
+                    }
                 </tr>
             }
         </tbody>

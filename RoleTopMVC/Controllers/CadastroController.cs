@@ -1,6 +1,7 @@
 using System;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using RoleTopMVC.Enums;
 using RoleTopMVC.Models;
 using RoleTopMVC.Repositories;
 using RoleTopMVC.ViewModels;
@@ -28,7 +29,17 @@ namespace RoleTopMVC.Controllers
             ViewData["NomeView"] = "SucessoErro";
             try
             {
-                Cliente cliente = new Cliente(form["nName"],form["nCpf"],form["nEmail"],form["nPassword"],form["nPhone"]);
+                Cliente cliente = new Cliente()
+                {
+                    Nome = form["nName"],
+                    Cpf = form["nCpf"],
+                    Email = form["nEmail"],
+                    Senha = form["nPassword"],
+                    Telefone = form["nPhone"]
+                };
+
+                cliente.TipoUsuario = (uint) TipoUsuario.CLIENTE;
+
                 clienteRepository.Inserir(cliente);
 
                 return View("Sucesso", new RespostaViewModel());

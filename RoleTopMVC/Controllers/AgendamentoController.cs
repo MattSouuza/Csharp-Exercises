@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using RoleTopMVC.Enums;
 using RoleTopMVC.Models;
 using RoleTopMVC.Repositories;
 using RoleTopMVC.ViewModels;
@@ -50,6 +51,9 @@ namespace RoleTopMVC.Controllers
             
             ViewData["NomeView"] = "Agendamento";
             return View(avm);
+            {
+                
+            };
         }
 
         public IActionResult AgendamentoProcesso1(IFormCollection form)
@@ -224,6 +228,40 @@ namespace RoleTopMVC.Controllers
             else
             {
                 return View("Erro", new RespostaViewModel("Não foi possível realizar o agendamento corretamente")
+                {
+                    UsuarioEmail = ObterUsuarioEmailSession(),
+                    UsuarioNome = ObterUsuarioNomeSession()
+                });
+            }
+        }
+
+        public IActionResult Aprovar(ulong id)
+        {
+            var agendamento = agendamentoRepository.ObterPor(id);
+            agendamento.Status = (uint) StatusAgendamento.APROVADO;
+
+            if(agendamentoRepository.Atualizar(agendamento))
+            {
+                return RedirectToAction("Dashboard", "Adm");
+            } else {
+                return View("Erro", new RespostaViewModel("Não foi possível aprovar este agendamento")
+                {
+                    UsuarioEmail = ObterUsuarioEmailSession(),
+                    UsuarioNome = ObterUsuarioNomeSession()
+                });
+            }
+        }
+
+        public IActionResult Reprovar(ulong id)
+        {
+            var agendamento = agendamentoRepository.ObterPor(id);
+            agendamento.Status = (uint) StatusAgendamento.REPROVADO;
+
+            if(agendamentoRepository.Atualizar(agendamento))
+            {
+                return RedirectToAction("Dashboard", "Adm");
+            } else {
+                return View("Erro", new RespostaViewModel("Não foi possível reprovar este agendamento")
                 {
                     UsuarioEmail = ObterUsuarioEmailSession(),
                     UsuarioNome = ObterUsuarioNomeSession()

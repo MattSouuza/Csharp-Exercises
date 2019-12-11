@@ -1,4 +1,5 @@
 using System;
+using RoleTopMVC.Enums;
 
 namespace RoleTopMVC.Models
 {
@@ -19,11 +20,15 @@ namespace RoleTopMVC.Models
         public string Cvv {get;set;}
         public DateTime DataValidade {get;set;}
         public double PrecoTotal {get;set;}
+        public uint Status {get;set;}
+        public ulong Id {get;set;}
 
         public Evento()
         {
             this.Cliente = new Cliente();
             this.Planos = new Planos();
+            this.Status = (uint) StatusAgendamento.PENDENTE;
+            this.Id = 1;
         }
 
         // public Evento(string Nome, string Cpf, string Email, string Telefone)

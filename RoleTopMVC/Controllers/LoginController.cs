@@ -7,6 +7,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using RoleTopMVC.Enums;
 using RoleTopMVC.Models;
 using RoleTopMVC.Repositories;
 using RoleTopMVC.ViewModels;
@@ -48,9 +49,20 @@ namespace RoleTopMVC.Controllers
                 {
                     if(cliente.Senha.Equals(senha))
                     {
-                        HttpContext.Session.SetString(SESSION_CLIENTE_NOME,cliente.Nome);
-                        HttpContext.Session.SetString(SESSION_CLIENTE_EMAIL,usuario);
-                        return RedirectToAction("PagUsuario","Login");
+                        switch (cliente.TipoUsuario)
+                        {
+                            case (uint) TipoUsuario.ADMINISTRADOR:
+                                HttpContext.Session.SetString(SESSION_CLIENTE_EMAIL,usuario);
+                                HttpContext.Session.SetString(SESSION_CLIENTE_NOME,cliente.Nome);
+                                HttpContext.Session.SetString(SESSION_CLIENTE_TIPO,cliente.TipoUsuario.ToString());
+                            return RedirectToAction("Dashboard","Adm");
+                            
+                            default:
+                                HttpContext.Session.SetString(SESSION_CLIENTE_EMAIL,usuario);
+                                HttpContext.Session.SetString(SESSION_CLIENTE_NOME,cliente.Nome);
+                                HttpContext.Session.SetString(SESSION_CLIENTE_TIPO,cliente.TipoUsuario.ToString());
+                            return RedirectToAction("PagUsuario","Login");
+                        }
                     }
                     else
                     {
