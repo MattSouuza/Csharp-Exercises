@@ -9,7 +9,19 @@ a, li ,p, h1, h2, h3, h4, h5, h6, td, th {
 }
 
 body {
-    background-color: rgb(17, 17, 17);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#fundo{
+    background-image: url(../Assets/festas-populares-pelo-mundo.jpg);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*=======================================================

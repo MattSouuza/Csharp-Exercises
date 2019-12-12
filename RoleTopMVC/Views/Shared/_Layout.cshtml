@@ -86,9 +86,15 @@
                 }
                 else
                 {
-                    <li id="userPage"><a asp-controller="Login" asp-action="PagUsuario">Perfil</a></li>
+                    if("admin@com".Equals(@Model.UsuarioEmail))
+                    {
+                        <li id="admPage"><a asp-controller="Adm" asp-action="Dashboard">Administração</a></li>
+                    }
+                    else
+                    {
+                        <li id="userPage"><a asp-controller="Login" asp-action="PagUsuario">Perfil</a></li>
+                    }
                     <li id="login"><a asp-controller="Login" asp-action="Logoff"> <img src="~/Assets/login_useraa.png" alt="logoff" width="20em" height="20em">Logoff</a></li>
-                    <!-- <li id="login"><a asp-controller="Login" asp-action="Index"> <img src="~/Assets/login_useraa.png" alt="login" width="20em" height="20em">Login</a></li> -->
                 }
             </ul>
             
