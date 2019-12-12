@@ -147,14 +147,15 @@ table tbody tr td{
     padding: 1em;
 }
 
-#botao{
+#alinha{
     display: flex;
+    flex-direction: column-reverse;
     justify-content: center;
     align-content: center;
     margin: 2em;
 }
 
-#agenda-botao button {
+#voltar-botao button {
     border-radius: 2em 0 2em 0;
     padding: 1em;
     background-color: #7d0093;
@@ -163,32 +164,11 @@ table tbody tr td{
     color: #ffc600;
     box-shadow: 0 8px #520061;
     text-decoration: none;
+    margin: 2em 0;
 }
 
-#agenda-botao button p {
-    font-size: 2.5em;
-}
-
-button:active {
-    background-color: #7d0093;
-    box-shadow: 0 4px #520061;
-    transform: translateY(4px);
-}
-
-#info-botao button {
-    border-radius: 2em 0 2em 0;
-    padding: 1em;
-    background-color: #7d0093;
-    border-style: none;
-    outline: 0;
-    color: #ffc600;
-    box-shadow: 0 8px #520061;
-    text-decoration: none;
-    margin-bottom: 2em;
-}
-
-#info-botao button p {
-    font-size: 2.5em;
+#voltar-botao button p {
+    font-size: 2em;
 }
 
 button:active {

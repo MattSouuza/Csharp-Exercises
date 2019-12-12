@@ -97,6 +97,22 @@ namespace RoleTopMVC.Controllers
             });
         }
 
+        public IActionResult Info()
+        {
+            var emailCliente = HttpContext.Session.GetString(SESSION_CLIENTE_EMAIL);
+            var cliente = clienteRepository.ObterPor(emailCliente);
+            List<Cliente> infoCliente = new List<Cliente>();
+            infoCliente.Add(cliente);
+
+            ViewData["NomeView"] = "Info";
+            return View(new InfoViewModel()
+            {
+                Clientes = infoCliente,
+                UsuarioEmail = ObterUsuarioEmailSession(),
+                UsuarioNome = ObterUsuarioNomeSession()
+            });
+        }
+
         public IActionResult Logoff()
         {
             HttpContext.Session.Remove(SESSION_CLIENTE_EMAIL);

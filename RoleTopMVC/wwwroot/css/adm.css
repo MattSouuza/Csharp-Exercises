@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 
-a, li ,p, h1, h2, h3, h4, h5, h6 {
+a, li ,p, h1, h2, h3, h4, h5, h6, td, th {
     font-family: 'Fjalla One', sans-serif;
 }
 
 body {
-    background-color: #f4b5ff93;
+    background-color: rgb(17, 17, 17);
 }
 
 /*=======================================================
@@ -79,52 +79,136 @@ nav {
 Nav. - End
 
 =======================================================*/
-
-h1 {
-    display: flex;
-    justify-content: center;
-    margin: 1em;
-    font-size: 3em;
+main{
+    margin-bottom: 10em;
 }
 
-table, th, td {
-    border-collapse: collapse;
-    margin: 2em;
-    width: 20%;
-    border-radius: 5em;
-    color: rgb(255, 255, 255);
-    font-family: 'Fjalla One', sans-serif;
-}
-
-th, td {
-    padding: 5px;
-}
-
-th {
-    text-align: left;
-}
-
-#area-1, #area-2, #area-3, #area-4 {
+#title{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-table {
-    background-color: #7d0093;
+#title h2{
+    margin: 3em 0 .5em;
+    font-size: 2.8em;
+    color: #ffffff;
+    text-shadow: -4px -4px 0 #520061,
+                2px -2px 0 #520061,
+                -3px -2px 0 #520061,
+                -1px -2px 0 #520061;
+}
+
+#lista-pedidos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tabela{
     display: flex;
     justify-content: center;
-    border-radius: 1em;
+    align-items: center;
+}
+
+
+table{
+    text-align: center;
+    word-break: normal;
+    border-radius: 2em 0 2em 0;
+    padding: 1em;
+    background-color: #7d0093;
+    border-style: none;
+    outline: 0;
+    color: white;
+    box-shadow: 0 8px #520061;
+    text-decoration: none;
+}
+
+#aprova a, #reprova a{
+    text-decoration: none;
+    color: #ffffff;
+    
+    display: flex;
+}
+
+tr > th{
+    background-color: #ffc600;
+    padding: .5em;
+    color: #7d0093;
+}
+
+h3{
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #ffffff
+}
+
+table tfoot tr p{
+    background-color: #ffc600;
+    border-radius: 1em 0 1em 0;
+    color: #7d0093;
+    font-size: 1.3em;
+    padding: .3em 0;
+}
+
+table thead > tr > th:first-child{
+    border-radius: 1em 0 0 0;
+}
+
+table thead > tr > th:last-child{
+    border-radius: 0 0 1em 0;
+}
+
+table tbody tr > td{
     padding: 1em;
 }
 
-table #coisas1, #coisas2, #coisas3, #coisas4 {
+#status-pedidos{
     display: flex;
-    
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 0 8em;
 }
 
+#painel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-#Baprova1, #Baprova2, #Baprova3, #Baprova4 {
+.aprovados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 .5em;
+    background-color: #0cb931;
+    box-shadow: 0 8px #055817;
+    border-radius: 2em 0 2em 0;
+}
+
+.reprovados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 .5em;
+    background-color: #d30e0e;
+    box-shadow: 0 8px #6b0909;
+    border-radius: 2em 0 2em 0;
+}
+
+.aprovados h4, .aprovados p{
+    font-size: 2em;
+    padding: .5em;
+    color: #ffffff;
+}
+
+.reprovados h4, .reprovados p{
+    font-size: 2em;
+    padding: .5em;
+    color: #ffffff;
+}
+/* #Baprova1, #Baprova2, #Baprova3, #Baprova4 {
     font-family: 'Fjalla One', sans-serif;
     color: rgb(255, 255, 255);
     
@@ -170,7 +254,7 @@ button:active {
     background-color: #b30000;
     box-shadow: 0 4px #5f0000;
     transform: translateY(4px);
-}
+} */
 
 /*=======================================================
 
