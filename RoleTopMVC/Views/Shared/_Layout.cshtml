@@ -49,6 +49,10 @@
         {
             <link rel="stylesheet" type="text/css" href="~/css/adm.css">
         }
+        else if ("Calendario".Equals(cssView))
+        {
+            <link rel="stylesheet" type="text/css" href="~/css/adm.css">
+        }
         else if ("Cadastro".Equals(cssView))
         {
             <link rel="stylesheet" type="text/css" href="~/css/cadastro.css">
@@ -80,9 +84,8 @@
                 
                 <li><a asp-controller="Home" asp-action="Index">Home</a></li>
                 <li><a asp-controller="Agendamento" asp-action="Agendar">Agendamento</a></li>
-                <li><a >Calendário De Eventos</a></li>
+                <li><a asp-controller="Calendario" asp-action="Index">Calendário De Eventos</a></li>
                 <li><a asp-controller="Galeria" asp-action="Index">Galeria</a></li>
-                <li><a href="perguntas.html">Perguntas</a></li>
                 <li><a asp-controller="QuemSomos" asp-action="quemSomos">Quem Somos</a></li>
                 @if(string.IsNullOrEmpty(@Model.UsuarioEmail))
                 {

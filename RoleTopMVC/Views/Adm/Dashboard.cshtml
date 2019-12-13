@@ -19,6 +19,45 @@
             </div>
         </div>
 
+        <table id="table1">
+            <thead>
+                <tr>
+                    <th>Nome Do Evento</th>
+                    <th>Data Do Evento</th>
+                    <th>Tipo De Evento</th>
+                    <th>Status Do Evento</th>
+                    <th>Planos Extras</th>
+                    <th>Número De Pessoas</th>
+                    <th>Preço Total</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach(var agendamento in Model.AgendamentoVerificados )
+                {
+                    <tr>
+                        <td>@agendamento.NomeEvento</td>
+                        <td>@agendamento.DataEvento</td>
+                        <td>@agendamento.TipoEvento</td>
+                        <td>@agendamento.StatusEvento</td>
+                        <td>@agendamento.Planos.Nome</td>
+                        <td>@agendamento.NumeroPessoas</td>
+                        <td>@agendamento.PrecoTotal</td>
+
+                        @if(agendamento.Status.Equals(1))
+                        {
+                            <td>Aprovado</td>
+                        } 
+                        else if (agendamento.Status.Equals(2))
+                        {
+                            <td>Reprovado</td>
+                        } 
+                    </tr>
+                }
+            </tbody>
+        </table>
+
     </section>
 
     <section id="lista-pedidos">
@@ -42,6 +81,10 @@
                 @foreach(var agendamento in Model.Eventos )
                 {
                     <tr>
+                        @if(Model.AgendamentoPendentes == 0)
+                        {
+                            <td rowspan="8">Nenhum Agendamento Pendente</td> <!--Isn't working :v-->
+                        }
                         <td>@agendamento.NomeEvento</td>
                         <td>@agendamento.DataEvento</td>
                         <td>@agendamento.TipoEvento</td>

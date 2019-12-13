@@ -23,6 +23,7 @@
                 <table>
                     <thead>
                         <tr>
+                            <th>Nome Do Cliente</th>
                             <th>Nome Do Evento</th>
                             <th>Data Do Evento</th>
                             <th>Tipo De Evento</th>
@@ -37,6 +38,7 @@
                         @foreach( var agendamento in Model.Eventos )
                         {
                             <tr>
+                                <td>@agendamento.Cliente.Nome</td>
                                 <td>@agendamento.NomeEvento</td>
                                 <td>@agendamento.DataEvento</td>
                                 <td>@agendamento.TipoEvento</td>

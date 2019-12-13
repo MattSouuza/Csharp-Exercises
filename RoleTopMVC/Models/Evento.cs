@@ -28,7 +28,7 @@ namespace RoleTopMVC.Models
             this.Cliente = new Cliente();
             this.Planos = new Planos();
             this.Status = (uint) StatusAgendamento.PENDENTE;
-            this.Id = 1;
+            this.Id = 1; 
         }
 
         // public Evento(string Nome, string Cpf, string Email, string Telefone)

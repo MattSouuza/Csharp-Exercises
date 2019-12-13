@@ -126,7 +126,10 @@ namespace RoleTopMVC.Controllers
                 
                 evento.Planos = plano;
                 evento.NumeroPessoas = form["nNumber"];
-                evento.DataEvento = DateTime.Parse(form["nDate"]);
+                
+                DateTime dateAndTime = DateTime.Parse(form["nDate"]); //To be continued
+                evento.DataEvento = dateAndTime.Date;
+                
                 evento.HoraInicio = form["nTimeS"];
                 evento.HoraTermino = form["nTimeE"];
                 evento.Descricao = form["nMessage"];

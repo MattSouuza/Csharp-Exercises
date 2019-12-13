@@ -24,10 +24,13 @@ namespace RoleTopMVC.Controllers
                     {
                         case (uint) StatusAgendamento.APROVADO:
                             dashboardViewModel.AgendamentoAprovados++;
+                            dashboardViewModel.AgendamentoVerificados.Add(pedido);
+                            // dashboardViewModel.AgendamentosCalen.Add(pedido);
                         break;
 
                         case (uint) StatusAgendamento.REPROVADO:
                             dashboardViewModel.AgendamentoReprovados++;
+                            dashboardViewModel.AgendamentoVerificados.Add(pedido);
                         break;
 
                         default:
