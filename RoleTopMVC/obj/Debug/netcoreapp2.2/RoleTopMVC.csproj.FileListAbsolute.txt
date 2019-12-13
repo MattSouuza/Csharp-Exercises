@@ -78,3 +78,4 @@ C:\Users\50090694821\Documents\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2
 C:\Users\Pichau\Desktop\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Adm\Dashboard.cshtml.g.cs
 C:\Users\Pichau\Desktop\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Login\Info.cshtml.g.cs
 C:\Users\50090694821\Documents\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Login\Info.g.cshtml.cs
+C:\Users\Pichau\Desktop\Csharp-Exercises\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Galeria\Index.cshtml.g.cs

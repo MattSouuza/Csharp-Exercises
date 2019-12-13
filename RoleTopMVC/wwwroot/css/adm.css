@@ -4,24 +4,20 @@
     box-sizing: border-box;
 }
 
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
 a, li ,p, h1, h2, h3, h4, h5, h6, td, th {
     font-family: 'Fjalla One', sans-serif;
 }
 
-body {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-#fundo{
+main{
     background-image: url(../Assets/festas-populares-pelo-mundo.jpg);
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    height: 100%;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 /*=======================================================
@@ -91,9 +87,6 @@ nav {
 Nav. - End
 
 =======================================================*/
-main{
-    margin-bottom: 10em;
-}
 
 #title{
     display: flex;
@@ -127,6 +120,7 @@ main{
 table{
     text-align: center;
     word-break: normal;
+    margin-bottom: 15em;
     border-radius: 2em 0 2em 0;
     padding: 1em;
     background-color: #7d0093;
@@ -220,53 +214,6 @@ table tbody tr > td{
     padding: .5em;
     color: #ffffff;
 }
-/* #Baprova1, #Baprova2, #Baprova3, #Baprova4 {
-    font-family: 'Fjalla One', sans-serif;
-    color: rgb(255, 255, 255);
-    
-    font-size: 1em;
-    background-color: #15b300;
-    box-shadow: 0 3px #0b5f00;
-    border-radius: 1em;
-    padding: .3em;
-    border-style: none;
-    outline: none;
-    
-    padding: .1em .3em;
-}
-
-
-button:active {
-    background-color: #15b300;
-    box-shadow: 0 2px #0b5f00;
-    transform: translateY(4px);
-}
-
-#Brecusa1, #Brecusa2, #Brecusa3, #Brecusa4 {
-    font-family: 'Fjalla One', sans-serif;
-    color: rgb(255, 255, 255);
-    
-    font-size: 1em;
-    background-color: #b30000;
-    box-shadow: 0 3px #5f0000;
-    border-radius: 1em;
-    padding: .3em;
-    border-style: none;
-    outline: none;
-    
-    padding: .1em 1em;
-}
-
-#Brecusa1, #Brecusa2, #Brecusa3, #Brecusa4 {
-    display: flex;
-    justify-content: center;
-}
-
-button:active {
-    background-color: #b30000;
-    box-shadow: 0 4px #5f0000;
-    transform: translateY(4px);
-} */
 
 /*=======================================================
 

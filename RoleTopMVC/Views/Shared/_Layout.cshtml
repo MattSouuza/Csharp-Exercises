@@ -57,6 +57,10 @@
         {
             <link rel="stylesheet" type="text/css" href="~/css/quem-somos.css">
         }
+        else if ("Galeria".Equals(cssView))
+        {
+            <link rel="stylesheet" type="text/css" href="~/css/galeria.css">
+        }
         else if("SucessoErro".Equals(cssView))
         {
             <link rel="stylesheet" type="text/css" href="~/css/sucessoErro.css">
@@ -77,7 +81,7 @@
                 <li><a asp-controller="Home" asp-action="Index">Home</a></li>
                 <li><a asp-controller="Agendamento" asp-action="Agendar">Agendamento</a></li>
                 <li><a >Calendário De Eventos</a></li>
-                <li><a href="galeria.html">Galeria</a></li>
+                <li><a asp-controller="Galeria" asp-action="Index">Galeria</a></li>
                 <li><a href="perguntas.html">Perguntas</a></li>
                 <li><a asp-controller="QuemSomos" asp-action="quemSomos">Quem Somos</a></li>
                 @if(string.IsNullOrEmpty(@Model.UsuarioEmail))
