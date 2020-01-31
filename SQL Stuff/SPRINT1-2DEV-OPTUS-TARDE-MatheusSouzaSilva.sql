@@ -113,9 +113,6 @@ UPDATE Artistas
 SET NomeArtista = 'Matheus'
 WHERE IDArtista = 2;
 
--- Aula do dia 31/01
--- DQL Linguagem de Consulta de Dados
-
 SELECT * FROM Artistas;
 
 SELECT NomeArtista FROM Artistas;
@@ -129,34 +126,16 @@ SELECT * FROM Albuns WHERE IDAlbum > 1;
 SELECT NomeAlbum, QtdMinutos FROM Albuns
 WHERE (DataLancamento IS NULL) OR (Localizacao IS NULL)
 
--- LIKE Comparação de texto
 
 SELECT IDAlbum, NomeAlbum FROM Albuns
 WHERE NomeAlbum LIKE '%Last%' -- A funçao LIKE busca uma palavra especificada
--- O "%" Significa o resto da frase
-
--- Ex:
--- 'Last' Busca a palavra sem especificar se é no começo da frase ou no final
--- 'Last%' Busca a palavra no começo da frase
--- '%Last' Busca a palavra no final da frase
--- '%Last%' Busca a palavra em qualquer parte da frase
-
--- Se eu estou buscando 'Last%' e a palavra Last nao esta no começo
--- da frase, o programa nao vai encontrar a palavra
-
--- Ordenaçao
 
 SELECT NomeAlbum FROM Albuns
 ORDER BY NomeAlbum;
 
--- ORDER Ordena os dados
--- Se for um VARCHAR, ele organiza em ordem alfabetica
--- Se for um INT (DECIMAL, TINYINT, etc.), ele organiza em ordem numerica
-
 SELECT IDAlbum, NomeAlbum, QtdMinutos FROM Albuns
 ORDER BY QtdMinutos;
 
--- Ordenaçao invertida
 
 SELECT IDAlbum, NomeAlbum, QtdMinutos FROM Albuns
 ORDER BY QtdMinutos DESC; -- Função DESC ordena por ordem DECRESCENTE
@@ -164,7 +143,19 @@ ORDER BY QtdMinutos DESC; -- Função DESC ordena por ordem DECRESCENTE
 SELECT IDAlbum, NomeAlbum, QtdMinutos FROM Albuns
 ORDER BY QtdMinutos ASC; -- Função ASC ordena por ordem CRESCENTE
 
--- COUNT
-
 SELECT COUNT(IDAlbum) FROM Albuns;
 
+-- Resoluçaõ do Exercício
+
+SELECT * FROM Albuns WHERE IDArtista = 6;
+
+UPDATE Albuns
+SET DataLancamento = '09/08/1996'
+WHERE IDAlbum = 3;
+
+SELECT NomeAlbum, DataLancamento FROM Albuns WHERE DataLancamento = '09/08/1996'
+
+SELECT NomeAlbum, IDEstiloMusical FROM Albuns WHERE IDEstiloMusical = '1'
+
+SELECT NomeAlbum, IDArtista, DataLancamento FROM Albuns
+ORDER BY DataLancamento DESC;

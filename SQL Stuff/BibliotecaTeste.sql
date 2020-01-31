@@ -39,3 +39,35 @@ ALTER TABLE Generos DROP COLUMN Descricao;
 DROP TABLE Generos;
 
 DROP DATABASE Biblioteca_Tarde;
+
+-- Resolução do Exercício
+
+INSERT INTO Autores(NomeAutor)
+VALUES ('Robson'), ('Jailson'), ('Mario')
+
+INSERT INTO Generos(Nome)
+VALUES ('Filosofia'), ('Aventura'), ('Romance')
+
+INSERT INTO Livro(Titulo, IDGenero, IDAutor)
+VALUES ('Das Kapital v.4', 1, 1), ('Deutsch', 2, 3), ('La Habana', 2, 3)
+
+SELECT NomeAutor FROM Autores;
+
+SELECT Nome FROM Generos;
+
+SELECT Titulo FROM Livro;
+
+SELECT Titulo, IDAutor FROM Livro;
+
+SELECT Titulo, IDGenero FROM LIVRO;
+
+SELECT Titulo, IDAutor, IDGenero FROM Livro;
+
+SELECT L.Titulo, A.NomeAutor FROM Livro AS L JOIN Autores AS A ON A.IDAutor = L.IDAutor;
+
+SELECT L.Titulo, G.Nome FROM Livro AS L 
+JOIN Generos AS G ON L.IDGenero = G.IDGenero;
+
+SELECT L.Titulo, G.Nome, A.NomeAutor FROM Livro AS L 
+JOIN Generos AS G ON L.IDGenero = G.IDGenero
+JOIN Autores AS A ON L.IDAutor = A.IDAutor;
