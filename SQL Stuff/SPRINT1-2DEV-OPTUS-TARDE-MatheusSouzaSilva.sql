@@ -149,13 +149,28 @@ SELECT COUNT(IDAlbum) FROM Albuns;
 
 SELECT * FROM Albuns WHERE IDArtista = 6;
 
+-- Usando o Inner Join
+
+SELECT Artistas.NomeArtista, Albuns.NomeAlbum FROM Artistas
+INNER JOIN Albuns ON Artistas.IDArtista = Albuns.IDArtista
+WHERE Albuns.IDArtista = 6
+
 UPDATE Albuns
 SET DataLancamento = '09/08/1996'
 WHERE IDAlbum = 3;
 
 SELECT NomeAlbum, DataLancamento FROM Albuns WHERE DataLancamento = '09/08/1996'
 
+SELECT Albuns.NomeAlbum, NomeArtista FROM Artistas
+INNER JOIN Albuns ON Artistas.IDArtista = Albuns.IDArtista
+WHERE DataLancamento = '09/08/1996'
+
 SELECT NomeAlbum, IDEstiloMusical FROM Albuns WHERE IDEstiloMusical = '1'
 
 SELECT NomeAlbum, IDArtista, DataLancamento FROM Albuns
-ORDER BY DataLancamento DESC;
+ORDER BY DataLancamento ASC;
+
+--SELECT Artista.Nome, EstilosMusicais.NomeEstilo
+--FROM Artistas
+--INNER JOIN Albuns ON Artistas.IDArtista = Albuns.IDArtista
+--INNER JOIN EstilosMusicais ON Albuns.IDEstiloMusical = EstilosMusicais.IDEstiloMusical
