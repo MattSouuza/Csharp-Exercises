@@ -49,4 +49,4 @@ CREATE TABLE Presenca (
 	,IdUsuario INT FOREIGN KEY REFERENCES Usuario (IdUsuario)
 	,IdEvento INT FOREIGN KEY REFERENCES Evento (IdEvento)
 	,Situacao VARCHAR (255) NOT NULL
-);	
+);
