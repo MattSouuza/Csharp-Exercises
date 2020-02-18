@@ -28,6 +28,7 @@ namespace senai.Filmes.WebApi.Controllers
         /// Cria um objeto _generoRepository que irá receber todos os métodos definidos na interface
         /// </summary>
         private IGeneroRepository _generoRepository { get; set; }
+        private GeneroDomain generoDomain = new GeneroDomain();
 
         /// <summary>
         /// Instancia este objeto para que haja a referência aos métodos no repositório
@@ -48,5 +49,12 @@ namespace senai.Filmes.WebApi.Controllers
             // Faz a chamada para o método .Listar();
             return _generoRepository.Listar();
         }
+
+        [HttpPost]
+        public GeneroDomain Post()
+        {
+            return _generoRepository.Cadastrar(generoDomain);
+        }
+
     }
 }

@@ -72,14 +72,15 @@ namespace senai.Filmes.WebApi.Repositories
             return generos;
         }
 
-        public GeneroDomain Cadastrar()
+        public void Cadastrar(GeneroDomain genero)
         {
-            List<GeneroDomain> generos = new List<GeneroDomain>();
-
             using (SqlConnection con = new SqlConnection(StringConexao))
             {
-                GeneroDomain genero = new GeneroDomain();
                 string query = $"INSERT INTO Generos (Nome) VALUES ({genero.Nome})";
+
+                con.Open();
+
+
             }
         }
 
