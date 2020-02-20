@@ -29,16 +29,24 @@ namespace senai.Filmes.WebApi.Controllers
         }
 
         [HttpGet("{id}")]
-        public IActionResult BuscarPorId(int id)
+        public IActionResult GetId(int id)
         {
             FilmeDomain filmeBuscado = _filmeRepository.BuscarPorId(id);
-            
+
             if (filmeBuscado == null)
             {
                 return NotFound("Filme Não Encontrado");
             }
 
             return Ok(filmeBuscado);
+        }
+
+        [HttpPost]
+        public IActionResult Post(FilmeDomain novoFilme)
+        {
+            _filmeRepository.Cadastrar(novoFilme);
+
+            return StatusCode(201);
         }
 
     }

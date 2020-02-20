@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -16,6 +17,7 @@ namespace senai.Filmes.WebApi.Domains
 
         public int IdGenero { get; set; }
 
+        [ForeignKey("IdGenero")]
         public GeneroDomain Genero { get; set; }
     }
 }

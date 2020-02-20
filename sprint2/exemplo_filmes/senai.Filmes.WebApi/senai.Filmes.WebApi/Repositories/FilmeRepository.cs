@@ -81,7 +81,13 @@ namespace senai.Filmes.WebApi.Repositories
         {
             using (SqlConnection con = new SqlConnection(stringConexao))
             {
+                string queryInsert = $"INSERT INTO Filmes (Titulo, IdGenero) VALUES ('{filme.Titulo}',{filme.IdGenero})";
 
+                SqlCommand cmd = new SqlCommand(queryInsert, con);
+
+                con.Open();
+
+                cmd.ExecuteNonQuery();
             }
         }
     }
