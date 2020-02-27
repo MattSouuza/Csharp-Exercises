@@ -1,4 +1,0 @@
-	-enum
-	-for
-	-operador ternario
-	-OO
